@@ -9,14 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdadb4f1df9753b4bae756291cad7280, type: 3}
-  m_Name: MinibossChaMask
-  m_EditorClassIdentifier: Assembly-CSharp::MaskData
+  m_Script: {fileID: 11500000, guid: aa47ea43899e5fd478f6f0f5cceb1eb5, type: 3}
+  m_Name: ChaMiniboss
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
   type: 2
-  durability: 150
-  maxDurability: 150
+  health: 150
   sprite: {fileID: 0}
-  color: {r: 0.32941177, g: 0.08627451, b: 0.41960785, a: 0}
   attacks:
   - {fileID: 11400000, guid: 05da4467faf940141a6942f9ab7f76e0, type: 2}
   - {fileID: 11400000, guid: aa7ee1c60d3fe9e42b54141a05085a52, type: 2}
