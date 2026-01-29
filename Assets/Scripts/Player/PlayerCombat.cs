@@ -16,17 +16,17 @@ public class PlayerCombat : MonoBehaviour
         playerData.ChangeName(newName);
     }
     
-    public void SwapMask(MaskData newActiveMask)
+    public void SwapMasque(MasqueData newActiveMasque)
     {
-        if (newActiveMask.type == playerData.GetActiveMask().type) return;
-        playerData.SetActiveMask(newActiveMask);
+        if (newActiveMasque.type == playerData.GetActiveMasque().type) return;
+        playerData.SetActiveMasque(newActiveMasque);
     }
     
     public void Heal()
     {
-        foreach (var mask in playerData.masks)
+        foreach (var masque in playerData.masques)
         {
-           mask.Heal();
+           masque.Heal();
         }
     }
 
@@ -43,26 +43,26 @@ public class PlayerCombat : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        playerData.GetActiveMask().TakeDamage(damage);
+        playerData.GetActiveMasque().TakeDamage(damage);
     }
 
-    public void UpgradeMask(MaskData upgradedMask)
+    public void UpgradeMasque(MasqueData upgradedMasque)
     {
-        playerData.SetMask(upgradedMask);
+        playerData.SetMasque(upgradedMasque);
     }
 
     public void AttackBasic()
     {
-        playerData.GetActiveMask().LightAttack();
+        playerData.GetActiveMasque().LightAttack();
     }
     
     public void AttackMedium()
     {
-        playerData.GetActiveMask().MediumAttack();
+        playerData.GetActiveMasque().MediumAttack();
     }
 
     public void AttackStrong()
     {
-        playerData.GetActiveMask().HeavyAttack();
+        playerData.GetActiveMasque().HeavyAttack();
     }
 }

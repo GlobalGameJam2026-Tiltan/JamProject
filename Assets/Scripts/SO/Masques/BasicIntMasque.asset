@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdadb4f1df9753b4bae756291cad7280, type: 3}
-  m_Name: BasicIntMask
+  m_Name: BasicIntMasque
   m_EditorClassIdentifier: Assembly-CSharp::MaskData
   type: 1
   durability: 50

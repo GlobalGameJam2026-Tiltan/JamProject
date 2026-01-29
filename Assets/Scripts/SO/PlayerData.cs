@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class PlayerData : ScriptableObject
 {
     public string playerName = "Player";
-    public MaskData[] masks = new MaskData[3];
+    public MasqueData[] masques = new MasqueData[3];
     public Dictionary<string, int> PlayerStats = new Dictionary<string, int>()
     {
         { "Strength", 1 },
@@ -13,41 +13,41 @@ public class PlayerData : ScriptableObject
         { "Charisma", 1 }
     };
 
-    private MaskData _activeMask;
+    private MasqueData _activeMasque;
 
     public void ChangeName(string newName)
     {
         playerName = newName;
     }
 
-    public void SetMask(MaskData newMask)
+    public void SetMasque(MasqueData newMasque)
     {
-        if (newMask.durability <= 0) return;
-        switch (newMask.type)
+        if (newMasque.durability <= 0) return;
+        switch (newMasque.type)
         {
-            case MaskType.Strength:
-                masks[0] = newMask;
+            case MasqueType.Strength:
+                masques[0] = newMasque;
                 break;
-            case MaskType.Intelligence:
-                masks[1] = newMask;
+            case MasqueType.Intelligence:
+                masques[1] = newMasque;
                 break;
-            case MaskType.Charisma:
-                masks[2] = newMask;
+            case MasqueType.Charisma:
+                masques[2] = newMasque;
                 break;
             default:
-                Debug.LogError("Invalid mask type");
+                Debug.LogError("Invalid masque type");
                 break;
         }
     }
 
-    public void SetActiveMask(MaskData mask)
+    public void SetActiveMasque(MasqueData masque)
     {
-        _activeMask = mask;
+        _activeMasque = masque;
     }
 
-    public MaskData GetActiveMask()
+    public MasqueData GetActiveMasque()
     {
-        return _activeMask;
+        return _activeMasque;
     }
     
     public int GetPlayerDifficulty()

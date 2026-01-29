@@ -1,4 +1,4 @@
-public enum MaskType
+public enum MasqueType
 {
     Strength,
     Intelligence,

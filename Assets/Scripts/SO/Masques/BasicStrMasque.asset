@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdadb4f1df9753b4bae756291cad7280, type: 3}
-  m_Name: MinibossChaMask
+  m_Name: BasicStrMasque
   m_EditorClassIdentifier: Assembly-CSharp::MaskData
-  type: 2
-  durability: 150
-  maxDurability: 150
+  type: 0
+  durability: 50
+  maxDurability: 50
   sprite: {fileID: 0}
-  color: {r: 0.32941177, g: 0.08627451, b: 0.41960785, a: 0}
+  color: {r: 0.4392157, g: 0.08235294, b: 0.08235294, a: 0}
   attacks:
-  - {fileID: 11400000, guid: 05da4467faf940141a6942f9ab7f76e0, type: 2}
-  - {fileID: 11400000, guid: aa7ee1c60d3fe9e42b54141a05085a52, type: 2}
-  - {fileID: 11400000, guid: 81a904d9d1d0bb644a0663670a15756a, type: 2}
+  - {fileID: 11400000, guid: edff577a620ca0a4dab75e40d05c43a0, type: 2}
+  - {fileID: 11400000, guid: f516eaa2e4f11fc408f3dffcd710ad51, type: 2}
+  - {fileID: 11400000, guid: 7160bb6c7a631b940b20069d879fcdff, type: 2}
