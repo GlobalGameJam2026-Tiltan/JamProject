@@ -1,11 +1,12 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Serialization;
 
 [CreateAssetMenu(fileName = "PlayerData", menuName = "Scriptable Objects/PlayerData")]
 public class PlayerData : ScriptableObject
 {
     public string playerName = "Player";
-    public MaskData[] masks = new MaskData[3];
+    [FormerlySerializedAs("masks")] public MasqueData[] masques = new MasqueData[3];
     public Dictionary<string, int> PlayerStats = new Dictionary<string, int>()
     {
         { "Strength", 1 },
@@ -13,41 +14,52 @@ public class PlayerData : ScriptableObject
         { "Charisma", 1 }
     };
 
-    private MaskData _activeMask;
+    private MasqueType _activeMasqueType;
 
     public void ChangeName(string newName)
     {
         playerName = newName;
     }
 
-    public void SetMask(MaskData newMask)
+    public void SetMasque(MasqueData newMasque)
     {
-        if (newMask.durability <= 0) return;
-        switch (newMask.type)
+        if (newMasque.durability <= 0) return;
+        switch (newMasque.type)
         {
-            case MaskType.Strength:
-                masks[0] = newMask;
+            case MasqueType.Strength:
+                masques[0] = newMasque;
                 break;
-            case MaskType.Intelligence:
-                masks[1] = newMask;
+            case MasqueType.Intelligence:
+                masques[1] = newMasque;
                 break;
-            case MaskType.Charisma:
-                masks[2] = newMask;
+            case MasqueType.Charisma:
+                masques[2] = newMasque;
                 break;
             default:
-                Debug.LogError("Invalid mask type");
+                Debug.LogError("Invalid masque type");
                 break;
         }
     }
 
-    public void SetActiveMask(MaskData mask)
+    public void SetActiveMasque(MasqueType type)
     {
-        _activeMask = mask;
+        _activeMasqueType = type;
     }
 
-    public MaskData GetActiveMask()
+    public MasqueData GetActiveMasque()
     {
-        return _activeMask;
+        switch (_activeMasqueType)
+        {
+            case MasqueType.Strength:
+                return masques[0];
+            case MasqueType.Intelligence:
+                return masques[1];
+            case MasqueType.Charisma:
+                return masques[2];
+            default:
+                Debug.LogError("Invalid masque type");
+                return null;
+        }
     }
     
     public int GetPlayerDifficulty()

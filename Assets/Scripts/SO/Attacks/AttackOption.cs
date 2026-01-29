@@ -3,7 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "AttackOption", menuName = "Scriptable Objects/AttackOption")]
 public class AttackOption : ScriptableObject
 {
-    public MaskType type;
+    public MasqueType type;
     public string attackName;
     public int damage;
     public float hitChance;
@@ -12,9 +12,9 @@ public class AttackOption : ScriptableObject
     {
         return type switch
         {
-            MaskType.Strength => new Color(),
-            MaskType.Intelligence => new Color(),
-            MaskType.Charisma => new Color(),
+            MasqueType.Strength => new Color(),
+            MasqueType.Intelligence => new Color(),
+            MasqueType.Charisma => new Color(),
             _ => Color.white
         };
     }

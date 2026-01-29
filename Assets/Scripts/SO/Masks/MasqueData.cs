@@ -1,10 +1,10 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "MaskData", menuName = "Scriptable Objects/MaskData")]
-public class MaskData : ScriptableObject
+[CreateAssetMenu(fileName = "MasqueData", menuName = "Scriptable Objects/MasqueData")]
+public class MasqueData : ScriptableObject
 {
-    public MaskType type;
+    public MasqueType type;
     public float durability, maxDurability;
     public Sprite sprite;
     public Color color;

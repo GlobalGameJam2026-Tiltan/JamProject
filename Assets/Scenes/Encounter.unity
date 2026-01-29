@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 137452635}
   - component: {fileID: 137452634}
   - component: {fileID: 137452633}
+  - component: {fileID: 137452636}
   m_Layer: 5
   m_Name: STR Masque
   m_TagString: Untagged
@@ -177,7 +178,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -240,6 +241,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137452631}
   m_CullTransparentMesh: 1
+--- !u!114 &137452636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137452631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f645151098e4efe9cca3c6bbc22995, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MasqueButton
+  player: {fileID: 233398746}
+  masqueType: 0
 --- !u!1 &147321535
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +361,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &233398745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 233398747}
+  - component: {fileID: 233398746}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &233398746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233398745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7a5c1acede7234a8de3e1c3fa2e475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
+  playerData: {fileID: 11400000, guid: 3612737ae6bace74b9702deab8a86a80, type: 2}
+  playerSprite: {fileID: 0}
+--- !u!4 &233398747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233398745}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.33655, y: -3.65813, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &346877103
 GameObject:
   m_ObjectHideFlags: 0
@@ -1493,6 +1554,7 @@ GameObject:
   - component: {fileID: 751696141}
   - component: {fileID: 751696140}
   - component: {fileID: 751696139}
+  - component: {fileID: 751696142}
   m_Layer: 5
   m_Name: INT Masque
   m_TagString: Untagged
@@ -1539,7 +1601,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1602,6 +1664,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751696137}
   m_CullTransparentMesh: 1
+--- !u!114 &751696142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751696137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f645151098e4efe9cca3c6bbc22995, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  player: {fileID: 233398746}
+  masqueType: 1
 --- !u!1 &947457084
 GameObject:
   m_ObjectHideFlags: 0
@@ -2240,6 +2316,7 @@ GameObject:
   - component: {fileID: 1570418195}
   - component: {fileID: 1570418194}
   - component: {fileID: 1570418193}
+  - component: {fileID: 1570418196}
   m_Layer: 5
   m_Name: CHA Masque
   m_TagString: Untagged
@@ -2286,7 +2363,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2349,6 +2426,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570418191}
   m_CullTransparentMesh: 1
+--- !u!114 &1570418196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570418191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f645151098e4efe9cca3c6bbc22995, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MasqueButton
+  player: {fileID: 233398746}
+  masqueType: 2
 --- !u!1 &1747104561
 GameObject:
   m_ObjectHideFlags: 0
@@ -3174,3 +3265,4 @@ SceneRoots:
   - {fileID: 1242201866}
   - {fileID: 147321539}
   - {fileID: 1293370419}
+  - {fileID: 233398747}
