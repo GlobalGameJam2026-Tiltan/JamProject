@@ -1,0 +1,732 @@
+fileFormatVersion: 2
+guid: ca8f59a3e26a6b149883ff53e98259ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6059384100968468109
+    second: GJJ2026Planets_0
+  - first:
+      213: 5460968933454844598
+    second: GJJ2026Planets_1
+  - first:
+      213: -4291149358584122867
+    second: GJJ2026Planets_2
+  - first:
+      213: -2613070690702896109
+    second: GJJ2026Planets_3
+  - first:
+      213: 4358288527326195167
+    second: GJJ2026Planets_4
+  - first:
+      213: -375323256758870344
+    second: GJJ2026Planets_5
+  - first:
+      213: 9027800827609941627
+    second: GJJ2026Planets_6
+  - first:
+      213: -3789284530813822714
+    second: GJJ2026Planets_7
+  - first:
+      213: -8942214294747584176
+    second: GJJ2026Planets_8
+  - first:
+      213: -9199277125781737118
+    second: GJJ2026Planets_9
+  - first:
+      213: 5240227361524373171
+    second: GJJ2026Planets_10
+  - first:
+      213: -4621617597210029706
+    second: GJJ2026Planets_11
+  - first:
+      213: -857015235766071188
+    second: GJJ2026Planets_12
+  - first:
+      213: -7513463815483662916
+    second: GJJ2026Planets_13
+  - first:
+      213: 337901541454510614
+    second: GJJ2026Planets_14
+  - first:
+      213: 343398794290824096
+    second: GJJ2026Planets_15
+  - first:
+      213: -13498638107595313
+    second: GJJ2026Planets_16
+  - first:
+      213: 8316279081789252798
+    second: GJJ2026Planets_17
+  - first:
+      213: 4726415565979671330
+    second: GJJ2026Planets_18
+  - first:
+      213: 5692185567663271687
+    second: GJJ2026Planets_19
+  - first:
+      213: -1265673768885389992
+    second: GJJ2026Planets_20
+  - first:
+      213: -903411610079696733
+    second: GJJ2026Planets_21
+  - first:
+      213: 4487083178522556298
+    second: GJJ2026Planets_22
+  - first:
+      213: 195135883389383077
+    second: GJJ2026Planets_23
+  - first:
+      213: -7833296872841218761
+    second: GJJ2026Planets_24
+  - first:
+      213: -2944911583810585112
+    second: GJJ2026Planets_25
+  - first:
+      213: 8282084864797972969
+    second: GJJ2026Planets_26
+  - first:
+      213: 4409393138585672888
+    second: GJJ2026Planets_27
+  - first:
+      213: -7923002253200621910
+    second: GJJ2026Planets_28
+  - first:
+      213: 8278803501836919373
+    second: GJJ2026Planets_29
+  - first:
+      213: 2918047041411647939
+    second: GJJ2026Planets_30
+  - first:
+      213: -2139621803567932946
+    second: GJJ2026Planets_31
+  - first:
+      213: 8845979452616214880
+    second: GJJ2026Planets_32
+  - first:
+      213: 2158984316665298762
+    second: GJJ2026Planets_33
+  - first:
+      213: 1993789032356584464
+    second: GJJ2026Planets_34
+  - first:
+      213: -2663421188103633567
+    second: GJJ2026Planets_35
+  - first:
+      213: -7788175894392961904
+    second: GJJ2026Planets_36
+  - first:
+      213: -5895626157227205086
+    second: GJJ2026Planets_37
+  - first:
+      213: 5883393705855057530
+    second: GJJ2026Planets_38
+  - first:
+      213: -6694035399732224278
+    second: GJJ2026Planets_39
+  - first:
+      213: -6479397530119979833
+    second: GJJ2026Planets_40
+  - first:
+      213: 9108553242075654726
+    second: GJJ2026Planets_41
+  - first:
+      213: -1388179371824600495
+    second: GJJ2026Planets_42
+  - first:
+      213: 1077162385223377401
+    second: GJJ2026Planets_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GJJ2026Planets_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 124
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371ff10a34eb8eba0800000000000000
+      internalID: -6059384100968468109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 122
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bed1fc8c759acaf0800000000000000
+      internalID: -375323256758870344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 122
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b760ba87501394d70800000000000000
+      internalID: 9027800827609941627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 121
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60995f3bbc1c96bc0800000000000000
+      internalID: -3789284530813822714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 93
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60d0190f254b14f0800000000000000
+      internalID: -857015235766071188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_18
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 94
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b58176ae9979140800000000000000
+      internalID: 4726415565979671330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 93
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fac248d94befe40800000000000000
+      internalID: 5692185567663271687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_20
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 88
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8557e0cb96c6f6ee0800000000000000
+      internalID: -1265673768885389992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735fe1a2ff98a4390800000000000000
+      internalID: -7833296872841218761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 64
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae7b57bd67db0290800000000000000
+      internalID: -7923002253200621910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 63
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42ef340ce734e270800000000000000
+      internalID: 8278803501836919373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_30
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 58
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9883dd25cfe7820800000000000000
+      internalID: 2918047041411647939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 31
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e98f11f378e2ea0800000000000000
+      internalID: -5895626157227205086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_42
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 4
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15aaed957323cbce0800000000000000
+      internalID: -1388179371824600495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_44
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 121
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cbb79a25d42dc4b82f1dec686cab76
+      internalID: 1621946423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_45
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 88
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10652e75cf9293d4faae64cef50bb010
+      internalID: 1537101109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_46
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 54
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12919158e0e44d34fad7141f34ac8e4e
+      internalID: -1866230133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_47
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 16
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d403e31505b89c845a952de621994ed0
+      internalID: 893733842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJJ2026Planets_49
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 11
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8430fcc2f76d484c9a1442561dca6fe
+      internalID: 1281474097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ccdac57b681f83a4a8d649731eb644f9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      GJJ2026Planets_0: -6059384100968468109
+      GJJ2026Planets_1: 5460968933454844598
+      GJJ2026Planets_10: 5240227361524373171
+      GJJ2026Planets_11: -4621617597210029706
+      GJJ2026Planets_12: -857015235766071188
+      GJJ2026Planets_13: -7513463815483662916
+      GJJ2026Planets_14: 337901541454510614
+      GJJ2026Planets_15: 343398794290824096
+      GJJ2026Planets_16: -13498638107595313
+      GJJ2026Planets_17: 8316279081789252798
+      GJJ2026Planets_18: 4726415565979671330
+      GJJ2026Planets_19: 5692185567663271687
+      GJJ2026Planets_2: -4291149358584122867
+      GJJ2026Planets_20: -1265673768885389992
+      GJJ2026Planets_21: -903411610079696733
+      GJJ2026Planets_22: 4487083178522556298
+      GJJ2026Planets_23: 195135883389383077
+      GJJ2026Planets_24: -7833296872841218761
+      GJJ2026Planets_25: -2944911583810585112
+      GJJ2026Planets_26: 8282084864797972969
+      GJJ2026Planets_27: 4409393138585672888
+      GJJ2026Planets_28: -7923002253200621910
+      GJJ2026Planets_29: 8278803501836919373
+      GJJ2026Planets_3: -2613070690702896109
+      GJJ2026Planets_30: 2918047041411647939
+      GJJ2026Planets_31: -2139621803567932946
+      GJJ2026Planets_32: 8845979452616214880
+      GJJ2026Planets_33: 2158984316665298762
+      GJJ2026Planets_34: 1993789032356584464
+      GJJ2026Planets_35: -2663421188103633567
+      GJJ2026Planets_36: -7788175894392961904
+      GJJ2026Planets_37: -5895626157227205086
+      GJJ2026Planets_38: 5883393705855057530
+      GJJ2026Planets_39: -6694035399732224278
+      GJJ2026Planets_4: 4358288527326195167
+      GJJ2026Planets_40: -6479397530119979833
+      GJJ2026Planets_41: 9108553242075654726
+      GJJ2026Planets_42: -1388179371824600495
+      GJJ2026Planets_43: 1077162385223377401
+      GJJ2026Planets_44: 1621946423
+      GJJ2026Planets_45: 1537101109
+      GJJ2026Planets_46: -1866230133
+      GJJ2026Planets_47: 893733842
+      GJJ2026Planets_48: 2130723514
+      GJJ2026Planets_49: 1281474097
+      GJJ2026Planets_5: -375323256758870344
+      GJJ2026Planets_6: 9027800827609941627
+      GJJ2026Planets_7: -3789284530813822714
+      GJJ2026Planets_8: -8942214294747584176
+      GJJ2026Planets_9: -9199277125781737118
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
