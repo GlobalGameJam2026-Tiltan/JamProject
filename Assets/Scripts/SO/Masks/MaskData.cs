@@ -8,7 +8,7 @@ public class MaskData : ScriptableObject
     public float durability, maxDurability;
     public Sprite sprite;
     public Color color;
-    public List<AttackOption> attacks = new List<AttackOption>();
+    public AttackOption[] attacks = new AttackOption[3];
     
     public void TakeDamage(float damage = 1f)
     {
