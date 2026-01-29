@@ -1,12 +1,11 @@
 using UnityEngine;
 using System.Collections.Generic;
-using UnityEngine.Serialization;
 
 [CreateAssetMenu(fileName = "PlayerData", menuName = "Scriptable Objects/PlayerData")]
 public class PlayerData : ScriptableObject
 {
     public string playerName = "Player";
-    [FormerlySerializedAs("masks")] public MasqueData[] masques = new MasqueData[3];
+    public MasqueData[] masques = new MasqueData[3];
     public Dictionary<string, int> PlayerStats = new Dictionary<string, int>()
     {
         { "Strength", 1 },

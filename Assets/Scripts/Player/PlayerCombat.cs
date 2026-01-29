@@ -16,7 +16,7 @@ public class PlayerCombat : MonoBehaviour
         playerData.ChangeName(newName);
     }
     
-    public void SwapMask(MasqueData newActiveMasque)
+    public void SwapMasque(MasqueData newActiveMasque)
     {
         if (newActiveMasque.type == playerData.GetActiveMasque().type) return;
         playerData.SetMasque(newActiveMasque);

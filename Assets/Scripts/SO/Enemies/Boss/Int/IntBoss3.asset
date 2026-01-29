@@ -9,14 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdadb4f1df9753b4bae756291cad7280, type: 3}
-  m_Name: BasicStrMask
-  m_EditorClassIdentifier: Assembly-CSharp::MaskData
+  m_Script: {fileID: 11500000, guid: aa47ea43899e5fd478f6f0f5cceb1eb5, type: 3}
+  m_Name: IntBoss3
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
   type: 0
-  durability: 50
-  maxDurability: 50
+  health: 0
   sprite: {fileID: 0}
-  color: {r: 0.4392157, g: 0.08235294, b: 0.08235294, a: 0}
   attacks:
   - {fileID: 0}
   - {fileID: 0}

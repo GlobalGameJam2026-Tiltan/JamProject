@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Player
   m_EditorClassIdentifier: Assembly-CSharp::PlayerData
   playerName: GameJammer
-  masks:
+  masques:
   - {fileID: 11400000, guid: 5f06172ff4e362945bd52b08cc505ef2, type: 2}
   - {fileID: 11400000, guid: 9b81452e8f8374a40bd7cc1650b0c865, type: 2}
   - {fileID: 11400000, guid: ba57e459f4bab7240b3456bbd9113942, type: 2}
