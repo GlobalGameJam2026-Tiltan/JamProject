@@ -6,6 +6,7 @@ public class PlayerData : ScriptableObject
 {
     public string playerName = "Player";
     public MasqueData[] masques = new MasqueData[3];
+    public MasqueData[] baseMasques = new MasqueData[3];
     public Dictionary<string, int> PlayerStats = new Dictionary<string, int>()
     {
         { "Strength", 1 },
@@ -16,7 +17,35 @@ public class PlayerData : ScriptableObject
 
     private MasqueType _activeMasqueType;
     private Sprite _masqueSprite;
+    public int BossesKilled { get; private set; }
 
+    public void ResetPlayer()
+    {
+        for (var i = 0; i < masques.Length; i++)
+        {
+            masques[i] = baseMasques[i];
+            masques[i].ResetMasqueData();
+        }
+        
+        PlayerStats = new Dictionary<string, int>()
+        {
+            { "Strength", 1 },
+            { "Intelligence", 1 },
+            { "Charisma", 1 }
+        };
+        
+        playerName = "Player";
+        _activeMasqueType = MasqueType.Strength;
+        _masqueSprite = masques[(int)_activeMasqueType].sprite;
+        BossesKilled = 0;
+    }
+
+
+    public void BossKilled()
+    {
+        BossesKilled++;
+    }
+    
     public void ChangeName(string newName)
     {
         playerName = newName;

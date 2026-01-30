@@ -6,6 +6,8 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private PlayerData playerData;
     [SerializeField] private AudioSource audioSource;
 
+    public bool IsBlocking { get; private set; }
+
     public void UpgradeStat(string stat, int amount = 1)
     {
         playerData.PlayerStats[stat] += amount;
@@ -74,5 +76,15 @@ public class PlayerCombat : MonoBehaviour
     public void AttackStrong()
     {
         playerData.GetActiveMasque().HeavyAttack(audioSource);
+    }
+
+    public void Block()
+    {
+        IsBlocking = true;
+    }
+    
+    public void Unblock()
+    {
+        IsBlocking = false;
     }
 }

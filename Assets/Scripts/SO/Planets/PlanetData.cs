@@ -11,6 +11,7 @@ public class PlanetData : ScriptableObject
     public Sprite baseSprite;
     public Sprite lockedSprite;
     public Sprite defeatedSprite;
+    public bool isStart;
 
     public void ChangeState(PlanetState newState)
     {
@@ -21,5 +22,16 @@ public class PlanetData : ScriptableObject
             PlanetState.Defeated => defeatedSprite,
             _ => baseSprite
         };
+    }
+
+    public void ResetPlanet()
+    {
+        if (isStart)
+        {
+            state = PlanetState.Open;
+            currentSprite = baseSprite;
+        }
+        state = PlanetState.Locked;
+        currentSprite = lockedSprite;
     }
 }

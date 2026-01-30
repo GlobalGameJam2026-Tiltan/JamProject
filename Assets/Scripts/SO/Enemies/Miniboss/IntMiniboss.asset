@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa47ea43899e5fd478f6f0f5cceb1eb5, type: 3}
   m_Name: IntMiniboss
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  type: 1
+  type: 0
   health: 150
-  sprite: {fileID: 0}
+  sprite: {fileID: -5393994011907535008, guid: ba1d1bffa7ac076479ddc700d928bfee, type: 3}
   icon: {fileID: -4160568207013694061, guid: fe96ae505d3da70449064d186f4b0507, type: 3}
   attacks:
   - {fileID: 11400000, guid: dcf12599e9b92b5408c19b27282eff4e, type: 2}

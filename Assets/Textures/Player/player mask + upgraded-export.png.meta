@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: 99f54421f53174743bf284dd549bca73
+guid: 0343b5025ed27214db261daf18b007fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4587819223758527287
-    second: Starting screen-Sheet_0
+      213: -2716802811622269888
+    second: player mask + upgraded-export_0
   - first:
-      213: 3156841816457211951
-    second: Starting screen-Sheet_1
+      213: -771592110932059330
+    second: player mask + upgraded-export_1
   - first:
-      213: 2705379013168997164
-    second: Starting screen-Sheet_2
+      213: 8253007423663579267
+    second: player mask + upgraded-export_2
   - first:
-      213: 2695377409694903916
-    second: Starting screen-Sheet_3
+      213: -5018545571283090049
+    second: player mask + upgraded-export_3
   - first:
-      213: 4748858574158206436
-    second: Starting screen-Sheet_4
+      213: 8893964936411555747
+    second: player mask + upgraded-export_4
+  - first:
+      213: -3452081319565437807
+    second: player mask + upgraded-export_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Starting screen-Sheet_0
+      name: player mask + upgraded-export_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 96
         y: 0
-        width: 240
-        height: 160
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c42a2a29bac450c0800000000000000
-      internalID: -4587819223758527287
+      spriteID: 04cd870bc3afb4ad0800000000000000
+      internalID: -2716802811622269888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Starting screen-Sheet_1
+      name: player mask + upgraded-export_1
       rect:
         serializedVersion: 2
-        x: 297
-        y: 120
-        width: 120
-        height: 40
+        x: 192
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +165,86 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f20f70a08ea5fcb20800000000000000
-      internalID: 3156841816457211951
+      spriteID: e3b966c2011ca45f0800000000000000
+      internalID: -771592110932059330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Starting screen-Sheet_2
+      name: player mask + upgraded-export_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38021288682988270800000000000000
+      internalID: 8253007423663579267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player mask + upgraded-export_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75cf8e646b8a5ab0800000000000000
+      internalID: -5018545571283090049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player mask + upgraded-export_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a72797ccf5bd6b70800000000000000
+      internalID: 8893964936411555747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player mask + upgraded-export_5
       rect:
         serializedVersion: 2
         x: 576
-        y: 86
-        width: 35
-        height: 25
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,30 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c232cb6f0ef6b8520800000000000000
-      internalID: 2705379013168997164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Starting screen-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 54
-        width: 35
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74684bab7225cbd4284a6ecfc646f0d9
-      internalID: 1386521434
+      spriteID: 1945a8b645eb710d0800000000000000
+      internalID: -3452081319565437807
       vertices: []
       indices: 
       edges: []
@@ -216,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 04bb8ef40f906e04b8f1be93642ed9c9
+    spriteID: d5ccf845790bdff4fbe984f6ba998109
     internalID: 0
     vertices: []
     indices: 
@@ -226,12 +273,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":1.0},"gridSpriteSize":{"x":240.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Starting screen-Sheet_0: -4587819223758527287
-      Starting screen-Sheet_1: 3156841816457211951
-      Starting screen-Sheet_2: 2705379013168997164
-      Starting screen-Sheet_3: 1386521434
+      player mask + upgraded-export_0: -2716802811622269888
+      player mask + upgraded-export_1: -771592110932059330
+      player mask + upgraded-export_2: 8253007423663579267
+      player mask + upgraded-export_3: -5018545571283090049
+      player mask + upgraded-export_4: 8893964936411555747
+      player mask + upgraded-export_5: -3452081319565437807
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
