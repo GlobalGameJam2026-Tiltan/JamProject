@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
   type: 0
   health: 150
+  maxHealth: 150
   sprite: {fileID: 1447329402426773721, guid: ba1d1bffa7ac076479ddc700d928bfee, type: 3}
   icon: {fileID: -2719594740678149852, guid: fe96ae505d3da70449064d186f4b0507, type: 3}
   attacks:

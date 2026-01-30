@@ -17,4 +17,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5f06172ff4e362945bd52b08cc505ef2, type: 2}
   - {fileID: 11400000, guid: 9b81452e8f8374a40bd7cc1650b0c865, type: 2}
   - {fileID: 11400000, guid: ba57e459f4bab7240b3456bbd9113942, type: 2}
+  baseMasques:
+  - {fileID: 11400000, guid: 5f06172ff4e362945bd52b08cc505ef2, type: 2}
+  - {fileID: 11400000, guid: 9b81452e8f8374a40bd7cc1650b0c865, type: 2}
+  - {fileID: 11400000, guid: ba57e459f4bab7240b3456bbd9113942, type: 2}
   backSprite: {fileID: 680950145350542287, guid: 3f2601526cd7e224bbdfb6e5a6d41dd4, type: 3}
+  defendAnimation:
+  - {fileID: 5802962971825034832, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: -9014804606202235585, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: 844805272461691375, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: -1599611757256770276, guid: 341331644fc57394aa330db27a94328e, type: 3}
