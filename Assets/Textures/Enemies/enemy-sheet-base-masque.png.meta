@@ -1,25 +1,34 @@
 fileFormatVersion: 2
-guid: 48bb00a86928ef349bc0d9f236893d21
+guid: c6a6514dac8a54d4fbb7cfb26a57e3f8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7089805165991675588
-    second: MaskUI_0
+      213: -4038434631986047269
+    second: enemy-sheet-base-mask_0
   - first:
-      213: -291945541199020615
-    second: MaskUI_1
+      213: -3887557308812444715
+    second: enemy-sheet-base-mask_1
   - first:
-      213: 7724094142383783186
-    second: MaskUI_2
+      213: 2068228105452916662
+    second: enemy-sheet-base-mask_2
   - first:
-      213: -7968450832841511584
-    second: MaskUI_3
+      213: -7106857595681474297
+    second: enemy-sheet-base-mask_3
   - first:
-      213: 1628238567287010465
-    second: MaskUI_4
+      213: -7521760358556825402
+    second: enemy-sheet-base-mask_4
   - first:
-      213: 3198122552739633995
-    second: MaskUI_5
+      213: 4314307193236567445
+    second: enemy-sheet-base-mask_5
+  - first:
+      213: -8199412782113824657
+    second: enemy-sheet-base-mask_6
+  - first:
+      213: -3765410252547567824
+    second: enemy-sheet-base-mask_7
+  - first:
+      213: 8203484906514903876
+    second: enemy-sheet-base-mask_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,13 +137,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MaskUI_0
+      name: enemy-sheet-base-mask_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 37
-        width: 11
-        height: 12
+        x: 8
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c6c9ad2c3c046260800000000000000
-      internalID: 7089805165991675588
+      spriteID: bd616d7491994f7c0800000000000000
+      internalID: -4038434631986047269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaskUI_1
+      name: enemy-sheet-base-mask_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 37
-        width: 11
-        height: 12
+        x: 88
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bdb21bb31dc2fbf0800000000000000
-      internalID: -291945541199020615
+      spriteID: 5dbb24c893f9c0ac0800000000000000
+      internalID: -3887557308812444715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MaskUI_2
+      name: enemy-sheet-base-mask_2
       rect:
         serializedVersion: 2
-        x: 49
-        y: 37
-        width: 11
-        height: 12
+        x: 168
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,74 +196,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21df570d2be713b60800000000000000
-      internalID: 7724094142383783186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MaskUI_3
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 16
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06de05aaf206a6190800000000000000
-      internalID: -7968450832841511584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MaskUI_4
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 16
-        width: 13
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a4bbb4a95aa89610800000000000000
-      internalID: 1628238567287010465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MaskUI_5
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 16
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4b16307483026c20800000000000000
-      internalID: 3198122552739633995
+      spriteID: 6bf00040182d3bc10800000000000000
+      internalID: 2068228105452916662
       vertices: []
       indices: 
       edges: []
@@ -263,7 +206,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7e71e54cd61a1494da35f576ca377c30
+    spriteID: ae1baff0f622a5c40952b021a6911cec
     internalID: 0
     vertices: []
     indices: 
@@ -271,14 +214,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      MaskUI_0: 7089805165991675588
-      MaskUI_1: -291945541199020615
-      MaskUI_2: 7724094142383783186
-      MaskUI_3: -7968450832841511584
-      MaskUI_4: 1628238567287010465
-      MaskUI_5: 3198122552739633995
+      enemy-sheet-base-mask_0: -4038434631986047269
+      enemy-sheet-base-mask_1: -3887557308812444715
+      enemy-sheet-base-mask_2: 2068228105452916662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
