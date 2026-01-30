@@ -128,12 +128,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player mask + upgraded-export_0
+      name: playerMasqueOverlay_Cha_Basic
       rect:
         serializedVersion: 2
-        x: 96
+        x: 112
         y: 0
-        width: 96
+        width: 64
         height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -141,21 +141,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 04cd870bc3afb4ad0800000000000000
+      spriteID: 28b6a07c3bc226b4bb83bec76a1cb1e9
       internalID: -2716802811622269888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player mask + upgraded-export_1
+      name: playerMasqueOverlay_Cha_Miniboss
       rect:
         serializedVersion: 2
-        x: 192
+        x: 208
         y: 0
-        width: 96
+        width: 64
         height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -163,21 +163,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e3b966c2011ca45f0800000000000000
+      spriteID: 6c9a9fd1dd41ce44291bf8c4c266419e
       internalID: -771592110932059330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player mask + upgraded-export_2
+      name: playerMasqueOverlay_Int_Basic
       rect:
         serializedVersion: 2
-        x: 288
+        x: 304
         y: 0
-        width: 96
+        width: 64
         height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -185,21 +185,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 38021288682988270800000000000000
+      spriteID: 2338f693796333a4fad073af21014334
       internalID: 8253007423663579267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player mask + upgraded-export_3
+      name: playerMasqueOverlay_Int_Miniboss
       rect:
         serializedVersion: 2
-        x: 384
+        x: 400
         y: 0
-        width: 96
+        width: 64
         height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -207,21 +207,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f75cf8e646b8a5ab0800000000000000
+      spriteID: fd4594fe3aa59f04ca51b6c9bdf18464
       internalID: -5018545571283090049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player mask + upgraded-export_4
+      name: playerMasqueOverlay_Str_Basic
       rect:
         serializedVersion: 2
-        x: 480
+        x: 496
         y: 0
-        width: 96
+        width: 64
         height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -229,21 +229,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3a72797ccf5bd6b70800000000000000
+      spriteID: a3cc6d09bca3ef14a914a2e256aaf8ff
       internalID: 8893964936411555747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player mask + upgraded-export_5
+      name: playerMasqueOverlay_Str_Miniboss
       rect:
         serializedVersion: 2
-        x: 576
+        x: 592
         y: 0
-        width: 96
+        width: 64
         height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -251,9 +251,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1945a8b645eb710d0800000000000000
+      spriteID: 9a5f82aface0bdd4d83ea8f3ce01b345
       internalID: -3452081319565437807
       vertices: []
       indices: 
@@ -273,14 +273,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      player mask + upgraded-export_0: -2716802811622269888
-      player mask + upgraded-export_1: -771592110932059330
-      player mask + upgraded-export_2: 8253007423663579267
-      player mask + upgraded-export_3: -5018545571283090049
-      player mask + upgraded-export_4: 8893964936411555747
-      player mask + upgraded-export_5: -3452081319565437807
+      playerMasqueOverlay_Cha_Basic: -2716802811622269888
+      playerMasqueOverlay_Cha_Miniboss: -771592110932059330
+      playerMasqueOverlay_Int_Basic: 8253007423663579267
+      playerMasqueOverlay_Int_Miniboss: -5018545571283090049
+      playerMasqueOverlay_Str_Basic: 8893964936411555747
+      playerMasqueOverlay_Str_Miniboss: -3452081319565437807
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
