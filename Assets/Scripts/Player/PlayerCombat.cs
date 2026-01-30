@@ -32,6 +32,11 @@ public class PlayerCombat : MonoBehaviour
         return playerData.GetActiveMasque();
     }
     
+    public MasqueData GetMasqueByType(MasqueType type)
+    {
+        return playerData.GetMasqueByType(type);
+    }
+    
     public void Heal()
     {
         foreach (var masque in playerData.masques)

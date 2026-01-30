@@ -44,7 +44,7 @@ public class PlayerData : ScriptableObject
         return PlayerStats["Strength"] + PlayerStats["Intelligence"] + PlayerStats["Charisma"];
     }
 
-    private MasqueData GetMasqueByType(MasqueType type)
+    public MasqueData GetMasqueByType(MasqueType type)
     {
         return masques[(int)type];
     }

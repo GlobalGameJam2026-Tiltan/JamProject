@@ -546,7 +546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61f645151098e4efe9cca3c6bbc22995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MasqueButton
-  player: {fileID: 1257627549}
   masqueType: 2
 --- !u!224 &327294413 stripped
 RectTransform:
@@ -951,7 +950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61f645151098e4efe9cca3c6bbc22995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MasqueButton
-  player: {fileID: 1257627549}
   masqueType: 0
 --- !u!1 &674615860
 GameObject:
@@ -2257,10 +2255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f3c65fd1ecf646d785a2ad3c4931cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  player: {fileID: 0}
-  strengthSprite: {fileID: -74843525, guid: 48bb00a86928ef349bc0d9f236893d21, type: 3}
-  intelligenceSprite: {fileID: 2003357075, guid: 48bb00a86928ef349bc0d9f236893d21, type: 3}
-  charismaSprite: {fileID: 311658700, guid: 48bb00a86928ef349bc0d9f236893d21, type: 3}
 --- !u!224 &1601534093 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 273436528558837219, guid: f3189dec9990545a58de25da20a3cdb7, type: 3}
@@ -2559,7 +2553,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61f645151098e4efe9cca3c6bbc22995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MasqueButton
-  player: {fileID: 1257627549}
   masqueType: 1
 --- !u!1001 &1840107456
 PrefabInstance:

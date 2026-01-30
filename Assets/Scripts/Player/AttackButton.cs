@@ -8,7 +8,6 @@ public class AttackButton : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private Button _button;
-    [SerializeField] private PlayerCombat player;
     [SerializeField] private AttackType attackType;
     [SerializeField] private Sprite strengthSprite;
     [SerializeField] private Sprite intelligenceSprite;
@@ -28,13 +27,13 @@ public class AttackButton : MonoBehaviour
             switch (attackType)
             {
                 case AttackType.Basic:
-                    player.AttackBasic();
+                    EncounterManager.Instance.GetPlayer().AttackBasic();
                     break;
                 case AttackType.Medium:
-                    player.AttackMedium();
+                    EncounterManager.Instance.GetPlayer().AttackMedium();
                     break;
                 case AttackType.Strong:
-                    player.AttackStrong();
+                    EncounterManager.Instance.GetPlayer().AttackStrong();
                     break;
             }
         });
@@ -48,12 +47,12 @@ public class AttackButton : MonoBehaviour
 // Update is called once per frame
     void Update()
     {
-        var currentAttack = player.GetActiveMasque().attacks[(int)attackType];
+        var currentAttack = EncounterManager.Instance.GetPlayer().GetActiveMasque().attacks[(int)attackType];
         _name.text = currentAttack.attackName;
         _damage.text = $"Damage: {currentAttack.damage}";
         _hitChance.text = $"Hit: {currentAttack.hitChance * 100}%";
 
-        _image.sprite = player.GetActiveMasque().type switch
+        _image.sprite = EncounterManager.Instance.GetPlayer().GetActiveMasque().type switch
         {
             MasqueType.Strength => strengthSprite,
             MasqueType.Intelligence => intelligenceSprite,
