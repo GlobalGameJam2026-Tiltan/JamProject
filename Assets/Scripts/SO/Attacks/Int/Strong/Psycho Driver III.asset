@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfacc5dce73dfba41bf04aa8ed8a2102, type: 3}
-  m_Name: Psycho Driver II
+  m_Name: Psycho Driver III
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 1
-  attackName: Psycho Driver II
+  sprite: {fileID: 3434086634727231013, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
+  attackName: Psycho Driver III
   damage: 25
   hitChance: 0.35
