@@ -8,9 +8,5 @@ public class EnemyData : ScriptableObject
     public Sprite sprite;
     public Sprite icon;
     public AttackOption[] attacks = new AttackOption[3];
-
-    public void Attack()
-    {
-        attacks[Random.Range(0, 3)].Attack();
-    }
+    public Sprite[][] AttackAnimations = new Sprite[3][];
 }

@@ -12,7 +12,6 @@ public class PlayerData : ScriptableObject
         { "Intelligence", 1 },
         { "Charisma", 1 }
     };
-
     public Sprite backSprite;
 
     private MasqueType _activeMasqueType;
@@ -39,7 +38,7 @@ public class PlayerData : ScriptableObject
     {
         return GetMasqueByType(_activeMasqueType);
     }
-    
+
     public int GetPlayerDifficulty()
     {
         return PlayerStats["Strength"] + PlayerStats["Intelligence"] + PlayerStats["Charisma"];

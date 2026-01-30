@@ -8,6 +8,7 @@ public class AttackOption : ScriptableObject
     public string attackName;
     public int damage;
     public float hitChance;
+    public AudioClip attackVoiceLine;
     
     public Color GetColorType()
     {
@@ -18,10 +19,5 @@ public class AttackOption : ScriptableObject
             MasqueType.Charisma => new Color(),
             _ => Color.white
         };
-    }
-
-    public void Attack()
-    {
-        Debug.Log($"{attackName} Attack!\nDid {damage} damage with a {hitChance}% hit chance");
     }
 }
