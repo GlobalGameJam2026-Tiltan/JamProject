@@ -13,7 +13,6 @@ public class PlayerData : ScriptableObject
         { "Charisma", 1 }
     };
     public Sprite backSprite;
-    public AudioSource audioSource;
 
     private MasqueType _activeMasqueType;
     private Sprite _masqueSprite;
