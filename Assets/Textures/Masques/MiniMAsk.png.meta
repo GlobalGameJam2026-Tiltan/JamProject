@@ -131,10 +131,10 @@ TextureImporter:
       name: MiniMAsk_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 2
         y: 17
-        width: 6
-        height: 7
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: MiniMAsk_3
       rect:
         serializedVersion: 2
-        x: 3
+        x: 2
         y: 9
-        width: 6
-        height: 6
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +219,10 @@ TextureImporter:
       name: MiniMAsk_4
       rect:
         serializedVersion: 2
-        x: 12
+        x: 11
         y: 9
-        width: 6
-        height: 6
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: MiniMAsk_5
       rect:
         serializedVersion: 2
-        x: 20
+        x: 19
         y: 9
-        width: 6
-        height: 6
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
