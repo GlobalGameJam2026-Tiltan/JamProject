@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: fe5a43c075bbae6489f86fe75a653542
+guid: fe96ae505d3da70449064d186f4b0507
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7895229681119136894
-    second: LargeMAsk_0
+      213: -4160568207013694061
+    second: MiniMAsk_0
   - first:
-      213: -3433868999466593556
-    second: LargeMAsk_1
+      213: -2719594740678149852
+    second: MiniMAsk_1
   - first:
-      213: 8660698375288628167
-    second: LargeMAsk_2
+      213: 1666873033109724866
+    second: MiniMAsk_2
   - first:
-      213: 8905293485077765603
-    second: LargeMAsk_3
+      213: -7282714409367734437
+    second: MiniMAsk_3
   - first:
-      213: -2105054929487631878
-    second: LargeMAsk_4
+      213: -8282096541295586559
+    second: MiniMAsk_4
   - first:
-      213: 4689750913068658811
-    second: LargeMAsk_5
+      213: -417842761628488388
+    second: MiniMAsk_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LargeMAsk_0
+      name: MiniMasque_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 42
-        width: 32
-        height: 32
+        x: 2
+        y: 17
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7c0a33709d719d60800000000000000
-      internalID: 7895229681119136894
+      spriteID: 3953a256241b246c0800000000000000
+      internalID: -4160568207013694061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LargeMAsk_1
+      name: MiniMasque_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 42
-        width: 32
-        height: 32
+        x: 11
+        y: 17
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce25191a6527850d0800000000000000
-      internalID: -3433868999466593556
+      spriteID: 429bbdc0efe024ad0800000000000000
+      internalID: -2719594740678149852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LargeMAsk_2
+      name: MiniMasque_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 42
-        width: 32
-        height: 32
+        x: 21
+        y: 17
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c3a1e5394bf03870800000000000000
-      internalID: 8660698375288628167
+      spriteID: 2cede20313ce12710800000000000000
+      internalID: 1666873033109724866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LargeMAsk_3
+      name: MiniMasque_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6
-        width: 32
-        height: 32
+        x: 2
+        y: 9
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ed19ae0e35f59b70800000000000000
-      internalID: 8905293485077765603
+      spriteID: b57740584d99eea90800000000000000
+      internalID: -7282714409367734437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LargeMAsk_4
+      name: MiniMasque_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 6
-        width: 32
-        height: 32
+        x: 11
+        y: 9
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af96437d1b759c2e0800000000000000
-      internalID: -2105054929487631878
+      spriteID: 103d59c7315101d80800000000000000
+      internalID: -8282096541295586559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LargeMAsk_5
+      name: MiniMasque_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 6
-        width: 32
-        height: 32
+        x: 19
+        y: 9
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,8 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b70758aab97551140800000000000000
-      internalID: 4689750913068658811
+      spriteID: c3d6a2dd836833af0800000000000000
+      internalID: -417842761628488388
       vertices: []
       indices: 
       edges: []
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3be75a7e342df764996cac2fd98fe65e
+    spriteID: 1536cce632df6b34a925f431a5200da4
     internalID: 0
     vertices: []
     indices: 
@@ -273,14 +273,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":32.0,"y":40.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":10.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      LargeMAsk_0: 7895229681119136894
-      LargeMAsk_1: -3433868999466593556
-      LargeMAsk_2: 8660698375288628167
-      LargeMAsk_3: 8905293485077765603
-      LargeMAsk_4: -2105054929487631878
-      LargeMAsk_5: 4689750913068658811
+      MiniMasque_0: -4160568207013694061
+      MiniMasque_1: -2719594740678149852
+      MiniMasque_2: 1666873033109724866
+      MiniMasque_3: -7282714409367734437
+      MiniMasque_4: -8282096541295586559
+      MiniMasque_5: -417842761628488388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

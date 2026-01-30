@@ -7,6 +7,7 @@ public class MasqueData : ScriptableObject
     public float durability, maxDurability;
     public Sprite sprite;
     public Sprite icon;
+    public Sprite swapIcon;
     public Color color;
     public AttackOption[] attacks = new AttackOption[3];
     

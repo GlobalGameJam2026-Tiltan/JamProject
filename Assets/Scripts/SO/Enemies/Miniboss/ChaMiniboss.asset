@@ -15,6 +15,7 @@ MonoBehaviour:
   type: 2
   health: 150
   sprite: {fileID: 0}
+  icon: {fileID: -2719594740678149852, guid: fe96ae505d3da70449064d186f4b0507, type: 3}
   attacks:
   - {fileID: 11400000, guid: 05da4467faf940141a6942f9ab7f76e0, type: 2}
   - {fileID: 11400000, guid: aa7ee1c60d3fe9e42b54141a05085a52, type: 2}
