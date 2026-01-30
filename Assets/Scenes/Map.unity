@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pirata Muerto
       objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
@@ -224,6 +228,148 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
   m_PrefabInstance: {fileID: 2562213}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &106019057
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1446837362}
+    m_Modifications:
+    - target: {fileID: 992717289402821221, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -854600221844570104, guid: 550fb76da43faf34bb037725b16f0a00, type: 3}
+    - target: {fileID: 992717289402821221, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708354337058952582, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Name
+      value: El Matador Rosa
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708354337058952582, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 742707854}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 11400000, guid: 0d97b6a7e83cce0429f95272fc520d53, type: 2}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: isBossPlanet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -240
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 117.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+--- !u!224 &106019058 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+  m_PrefabInstance: {fileID: 106019057}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &611740821
 GameObject:
@@ -449,6 +595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: El Pedo Guapo
       objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
@@ -543,6 +693,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
   m_PrefabInstance: {fileID: 738679401}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &742707854 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+  m_PrefabInstance: {fileID: 106019057}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f8a0e967d484547a4947476d3a888d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MapLevel
 --- !u!1001 &745919581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -554,6 +715,10 @@ PrefabInstance:
     - target: {fileID: 1708354337058952582, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Name
       value: Huevos Ridiculoso
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
@@ -745,6 +910,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bam Bam De Miel
       objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
@@ -934,6 +1103,10 @@ PrefabInstance:
     - target: {fileID: 1708354337058952582, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Name
       value: Rapido Rapido Retardo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
@@ -1135,6 +1308,7 @@ RectTransform:
   - {fileID: 2022435589}
   - {fileID: 2039492760}
   - {fileID: 738679402}
+  - {fileID: 106019058}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1260,6 +1434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: El Burrito Muerto
       objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
@@ -1365,6 +1543,10 @@ PrefabInstance:
     - target: {fileID: 1708354337058952582, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Name
       value: El Kulo Gordo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
@@ -1472,6 +1654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Violencia De Goma
       objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
@@ -1577,6 +1763,10 @@ PrefabInstance:
     - target: {fileID: 1708354337058952582, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Name
       value: Pie Lento
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087652495322644959, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
