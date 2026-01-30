@@ -3,27 +3,11 @@ using System;
 using UnityEditor;
 using UnityEngine.UI; // Make sure you include this
 
-[Serializable]
-public class LevelSprite
-{
-    public Sprite open;
-    public Sprite locked;
-    public Sprite defeated;
-}
-
 public class MapLevel : MonoBehaviour
 {
-
-    public string name;
-    public string previousPlanetName;
-
-    public PlanetState startingState;
+    public PlanetData planet;
     
-    public LevelSprite sprites;
-
     public SceneAsset level;
-    
-    private PlanetState currentState;
 
     private GameManager gameManager;
     
@@ -37,28 +21,25 @@ public class MapLevel : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-        this.currentState = gameManager.GetPlanetState(this.name);
-        this.ChangeToState(this.currentState);
+        
+        // Match sprite to state
+        this.planet.currentSprite = this.planet.state switch
+        {
+            PlanetState.Open => this.planet.baseSprite,
+            PlanetState.Locked => this.planet.lockedSprite,
+            PlanetState.Defeated => this.planet.defeatedSprite,
+            _ => this.planet.currentSprite
+        };
+        // Change current sprite to correct one
+        gameObject.GetComponent<Image>().sprite = this.planet.currentSprite;
     }
-    
+
     public void GoToLevel()
     {
-        if (this.currentState == PlanetState.Open)
+        if (this.planet.state == PlanetState.Open)
         {
             this.gameManager.SwitchToLevel(this.level.name.ToString());
         }
-    }
-
-    private void ChangeToState(PlanetState state)
-    {
-        this.currentState = state;
-        gameObject.GetComponent<Image>().sprite = state switch
-        {
-            PlanetState.Open => this.sprites.open,
-            PlanetState.Locked => this.sprites.locked,
-            PlanetState.Defeated => this.sprites.defeated
-        };
     }
 }

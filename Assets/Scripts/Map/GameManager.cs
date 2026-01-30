@@ -1,61 +1,45 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Required namespace
+using System.Collections; // Required for IEnumerator
 
 public class GameManager : MonoBehaviour
 {
 
     
-    private Dictionary<string, PlanetState> planets = new Dictionary<string, PlanetState>(){
-        {"Bob1",  PlanetState.Open},
-        {"Bob2",  PlanetState.Locked},
-        {"Bob3",  PlanetState.Locked},
-        {"Bob4",  PlanetState.Locked},
-        {"Bob5",  PlanetState.Locked},
-        {"Bob6",  PlanetState.Locked},
-        {"Bob7",  PlanetState.Locked},
-        {"Bob8",  PlanetState.Locked},
-        {"Bob9",  PlanetState.Locked},
-        {"Bob10", PlanetState.Locked},
-        {"Bob11", PlanetState.Locked},
-    };
+    public List<PlanetData> planets;
     
     void Awake()
     {
         // This makes the GameObject this script is attached to persist across scenes
         DontDestroyOnLoad(this.gameObject);
     }
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    public void PlanetDefeated(string name)
     {
+        // Changing state to defeated
+        GetPlanet(name).ChangeState(PlanetState.Defeated);
         
+        // Unlocking planets who depended on him
+        foreach (var planet in planets.Where(planet => planet.previousPlanet == name))
+        {
+            planet.ChangeState(PlanetState.Open);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public bool IsAllPlanetsDefeated()
     {
-        
+        return planets.All(planet => planet.state == PlanetState.Defeated);
     }
     
-    // public void ChangeToOpen()
-    // {
-    //     ChangeToState(PlanetState.Open);
-    // }
-    //
-    // public void ChangeToClosed()
-    // {
-    //     ChangeToState(PlanetState.Locked);
-    // }
-    //
-    // public void ChangeToDefeated()
-    // {
-    //     ChangeToState(PlanetState.Defeated);
-    // }
-    
-    public PlanetState GetPlanetState(string planetName)
+    private PlanetData GetPlanet(string name)
     {
-        return planets[planetName];
+        foreach (var planet in planets.Where(planet => planet.name == name))
+        {
+            return planet;
+        }
+
+        return null;
     }
     
     // Public function to load a scene by name
