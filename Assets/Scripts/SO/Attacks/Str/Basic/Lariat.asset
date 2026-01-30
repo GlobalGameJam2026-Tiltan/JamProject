@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Lariat
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 0
+  sprite: {fileID: 184950751378207249, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: Lariat
   damage: 10
   hitChance: 0.4

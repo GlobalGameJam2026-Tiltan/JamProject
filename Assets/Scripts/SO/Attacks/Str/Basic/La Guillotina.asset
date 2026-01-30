@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: La Guillotina
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 0
+  sprite: {fileID: 2130535880278150251, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: La Guillotina
   damage: 5
   hitChance: 0.85

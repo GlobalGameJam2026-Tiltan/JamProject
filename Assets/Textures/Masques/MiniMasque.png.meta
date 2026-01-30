@@ -1,40 +1,25 @@
 fileFormatVersion: 2
-guid: 0e0ae8d747b8a224f9d638a53007d3bb
+guid: fe96ae505d3da70449064d186f4b0507
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7177723612703796601
-    second: GJJ2026UI_0
+      213: -4160568207013694061
+    second: MiniMAsk_0
   - first:
-      213: -3409874051402771976
-    second: GJJ2026UI_1
+      213: -2719594740678149852
+    second: MiniMAsk_1
   - first:
-      213: -5173083134553762186
-    second: GJJ2026UI_2
+      213: 1666873033109724866
+    second: MiniMAsk_2
   - first:
-      213: -7844554088839309258
-    second: GJJ2026UI_3
+      213: -7282714409367734437
+    second: MiniMAsk_3
   - first:
-      213: -1882619293663212253
-    second: GJJ2026UI_4
+      213: -8282096541295586559
+    second: MiniMAsk_4
   - first:
-      213: 1226567105014155250
-    second: GJJ2026UI_5
-  - first:
-      213: 8904146847467255442
-    second: GJJ2026UI_6
-  - first:
-      213: 8500735453199245729
-    second: GJJ2026UI_7
-  - first:
-      213: -3211121948649401163
-    second: GJJ2026UI_8
-  - first:
-      213: -3676373121200955209
-    second: GJJ2026UI_9
-  - first:
-      213: 5736759417985586939
-    second: GJJ2026UI_10
+      213: -417842761628488388
+    second: MiniMAsk_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -143,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GJJ2026UI_0
+      name: MiniMasque_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 133
-        width: 95
-        height: 26
+        x: 2
+        y: 17
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97da427b8956c9360800000000000000
-      internalID: 7177723612703796601
+      spriteID: 3953a256241b246c0800000000000000
+      internalID: -4160568207013694061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GJJ2026UI_1
+      name: MiniMasque_1
       rect:
         serializedVersion: 2
-        x: 107
-        y: 118
-        width: 43
-        height: 6
+        x: 11
+        y: 17
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f1d055dd91bda0d0800000000000000
-      internalID: -3409874051402771976
+      spriteID: 429bbdc0efe024ad0800000000000000
+      internalID: -2719594740678149852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GJJ2026UI_2
+      name: MiniMasque_2
       rect:
         serializedVersion: 2
-        x: 108
-        y: 110
-        width: 41
-        height: 4
+        x: 21
+        y: 17
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 676db5b1c448538b0800000000000000
-      internalID: -5173083134553762186
+      spriteID: 2cede20313ce12710800000000000000
+      internalID: 1666873033109724866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GJJ2026UI_3
+      name: MiniMasque_3
       rect:
         serializedVersion: 2
-        x: 8
-        y: 72
-        width: 51
-        height: 18
+        x: 2
+        y: 9
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63815615e9b822390800000000000000
-      internalID: -7844554088839309258
+      spriteID: b57740584d99eea90800000000000000
+      internalID: -7282714409367734437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GJJ2026UI_4
+      name: MiniMasque_4
       rect:
         serializedVersion: 2
-        x: 8
-        y: 53
-        width: 51
-        height: 18
+        x: 11
+        y: 9
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32d48e91ab79fd5e0800000000000000
-      internalID: -1882619293663212253
+      spriteID: 103d59c7315101d80800000000000000
+      internalID: -8282096541295586559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GJJ2026UI_5
+      name: MiniMasque_5
       rect:
         serializedVersion: 2
-        x: 62
-        y: 72
-        width: 51
-        height: 18
+        x: 19
+        y: 9
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,118 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f74c8b8844a50110800000000000000
-      internalID: 1226567105014155250
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GJJ2026UI_6
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 53
-        width: 51
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 296333fa162e19b70800000000000000
-      internalID: 8904146847467255442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GJJ2026UI_7
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 62
-        width: 27
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a1a2891bdda8f570800000000000000
-      internalID: 8500735453199245729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GJJ2026UI_8
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 62
-        width: 27
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b4da48d99dcf63d0800000000000000
-      internalID: -3211121948649401163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GJJ2026UI_9
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 62
-        width: 27
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b0e501ef16eafcc0800000000000000
-      internalID: -3676373121200955209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GJJ2026UI_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 240
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf658e6cb401d9f40800000000000000
-      internalID: 5736759417985586939
+      spriteID: c3d6a2dd836833af0800000000000000
+      internalID: -417842761628488388
       vertices: []
       indices: 
       edges: []
@@ -388,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 108953510490ca34984335d67f95b668
+    spriteID: 1536cce632df6b34a925f431a5200da4
     internalID: 0
     vertices: []
     indices: 
@@ -396,20 +271,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":10.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      GJJ2026UI_0: 7177723612703796601
-      GJJ2026UI_1: -3409874051402771976
-      GJJ2026UI_10: 5736759417985586939
-      GJJ2026UI_11: -802071840
-      GJJ2026UI_2: -5173083134553762186
-      GJJ2026UI_3: -7844554088839309258
-      GJJ2026UI_4: -1882619293663212253
-      GJJ2026UI_5: 1226567105014155250
-      GJJ2026UI_6: 8904146847467255442
-      GJJ2026UI_7: 8500735453199245729
-      GJJ2026UI_8: -3211121948649401163
-      GJJ2026UI_9: -3676373121200955209
+      MiniMasque_0: -4160568207013694061
+      MiniMasque_1: -2719594740678149852
+      MiniMasque_2: 1666873033109724866
+      MiniMasque_3: -7282714409367734437
+      MiniMasque_4: -8282096541295586559
+      MiniMasque_5: -417842761628488388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -18,14 +18,24 @@ public class PlayerCombat : MonoBehaviour
     public void SwapMasque(MasqueData newActiveMasque)
     {
         if (newActiveMasque.type == playerData.GetActiveMasque().type) return;
-        playerData.SetActiveMasque(newActiveMasque);
+        playerData.SetMasque(newActiveMasque);
+    }
+    
+    public void SetActiveMasque(MasqueType type)
+    {
+        playerData.SetActiveMasque(type);
+    }
+    
+    public MasqueData GetActiveMasque()
+    {
+        return playerData.GetActiveMasque();
     }
     
     public void Heal()
     {
         foreach (var masque in playerData.masques)
         {
-           masque.Heal();
+            masque.Heal();
         }
     }
 
