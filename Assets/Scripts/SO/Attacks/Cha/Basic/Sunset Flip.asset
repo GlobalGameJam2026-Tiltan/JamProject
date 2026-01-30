@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Sunset Flip
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 2
+  sprite: {fileID: 3052315535316524931, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: Sunset Flip
   damage: 6
   hitChance: 0.75

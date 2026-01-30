@@ -4,7 +4,6 @@ using System.Collections.Generic;
 public class PlayerCombat : MonoBehaviour
 {
     [SerializeField] private PlayerData playerData;
-    [SerializeField] private Sprite playerSprite;
 
     public void UpgradeStat(string stat, int amount = 1)
     {

@@ -13,7 +13,10 @@ public class PlayerData : ScriptableObject
         { "Charisma", 1 }
     };
 
-    private MasqueType _activeMasqueType;
+    public Sprite backSprite;
+
+    private MasqueData _activeMasque;
+    private Sprite _masqueSprite;
 
     public void ChangeName(string newName)
     {
@@ -40,25 +43,15 @@ public class PlayerData : ScriptableObject
         }
     }
 
-    public void SetActiveMasque(MasqueType type)
+    public void SetActiveMasque(MasqueData masque)
     {
-        _activeMasqueType = type;
+        _activeMasque = masque;
+        _masqueSprite = masque.sprite;
     }
 
     public MasqueData GetActiveMasque()
     {
-        switch (_activeMasqueType)
-        {
-            case MasqueType.Strength:
-                return masques[0];
-            case MasqueType.Intelligence:
-                return masques[1];
-            case MasqueType.Charisma:
-                return masques[2];
-            default:
-                Debug.LogError("Invalid masque type");
-                return null;
-        }
+        return _activeMasque;
     }
     
     public int GetPlayerDifficulty()
