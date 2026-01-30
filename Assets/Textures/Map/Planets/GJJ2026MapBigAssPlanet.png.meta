@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 99f54421f53174743bf284dd549bca73
+guid: 550fb76da43faf34bb037725b16f0a00
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4587819223758527287
-    second: Starting screen-Sheet_0
-  - first:
-      213: 3156841816457211951
-    second: Starting screen-Sheet_1
-  - first:
-      213: 2705379013168997164
-    second: Starting screen-Sheet_2
-  - first:
-      213: 2695377409694903916
-    second: Starting screen-Sheet_3
-  - first:
-      213: 4748858574158206436
-    second: Starting screen-Sheet_4
+      213: -854600221844570104
+    second: GJJ2026MapBigAssPlanet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -125,89 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Starting screen-Sheet_0
+      name: GJJ2026MapBigAssPlanet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 240
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c42a2a29bac450c0800000000000000
-      internalID: -4587819223758527287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Starting screen-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 120
-        width: 120
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f20f70a08ea5fcb20800000000000000
-      internalID: 3156841816457211951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Starting screen-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 86
-        width: 35
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c232cb6f0ef6b8520800000000000000
-      internalID: 2705379013168997164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Starting screen-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 54
-        width: 35
-        height: 25
+        y: 115
+        width: 43
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 74684bab7225cbd4284a6ecfc646f0d9
-      internalID: 1386521434
+      spriteID: 8000cf740a9d324f0800000000000000
+      internalID: -854600221844570104
       vertices: []
       indices: 
       edges: []
@@ -216,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 04bb8ef40f906e04b8f1be93642ed9c9
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -224,14 +146,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":1.0},"gridSpriteSize":{"x":240.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Starting screen-Sheet_0: -4587819223758527287
-      Starting screen-Sheet_1: 3156841816457211951
-      Starting screen-Sheet_2: 2705379013168997164
-      Starting screen-Sheet_3: 1386521434
+      GJJ2026MapBigAssPlanet_0: -854600221844570104
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

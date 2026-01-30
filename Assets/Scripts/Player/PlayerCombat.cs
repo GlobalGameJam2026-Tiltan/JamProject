@@ -1,11 +1,12 @@
 using UnityEngine;
 using System.Collections.Generic;
-using Enums;
 
 public class PlayerCombat : MonoBehaviour
 {
     [SerializeField] private PlayerData playerData;
     [SerializeField] private AudioSource audioSource;
+
+    public bool IsBlocking { get; private set; }
 
     public void UpgradeStat(string stat, int amount = 1)
     {
@@ -90,6 +91,16 @@ public class PlayerCombat : MonoBehaviour
         playerData.GetActiveMasque().HeavyAttack(audioSource);
         var currentMasque = playerData.GetActiveMasque();
         EncounterManager.Instance.AttackUsed(EntityType.Enemy,currentMasque.type, currentMasque.attacks[2]);
+    }
+
+    public void Block()
+    {
+        IsBlocking = true;
+    }
+    
+    public void Unblock()
+    {
+        IsBlocking = false;
     }
     
     public int BossesKilled => playerData.BossesKilled;

@@ -14,6 +14,7 @@ public class PlayerData : ScriptableObject
         { "Charisma", 1 }
     };
     public Sprite backSprite;
+    public Sprite[] defendAnimation;
 
     private MasqueType _activeMasqueType;
     private Sprite _masqueSprite;

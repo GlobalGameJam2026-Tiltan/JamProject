@@ -15,7 +15,7 @@ MonoBehaviour:
   type: 0
   durability: 50
   maxDurability: 50
-  sprite: {fileID: -2135607355778115440, guid: cca26b5ddcc745c4e92d74971f2c8dce, type: 3}
+  sprite: {fileID: 8893964936411555747, guid: 0343b5025ed27214db261daf18b007fc, type: 3}
   icon: {fileID: -74843525, guid: 48bb00a86928ef349bc0d9f236893d21, type: 3}
   swapIcon: {fileID: 8905293485077765603, guid: fe5a43c075bbae6489f86fe75a653542, type: 3}
   color: {r: 0.4392157, g: 0.08235294, b: 0.08235294, a: 0}
@@ -23,3 +23,21 @@ MonoBehaviour:
   - {fileID: 11400000, guid: edff577a620ca0a4dab75e40d05c43a0, type: 2}
   - {fileID: 11400000, guid: f516eaa2e4f11fc408f3dffcd710ad51, type: 2}
   - {fileID: 11400000, guid: 7160bb6c7a631b940b20069d879fcdff, type: 2}
+  lightAttackAnim:
+  - {fileID: 8783204848441317566, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: 4201057155154489517, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: -1758309929016832505, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: 2054159229637772313, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: -4757189604758024865, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  mediumAttackAnim:
+  - {fileID: -353005236759028297, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: -8963220114992897571, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: 489082347787714090, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: -5028746486524053671, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: 4059406808626180882, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  hardAttackAnim:
+  - {fileID: 8783204848441317566, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: 4201057155154489517, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: -1758309929016832505, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: 2054159229637772313, guid: 341331644fc57394aa330db27a94328e, type: 3}
+  - {fileID: -4757189604758024865, guid: 341331644fc57394aa330db27a94328e, type: 3}

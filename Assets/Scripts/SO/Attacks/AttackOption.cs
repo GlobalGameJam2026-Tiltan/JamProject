@@ -4,7 +4,6 @@ using UnityEngine;
 public class AttackOption : ScriptableObject
 {
     public MasqueType type;
-    public Sprite sprite;
     public string attackName;
     public int damage;
     public float hitChance;
