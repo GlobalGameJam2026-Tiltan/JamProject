@@ -328,3 +328,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyInstance
   data: {fileID: 11400000, guid: 02e4926304854d44bb00aab27a6018ff, type: 2}
   audioSource: {fileID: 7634618160774701257}
+  alternateSprites:
+  - {fileID: 6419001305283621282, guid: 7ab1f5ccdb9a936488e933e956e54d7b, type: 3}
+  - {fileID: -4972701422127622719, guid: 7ab1f5ccdb9a936488e933e956e54d7b, type: 3}
+  - {fileID: 7758400759328590145, guid: 7ab1f5ccdb9a936488e933e956e54d7b, type: 3}
+  - {fileID: 6440987454338136359, guid: 7ab1f5ccdb9a936488e933e956e54d7b, type: 3}
+  - {fileID: -7996725979224044056, guid: 7ab1f5ccdb9a936488e933e956e54d7b, type: 3}

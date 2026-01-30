@@ -1,11 +1,19 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Linq;
 
 public class PlayerCombat : MonoBehaviour
 {
     [SerializeField] private PlayerData playerData;
     [SerializeField] private AudioSource audioSource;
+    private SpriteRenderer _masqueSpriteRenderer;
 
+    private void Awake()
+    {
+        var renderers = GetComponentsInChildren<SpriteRenderer>();
+        _masqueSpriteRenderer = renderers.First(x => x.name == "Masque");
+    }
+    
     public bool IsBlocking { get; private set; }
 
     public void UpgradeStat(string stat, int amount = 1)
@@ -27,6 +35,7 @@ public class PlayerCombat : MonoBehaviour
     public void SetActiveMasque(MasqueType type)
     {
         playerData.SetActiveMasque(type);
+        _masqueSpriteRenderer.sprite = GetActiveMasque().sprite;
     }
     
     public MasqueData GetActiveMasque()
