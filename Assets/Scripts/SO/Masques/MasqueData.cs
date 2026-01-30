@@ -11,6 +11,11 @@ public class MasqueData : ScriptableObject
     public Color color;
     public AttackOption[] attacks = new AttackOption[3];
     public Sprite[] lightAttackAnim, mediumAttackAnim, hardAttackAnim;
+
+    public void ResetMasqueData()
+    {
+        durability = maxDurability;
+    }
     
     public void TakeDamage(float damage = 1f)
     {
