@@ -128,9 +128,9 @@ TextureImporter:
       name: enemy-sheet-base_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 8
         y: 0
-        width: 80
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -150,9 +150,9 @@ TextureImporter:
       name: enemy-sheet-base_1
       rect:
         serializedVersion: 2
-        x: 80
+        x: 88
         y: 0
-        width: 80
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -172,9 +172,9 @@ TextureImporter:
       name: enemy-sheet-base_2
       rect:
         serializedVersion: 2
-        x: 160
+        x: 168
         y: 0
-        width: 80
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -194,9 +194,9 @@ TextureImporter:
       name: enemy-sheet-base_3
       rect:
         serializedVersion: 2
-        x: 240
+        x: 248
         y: 0
-        width: 80
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -216,9 +216,9 @@ TextureImporter:
       name: enemy-sheet-base_4
       rect:
         serializedVersion: 2
-        x: 320
+        x: 328
         y: 0
-        width: 80
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

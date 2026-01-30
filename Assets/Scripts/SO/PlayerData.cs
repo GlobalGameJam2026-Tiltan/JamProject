@@ -13,7 +13,10 @@ public class PlayerData : ScriptableObject
         { "Charisma", 1 }
     };
 
+    public Sprite backSprite;
+
     private MasqueData _activeMasque;
+    private Sprite _masqueSprite;
 
     public void ChangeName(string newName)
     {
@@ -43,6 +46,7 @@ public class PlayerData : ScriptableObject
     public void SetActiveMasque(MasqueData masque)
     {
         _activeMasque = masque;
+        _masqueSprite = masque.sprite;
     }
 
     public MasqueData GetActiveMasque()
