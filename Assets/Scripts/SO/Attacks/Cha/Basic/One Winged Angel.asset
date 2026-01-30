@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: One Winged Angel
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 2
+  sprite: {fileID: -1772244045117237821, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: One Winged Angel
   damage: 15
   hitChance: 0.25

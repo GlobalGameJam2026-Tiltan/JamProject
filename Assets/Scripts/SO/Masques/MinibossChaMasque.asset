@@ -16,7 +16,8 @@ MonoBehaviour:
   durability: 150
   maxDurability: 150
   sprite: {fileID: 0}
-  icon: {fileID: 0}
+  icon: {fileID: -48259157, guid: 48bb00a86928ef349bc0d9f236893d21, type: 3}
+  swapIcon: {fileID: -3433868999466593556, guid: fe5a43c075bbae6489f86fe75a653542, type: 3}
   color: {r: 0.32941177, g: 0.08627451, b: 0.41960785, a: 0}
   attacks:
   - {fileID: 11400000, guid: 05da4467faf940141a6942f9ab7f76e0, type: 2}

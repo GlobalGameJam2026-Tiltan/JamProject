@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7c60805edb46124ab700ec5942af43f, type: 3}
+  m_Name: MinibossCha
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetData
+  planetName: El Pedo Guapo
+  previousPlanet: Rapido Rapido Retardo
+  state: 1
+  currentSprite: {fileID: 2918047041411647939, guid: ca8f59a3e26a6b149883ff53e98259ad, type: 3}
+  baseSprite: {fileID: 2918047041411647939, guid: ca8f59a3e26a6b149883ff53e98259ad, type: 3}
+  lockedSprite: {fileID: -7833296872841218761, guid: ca8f59a3e26a6b149883ff53e98259ad, type: 3}
+  defeatedSprite: {fileID: -1866230133, guid: ca8f59a3e26a6b149883ff53e98259ad, type: 3}

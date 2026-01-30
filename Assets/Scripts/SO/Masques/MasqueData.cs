@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "MasqueData", menuName = "Scriptable Objects/MasqueData")]
 public class MasqueData : ScriptableObject
@@ -8,6 +7,7 @@ public class MasqueData : ScriptableObject
     public float durability, maxDurability;
     public Sprite sprite;
     public Sprite icon;
+    public Sprite swapIcon;
     public Color color;
     public AttackOption[] attacks = new AttackOption[3];
     
