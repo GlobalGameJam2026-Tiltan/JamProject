@@ -5,8 +5,6 @@ using System.Collections; // Required for IEnumerator
 
 public class GameManager : MonoBehaviour
 {
-
-    
     public List<PlanetData> planets;
     
     void Awake()
