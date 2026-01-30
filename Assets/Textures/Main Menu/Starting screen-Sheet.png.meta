@@ -150,10 +150,10 @@ TextureImporter:
       name: Starting screen-Sheet_1
       rect:
         serializedVersion: 2
-        x: 240
-        y: 0
-        width: 240
-        height: 160
+        x: 297
+        y: 120
+        width: 120
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: Starting screen-Sheet_2
       rect:
         serializedVersion: 2
-        x: 480
-        y: 0
-        width: 240
-        height: 160
+        x: 576
+        y: 86
+        width: 35
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,6 +186,28 @@ TextureImporter:
       bones: []
       spriteID: c232cb6f0ef6b8520800000000000000
       internalID: 2705379013168997164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Starting screen-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 54
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74684bab7225cbd4284a6ecfc646f0d9
+      internalID: 1386521434
       vertices: []
       indices: 
       edges: []
@@ -209,6 +231,7 @@ TextureImporter:
       Starting screen-Sheet_0: -4587819223758527287
       Starting screen-Sheet_1: 3156841816457211951
       Starting screen-Sheet_2: 2705379013168997164
+      Starting screen-Sheet_3: 1386521434
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
