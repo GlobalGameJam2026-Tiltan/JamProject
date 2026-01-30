@@ -11,13 +11,6 @@ public class MapLevel : MonoBehaviour
 
     private GameManager gameManager;
     
-    
-    void Awake()
-    {
-        // This makes the GameObject this script is attached to persist across scenes
-        DontDestroyOnLoad(this.gameObject);
-    }
-    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
