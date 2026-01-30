@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa47ea43899e5fd478f6f0f5cceb1eb5, type: 3}
+  m_Name: StrBoss3
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  type: 0
+  health: 150
+  sprite: {fileID: 0}
+  attacks:
+  - {fileID: 11400000, guid: a4e48c29882b3f94797afe87979bbbb9, type: 2}
+  - {fileID: 11400000, guid: 28cae60940bd669439349d48ea8b1428, type: 2}
+  - {fileID: 11400000, guid: 2b840ebd8ae721d4c9634f142aa8e56a, type: 2}
