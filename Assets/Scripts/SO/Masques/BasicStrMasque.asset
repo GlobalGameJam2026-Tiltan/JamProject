@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdadb4f1df9753b4bae756291cad7280, type: 3}
+  m_Name: BasicStrMasque
+  m_EditorClassIdentifier: Assembly-CSharp::MaskData
+  type: 0
+  durability: 50
+  maxDurability: 50
+  sprite: {fileID: -2135607355778115440, guid: cca26b5ddcc745c4e92d74971f2c8dce, type: 3}
+  icon: {fileID: 0}
+  color: {r: 0.4392157, g: 0.08235294, b: 0.08235294, a: 0}
+  attacks:
+  - {fileID: 11400000, guid: edff577a620ca0a4dab75e40d05c43a0, type: 2}
+  - {fileID: 11400000, guid: f516eaa2e4f11fc408f3dffcd710ad51, type: 2}
+  - {fileID: 11400000, guid: 7160bb6c7a631b940b20069d879fcdff, type: 2}

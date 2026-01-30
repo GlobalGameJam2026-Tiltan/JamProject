@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdadb4f1df9753b4bae756291cad7280, type: 3}
+  m_Name: BasicChaMasque
+  m_EditorClassIdentifier: Assembly-CSharp::MaskData
+  type: 2
+  durability: 50
+  maxDurability: 50
+  sprite: {fileID: -8092750369673643109, guid: cca26b5ddcc745c4e92d74971f2c8dce, type: 3}
+  icon: {fileID: 0}
+  color: {r: 0.32941177, g: 0.08627451, b: 0.41960785, a: 0}
+  attacks:
+  - {fileID: 11400000, guid: 58fb8701d3ae6ce4587aee14179668bd, type: 2}
+  - {fileID: 11400000, guid: cf1c2fe7d86ae4b4d9958a7849acad0a, type: 2}
+  - {fileID: 11400000, guid: e90e8b05b126e6e4780bbdd15e8c4abf, type: 2}

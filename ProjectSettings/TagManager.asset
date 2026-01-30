@@ -3,9 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-  - LevelManager
-  - GameManager
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -42,6 +40,27 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2588396333
+    locked: 0
+  - name: Enemy
+    uniqueID: 2885667615
+    locked: 0
+  - name: Enemy_Mask
+    uniqueID: 254724649
+    locked: 0
+  - name: Attack
+    uniqueID: 1235687069
+    locked: 0
+  - name: Player
+    uniqueID: 2253260161
+    locked: 0
+  - name: Player_Mask
+    uniqueID: 1246505235
+    locked: 0
+  - name: PlayerActions
+    uniqueID: 583770755
     locked: 0
   m_RenderingLayers:
   - Default
