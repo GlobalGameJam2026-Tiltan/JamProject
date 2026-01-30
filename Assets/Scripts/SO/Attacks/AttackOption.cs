@@ -8,8 +8,6 @@ public class AttackOption : ScriptableObject
     public string attackName;
     public int damage;
     public float hitChance;
-    public Sprite[] playerAttackAnimation;
-    public Sprite[] enemyAttackAnimation;
     public AudioClip attackVoiceLine;
     
     public Color GetColorType()
@@ -21,12 +19,5 @@ public class AttackOption : ScriptableObject
             MasqueType.Charisma => new Color(),
             _ => Color.white
         };
-    }
-
-    public void Attack()
-    {
-        // GameManager.Instance.PlayVoice(attackVoiceLine);
-        // CombatManager.Instance.PlayPlayerAnimation(playerAttackAnimation);
-        // CombatManager.Instance.PlayEnemyAnimation(enemyAttackAnimation);
     }
 }

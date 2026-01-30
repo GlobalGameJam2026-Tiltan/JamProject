@@ -62,16 +62,16 @@ public class PlayerCombat : MonoBehaviour
 
     public void AttackBasic()
     {
-        playerData.GetActiveMasque().LightAttack();
+        playerData.GetActiveMasque().LightAttack(playerData.audioSource);
     }
     
     public void AttackMedium()
     {
-        playerData.GetActiveMasque().MediumAttack();
+        playerData.GetActiveMasque().MediumAttack(playerData.audioSource);
     }
 
     public void AttackStrong()
     {
-        playerData.GetActiveMasque().HeavyAttack();
+        playerData.GetActiveMasque().HeavyAttack(playerData.audioSource);
     }
 }
