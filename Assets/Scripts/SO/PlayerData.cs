@@ -39,7 +39,7 @@ public class PlayerData : ScriptableObject
     {
         return GetMasqueByType(_activeMasqueType);
     }
-    
+
     public int GetPlayerDifficulty()
     {
         return PlayerStats["Strength"] + PlayerStats["Intelligence"] + PlayerStats["Charisma"];

@@ -8,6 +8,9 @@ public class AttackOption : ScriptableObject
     public string attackName;
     public int damage;
     public float hitChance;
+    public Sprite[] playerAttackAnimation;
+    public Sprite[] enemyAttackAnimation;
+    public AudioClip attackVoiceLine;
     
     public Color GetColorType()
     {
@@ -22,6 +25,8 @@ public class AttackOption : ScriptableObject
 
     public void Attack()
     {
-        Debug.Log($"{attackName} Attack!\nDid {damage} damage with a {hitChance}% hit chance");
+        // GameManager.Instance.PlayVoice(attackVoiceLine);
+        // CombatManager.Instance.PlayPlayerAnimation(playerAttackAnimation);
+        // CombatManager.Instance.PlayEnemyAnimation(enemyAttackAnimation);
     }
 }
