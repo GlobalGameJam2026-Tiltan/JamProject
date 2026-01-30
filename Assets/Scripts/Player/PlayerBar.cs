@@ -10,7 +10,7 @@ public class PlayerBar : MonoBehaviour
     private Image _icon;
     private TextMeshProUGUI _name;
 
-    void Start()
+    private void Start()
     {
         var images = GetComponentsInChildren<Image>();
         _icon = images.First(x => x.name == "Icon");
@@ -19,7 +19,7 @@ public class PlayerBar : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         _name.text = EncounterManager.Instance.GetPlayer().name;
         var masque = EncounterManager.Instance.GetPlayer().GetActiveMasque();

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using Enums;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -68,16 +69,28 @@ public class PlayerCombat : MonoBehaviour
 
     public void AttackBasic()
     {
+        //Lock Buttons
+        EncounterManager.Instance.PlayerAction();
         playerData.GetActiveMasque().LightAttack(audioSource);
+        var currentMasque = playerData.GetActiveMasque();
+        EncounterManager.Instance.AttackUsed(EntityType.Enemy,currentMasque.type, currentMasque.attacks[0]);
     }
     
     public void AttackMedium()
     {
+        EncounterManager.Instance.PlayerAction();
         playerData.GetActiveMasque().MediumAttack(audioSource);
+        var currentMasque = playerData.GetActiveMasque();
+        EncounterManager.Instance.AttackUsed(EntityType.Enemy,currentMasque.type, currentMasque.attacks[1]);
     }
 
     public void AttackStrong()
     {
+        EncounterManager.Instance.PlayerAction();
         playerData.GetActiveMasque().HeavyAttack(audioSource);
+        var currentMasque = playerData.GetActiveMasque();
+        EncounterManager.Instance.AttackUsed(EntityType.Enemy,currentMasque.type, currentMasque.attacks[2]);
     }
+    
+    public int BossesKilled => playerData.BossesKilled;
 }

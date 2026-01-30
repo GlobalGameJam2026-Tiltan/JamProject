@@ -17,7 +17,7 @@ public class AttackButton : MonoBehaviour
     private TextMeshProUGUI _hitChance;
     private TextMeshProUGUI _damage;
 
-    void Start()
+    private void Start()
     {
         _image = GetComponent<Image>();
         _button = GetComponent<Button>();
@@ -37,15 +37,15 @@ public class AttackButton : MonoBehaviour
                     break;
             }
         });
-        
+
         var textChildren = GetComponentsInChildren<TextMeshProUGUI>();
         _name = textChildren.First(x => x.name == "Name");
         _hitChance = textChildren.First(x => x.name == "Hit Chance");
         _damage = textChildren.First(x => x.name == "Damage");
     }
 
-// Update is called once per frame
-    void Update()
+    // Update is called once per frame
+    private void Update()
     {
         var currentAttack = EncounterManager.Instance.GetPlayer().GetActiveMasque().attacks[(int)attackType];
         _name.text = currentAttack.attackName;
@@ -59,5 +59,7 @@ public class AttackButton : MonoBehaviour
             MasqueType.Charisma => charismaSprite,
             _ => _image.sprite
         };
+
+        _button.enabled = EncounterManager.Instance.PlayerTurn;
     }
 }
