@@ -1,34 +1,29 @@
 using UnityEngine;
 using System;
-using UnityEditor; // Make sure you include this
+using UnityEditor;
+using UnityEngine.UI; // Make sure you include this
 
 [Serializable]
-public class LevelTexture
+public class LevelSprite
 {
-    public Texture2D open;
-    public Texture2D closed;
-    public Texture2D defeated;
+    public Sprite open;
+    public Sprite locked;
+    public Sprite defeated;
 }
 
 public class MapLevel : MonoBehaviour
 {
 
-    public enum State
-    {
-        Open,
-        Closed,
-        Defeated
-    }
+    public string name;
+    public string previousPlanetName;
 
-    public State startingState;
+    public PlanetState startingState;
     
-    public LevelTexture levelTexture;
+    public LevelSprite sprites;
 
     public SceneAsset level;
     
-    private Renderer renderer;
-    
-    private State currentState = State.Closed;
+    private PlanetState currentState;
 
     private GameManager gameManager;
     
@@ -44,48 +39,26 @@ public class MapLevel : MonoBehaviour
     {
         
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-        
-        // Get the Renderer component and set its main texture
-        this.renderer = GetComponent<Renderer>();
-        this.ChangeToState(this.startingState);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        this.currentState = gameManager.GetPlanetState(this.name);
+        this.ChangeToState(this.currentState);
     }
     
     public void GoToLevel()
     {
-        Debug.Log("Clicked to change scene!!!");
-        this.gameManager.SwitchToLevel(this.level.name.ToString());
+        if (this.currentState == PlanetState.Open)
+        {
+            this.gameManager.SwitchToLevel(this.level.name.ToString());
+        }
     }
 
-    public void ChangeToOpen()
-    {
-        ChangeToState(State.Open);
-    }
-
-    public void ChangeToClosed()
-    {
-        ChangeToState(State.Closed);
-    }
-
-    public void ChangeToDefeated()
-    {
-        ChangeToState(State.Defeated);
-    }
-
-    private void ChangeToState(State state)
+    private void ChangeToState(PlanetState state)
     {
         this.currentState = state;
-        renderer.material.mainTexture = state switch
+        gameObject.GetComponent<Image>().sprite = state switch
         {
-            State.Open => this.levelTexture.open,
-            State.Closed => this.levelTexture.closed,
-            State.Defeated => this.levelTexture.defeated,
-            _ => renderer.material.mainTexture
+            PlanetState.Open => this.sprites.open,
+            PlanetState.Locked => this.sprites.locked,
+            PlanetState.Defeated => this.sprites.defeated
         };
     }
 }

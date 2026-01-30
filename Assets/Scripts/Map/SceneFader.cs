@@ -3,12 +3,10 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-// Usage: SceneFader.instance.LoadSceneWithFade(1);
-
 public class SceneFader : MonoBehaviour
 {
     public static SceneFader instance;
-    public Image fadeImage;
+    public SpriteRenderer fadeImage;
     public float fadeDuration = 1.0f;
 
     private void Awake()
@@ -24,12 +22,12 @@ public class SceneFader : MonoBehaviour
         }
     }
     
-    public void LoadSceneWithFade(int sceneIndex)
+    public void LoadSceneWithFade(string sceneName)
     {
-        StartCoroutine(FadeOutAndLoadScene(sceneIndex));
+        StartCoroutine(FadeOutAndLoadScene(sceneName));
     }
 
-    private IEnumerator FadeOutAndLoadScene(int sceneIndex)
+    private IEnumerator FadeOutAndLoadScene(string sceneName)
     {
         fadeImage.gameObject.SetActive(true); // Ensure image is active
         fadeImage.color = new Color(fadeImage.color.r, fadeImage.color.g, fadeImage.color.b, 0); // Start fully transparent
@@ -44,7 +42,7 @@ public class SceneFader : MonoBehaviour
         }
         fadeImage.color = new Color(fadeImage.color.r, fadeImage.color.g, fadeImage.color.b, 1); // Ensure fully opaque
         
-        SceneManager.LoadScene(sceneIndex);
+        SceneManager.LoadScene(sceneName);
         
         timer = 0f;
         while (timer < fadeDuration)
