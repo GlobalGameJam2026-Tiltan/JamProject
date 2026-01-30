@@ -131,8 +131,8 @@ TextureImporter:
       name: playerBaseMasquesheet_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 7
+        x: 14
+        y: 8
         width: 64
         height: 64
       alignment: 0
@@ -153,8 +153,8 @@ TextureImporter:
       name: playerBaseMasquesheet_1
       rect:
         serializedVersion: 2
-        x: 109
-        y: 7
+        x: 110
+        y: 8
         width: 64
         height: 64
       alignment: 0
@@ -175,8 +175,8 @@ TextureImporter:
       name: playerBaseMasquesheet_2
       rect:
         serializedVersion: 2
-        x: 205
-        y: 7
+        x: 206
+        y: 8
         width: 64
         height: 64
       alignment: 0
