@@ -9,7 +9,7 @@ public class PlayerSpriteManager : MonoBehaviour
 
     private void Awake()
     {
-        playerData.SetActiveMasque( playerData.masques[0]);
+        playerData.SetActiveMasque( playerData.masques[0].type);
         _masqueSprite = playerData.GetActiveMasque().sprite;
         _playerSprite = playerData.backSprite;
     }

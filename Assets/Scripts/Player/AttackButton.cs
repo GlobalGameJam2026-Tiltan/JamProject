@@ -1,42 +1,64 @@
+using System;
+using System.Linq;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class AttackButton : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private Button _button;
     [SerializeField] private PlayerCombat player;
-    [SerializeField] private int attackIndex;
+    [SerializeField] private AttackType attackType;
+    [SerializeField] private Sprite strengthSprite;
+    [SerializeField] private Sprite intelligenceSprite;
+    [SerializeField] private Sprite charismaSprite;
+    private Image _image;
+    private TextMeshProUGUI _name;
+    private TextMeshProUGUI _hitChance;
+    private TextMeshProUGUI _damage;
 
     void Start()
     {
-        _button = GetComponentInParent<Button>();
-        _button.clicked += () =>
+        _image = GetComponent<Image>();
+        _button = GetComponent<Button>();
+        _button.onClick.RemoveAllListeners();
+        _button.onClick.AddListener(() =>
         {
-            switch (attackIndex)
+            switch (attackType)
             {
-                case 0:
+                case AttackType.Basic:
                     player.AttackBasic();
                     break;
-                case 1:
+                case AttackType.Medium:
                     player.AttackMedium();
                     break;
-                case 2:
+                case AttackType.Strong:
                     player.AttackStrong();
                     break;
-                case 3:
-                    //player.Defend();
-                    break;
             }
-        };
+        });
+        
+        var textChildren = GetComponentsInChildren<TextMeshProUGUI>();
+        _name = textChildren.First(x => x.name == "Name");
+        _hitChance = textChildren.First(x => x.name == "Hit Chance");
+        _damage = textChildren.First(x => x.name == "Damage");
     }
 
 // Update is called once per frame
     void Update()
     {
-        if (attackIndex == 3)
-            _button.text = "Defend";
-        else
-            _button.text = player.GetActiveMasque().attacks[attackIndex].name;
+        var currentAttack = player.GetActiveMasque().attacks[(int)attackType];
+        _name.text = currentAttack.attackName;
+        _damage.text = $"Damage: {currentAttack.damage}";
+        _hitChance.text = $"Hit: {currentAttack.hitChance * 100}%";
+
+        _image.sprite = player.GetActiveMasque().type switch
+        {
+            MasqueType.Strength => strengthSprite,
+            MasqueType.Intelligence => intelligenceSprite,
+            MasqueType.Charisma => charismaSprite,
+            _ => _image.sprite
+        };
     }
 }

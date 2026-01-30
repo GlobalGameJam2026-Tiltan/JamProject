@@ -1,5 +1,6 @@
+using JetBrains.Annotations;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class MasqueButton : MonoBehaviour
 {
@@ -10,10 +11,11 @@ public class MasqueButton : MonoBehaviour
     void Start()
     {
         _button = GetComponentInParent<Button>();
-        _button.clicked += () =>
+        _button.onClick.RemoveAllListeners();
+        _button.onClick.AddListener(() =>
         {
             player.SetActiveMasque(masqueType);
-        };
+        });
     }
 
     // Update is called once per frame
@@ -21,6 +23,6 @@ public class MasqueButton : MonoBehaviour
     {
         var isActive = player.GetActiveMasque()?.type == masqueType;
         var isBroken = player.GetActiveMasque()?.durability > 0;
-        _button.SetEnabled(isActive);
+        _button.enabled = !isActive;
     }
 }
