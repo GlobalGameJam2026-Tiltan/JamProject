@@ -9,14 +9,14 @@ public class Planet : MonoBehaviour
 
     private GameManager _gameManager;
     
-    public bool isBossPlanet = false;
+    public EncounterType encounterType;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         
-        if (isBossPlanet)
+        if (encounterType == EncounterType.Boss)
         {
             if (_gameManager.IsAllPlanetsDefeated()) this.planet.state = PlanetState.Open;
             else this.planet.state = PlanetState.Locked;
