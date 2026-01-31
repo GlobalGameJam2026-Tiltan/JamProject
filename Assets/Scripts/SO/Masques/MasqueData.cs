@@ -10,6 +10,12 @@ public class MasqueData : ScriptableObject
     public Sprite swapIcon;
     public Color color;
     public AttackOption[] attacks = new AttackOption[3];
+    public Sprite[] lightAttackAnim, mediumAttackAnim, hardAttackAnim;
+
+    public void ResetMasqueData()
+    {
+        durability = maxDurability;
+    }
     
     public void TakeDamage(float damage = 1f)
     {
@@ -21,18 +27,21 @@ public class MasqueData : ScriptableObject
         durability = maxDurability;
     }
 
-    public void LightAttack()
+    public void LightAttack(AudioSource audioSource)
     {
-        attacks[0].Attack();
+        audioSource.PlayOneShot(attacks[0].attackVoiceLine);
+        // TODO: play animation
     }
 
-    public void MediumAttack()
+    public void MediumAttack(AudioSource audioSource)
     {
-        attacks[1].Attack();
+        audioSource.PlayOneShot(attacks[1].attackVoiceLine);
+        // TODO: play animation
     }
 
-    public void HeavyAttack()
+    public void HeavyAttack(AudioSource audioSource)
     {
-        attacks[2].Attack();
+        audioSource.PlayOneShot(attacks[2].attackVoiceLine);
+        // TODO: play animation
     }
 }

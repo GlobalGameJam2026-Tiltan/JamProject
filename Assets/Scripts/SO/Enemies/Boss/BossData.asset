@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12de485eea13e5547b2d5b89fe12c039, type: 3}
+  m_Name: BossData
+  m_EditorClassIdentifier: Assembly-CSharp::BossData
+  healths:
+  - 50
+  - 100
+  - 150
+  maxHealths:
+  - 50
+  - 100
+  - 150
+  sprite: {fileID: 21300000, guid: c26249aed54bbb84ba313aaf621eea7c, type: 3}
+  strIcon: {fileID: 1666873033109724866, guid: fe96ae505d3da70449064d186f4b0507, type: 3}
+  intIcon: {fileID: -4160568207013694061, guid: fe96ae505d3da70449064d186f4b0507, type: 3}
+  chaIcon: {fileID: -2719594740678149852, guid: fe96ae505d3da70449064d186f4b0507, type: 3}
+  phase1Attacks:
+  - {fileID: 11400000, guid: edff577a620ca0a4dab75e40d05c43a0, type: 2}
+  - {fileID: 11400000, guid: 135a9476d8859454097c50c135a186a3, type: 2}
+  - {fileID: 11400000, guid: 58fb8701d3ae6ce4587aee14179668bd, type: 2}
+  - {fileID: 11400000, guid: f516eaa2e4f11fc408f3dffcd710ad51, type: 2}
+  - {fileID: 11400000, guid: 0d52246b4a9ec0a4fbdbc468b497fb5d, type: 2}
+  - {fileID: 11400000, guid: cf1c2fe7d86ae4b4d9958a7849acad0a, type: 2}
+  - {fileID: 11400000, guid: 7160bb6c7a631b940b20069d879fcdff, type: 2}
+  - {fileID: 11400000, guid: 0ea27d626b442a149aa580d2e3413422, type: 2}
+  - {fileID: 11400000, guid: e90e8b05b126e6e4780bbdd15e8c4abf, type: 2}
+  phase2Attacks:
+  - {fileID: 11400000, guid: a4e48c29882b3f94797afe87979bbbb9, type: 2}
+  - {fileID: 11400000, guid: dcf12599e9b92b5408c19b27282eff4e, type: 2}
+  - {fileID: 11400000, guid: 05da4467faf940141a6942f9ab7f76e0, type: 2}
+  - {fileID: 11400000, guid: 28cae60940bd669439349d48ea8b1428, type: 2}
+  - {fileID: 11400000, guid: d81b375ecbbdc634cbcf34c53d20ec95, type: 2}
+  - {fileID: 11400000, guid: aa7ee1c60d3fe9e42b54141a05085a52, type: 2}
+  - {fileID: 11400000, guid: 7160bb6c7a631b940b20069d879fcdff, type: 2}
+  - {fileID: 11400000, guid: 0ea27d626b442a149aa580d2e3413422, type: 2}
+  - {fileID: 11400000, guid: e90e8b05b126e6e4780bbdd15e8c4abf, type: 2}
+  phase3Attacks:
+  - {fileID: 11400000, guid: a4e48c29882b3f94797afe87979bbbb9, type: 2}
+  - {fileID: 11400000, guid: dcf12599e9b92b5408c19b27282eff4e, type: 2}
+  - {fileID: 11400000, guid: 05da4467faf940141a6942f9ab7f76e0, type: 2}
+  - {fileID: 11400000, guid: 28cae60940bd669439349d48ea8b1428, type: 2}
+  - {fileID: 11400000, guid: d81b375ecbbdc634cbcf34c53d20ec95, type: 2}
+  - {fileID: 11400000, guid: aa7ee1c60d3fe9e42b54141a05085a52, type: 2}
+  - {fileID: 11400000, guid: 2b840ebd8ae721d4c9634f142aa8e56a, type: 2}
+  - {fileID: 11400000, guid: 209c9c0ed67f5b649bc5d25e23265796, type: 2}
+  - {fileID: 11400000, guid: 81a904d9d1d0bb644a0663670a15756a, type: 2}

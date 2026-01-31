@@ -4,6 +4,9 @@ using System.Collections.Generic;
 public class PlayerCombat : MonoBehaviour
 {
     [SerializeField] private PlayerData playerData;
+    [SerializeField] private AudioSource audioSource;
+
+    public bool IsBlocking { get; private set; }
 
     public void UpgradeStat(string stat, int amount = 1)
     {
@@ -62,16 +65,26 @@ public class PlayerCombat : MonoBehaviour
 
     public void AttackBasic()
     {
-        playerData.GetActiveMasque().LightAttack();
+        playerData.GetActiveMasque().LightAttack(audioSource);
     }
     
     public void AttackMedium()
     {
-        playerData.GetActiveMasque().MediumAttack();
+        playerData.GetActiveMasque().MediumAttack(audioSource);
     }
 
     public void AttackStrong()
     {
-        playerData.GetActiveMasque().HeavyAttack();
+        playerData.GetActiveMasque().HeavyAttack(audioSource);
+    }
+
+    public void Block()
+    {
+        IsBlocking = true;
+    }
+    
+    public void Unblock()
+    {
+        IsBlocking = false;
     }
 }
