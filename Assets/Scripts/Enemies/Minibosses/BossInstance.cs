@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BossInstance : EnemyInstance
 {
-    public override void Attack()
+    public override AttackOption Attack()
     {
-        base.Attack();
+        return base.Attack();
     }
 }

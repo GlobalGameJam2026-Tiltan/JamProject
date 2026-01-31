@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 public class EnemyAnimationLibrary : MonoBehaviour
 {
+    public static EnemyAnimationLibrary Instance;
+    
     public BodyAnimationSet[] bodyAnimations;
     public MasqueAnimationSet[] maskAnimations;
 
@@ -18,6 +20,9 @@ public class EnemyAnimationLibrary : MonoBehaviour
         _masqueLookup = new Dictionary<MasqueType, MasqueAnimationSet>();
         foreach (var set in maskAnimations)
             _masqueLookup.Add(set.masqueType, set);
+        
+        DontDestroyOnLoad(gameObject);
+        Instance = this;
     }
 
     public BodyAnimationSet GetBody(BodyType type) => _bodyLookup[type];

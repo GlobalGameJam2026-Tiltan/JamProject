@@ -16,7 +16,7 @@ public class PlayerCombat : MonoBehaviour
     
     public bool IsBlocking { get; private set; }
 
-    public void UpgradeStat(string stat, int amount = 1)
+    public void UpgradeStat(MasqueType stat, int amount = 1)
     {
         playerData.PlayerStats[stat] += amount;
     }
@@ -47,6 +47,11 @@ public class PlayerCombat : MonoBehaviour
     {
         return playerData.GetMasqueByType(type);
     }
+
+    public void BossKilled()
+    {
+        playerData.BossKilled();
+    }
     
     public void Heal()
     {
@@ -59,22 +64,33 @@ public class PlayerCombat : MonoBehaviour
     public void ResetPlayer()
     {
         playerData.playerName = "Player";
-        playerData.PlayerStats = new Dictionary<string, int>()
+        playerData.PlayerStats = new()
         {
-            { "Strength", 1 },
-            { "Intelligence", 1 },
-            { "Charisma", 1 }
+            { MasqueType.Strength, 1 },
+            { MasqueType.Intelligence, 1 },
+            { MasqueType.Charisma, 1 }
         };
     }
     
     public int GetPlayerDifficulty()
     {
-        return playerData.PlayerStats["Strength"] + playerData.PlayerStats["Intelligence"] + playerData.PlayerStats["Charisma"];
+        return playerData.PlayerStats[MasqueType.Strength] + playerData.PlayerStats[MasqueType.Intelligence] + playerData.PlayerStats[MasqueType.Charisma];
     }
 
-    public void TakeDamage(float damage)
+    public bool TakeDamage(float damage)
     {
         playerData.GetActiveMasque().TakeDamage(damage);
+        if (playerData.GetActiveMasque().durability <= 0)
+        {
+            var chosenMasques = playerData.masques.Where(x => x.durability > 0).ToArray();
+            if (!chosenMasques.Any())
+                return true;
+            
+            var newMasque = Random.Range(0, chosenMasques.Length);
+            SetActiveMasque(chosenMasques[newMasque].type);
+        }
+
+        return false;
     }
 
     public void UpgradeMasque(MasqueData upgradedMasque)

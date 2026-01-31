@@ -98,7 +98,7 @@ public class EncounterManager : MonoBehaviour
         encounterSo.activeEnemyInstance = encounterSo.activeEnemy.GetComponent<EnemyInstance>();
         encounterSo.activeEnemyInstance.name = EnemyNames.GetRandomName();
         encounterSo.activeEnemyInstance.GetData().health = encounterSo.activeEnemyInstance.GetData().maxHealth;
-        encounterSo.activeEnemyInstance.RandomizeSprite();
+        //encounterSo.activeEnemyInstance.RandomizeSprite();
     }
 
     private void StartBattle()
@@ -125,7 +125,9 @@ public class EncounterManager : MonoBehaviour
             }
             else
             {
-                encounterSo.activeEnemyInstance.TakeDamage(damage);
+                var enemyType = encounterSo.activeEnemyInstance.GetMasqueType();
+                if(encounterSo.activeEnemyInstance.TakeDamage(damage))
+                    player.UpgradeStat(enemyType);
             }
         }
 
@@ -147,6 +149,8 @@ public class EncounterManager : MonoBehaviour
                 else
                 {
                     _gameManager.PlanetDefeated();
+                    if (encounterSo.encounterType != EncounterType.Random)
+                        player.BossKilled();
                 }
             }
         }

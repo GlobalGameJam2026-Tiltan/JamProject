@@ -7,11 +7,11 @@ public class PlayerData : ScriptableObject
     public string playerName = "Player";
     public MasqueData[] masques = new MasqueData[3];
     public MasqueData[] baseMasques = new MasqueData[3];
-    public Dictionary<string, int> PlayerStats = new Dictionary<string, int>()
+    public Dictionary<MasqueType, int> PlayerStats = new()
     {
-        { "Strength", 1 },
-        { "Intelligence", 1 },
-        { "Charisma", 1 }
+        { MasqueType.Strength, 1 },
+        { MasqueType.Intelligence, 1 },
+        { MasqueType.Charisma, 1 }
     };
     public Sprite backSprite;
     public Sprite[] defendAnimation;
@@ -29,11 +29,11 @@ public class PlayerData : ScriptableObject
             masques[i].ResetMasqueData();
         }
         
-        PlayerStats = new Dictionary<string, int>()
+        PlayerStats = new ()
         {
-            { "Strength", 1 },
-            { "Intelligence", 1 },
-            { "Charisma", 1 }
+            { MasqueType.Strength, 1 },
+            { MasqueType.Intelligence, 1 },
+            { MasqueType.Charisma, 1 }
         };
         
         playerName = "Player";
