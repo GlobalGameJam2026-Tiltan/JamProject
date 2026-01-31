@@ -6,12 +6,16 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private PlayerData playerData;
     [SerializeField] private AudioSource audioSource;
     private SpriteRenderer _masqueSpriteRenderer;
+    private SpriteRenderer _bodySpriteRenderer;
 
     private void Awake()
     {
         var renderers = GetComponentsInChildren<SpriteRenderer>();
         if(renderers.Length > 1)
+        {
             _masqueSpriteRenderer = renderers.First(x => x.name == "Masque");
+            _bodySpriteRenderer = renderers.First(x => x.name == "Body");
+        }
     }
     
     public bool IsBlocking { get; private set; }
@@ -102,15 +106,16 @@ public class PlayerCombat : MonoBehaviour
     {
         //Lock Buttons
         EncounterManager.Instance.PlayerAction();
-        playerData.GetActiveMasque().LightAttack(audioSource);
+        playerData.GetActiveMasque().LightAttack(audioSource, _bodySpriteRenderer);
         var currentMasque = playerData.GetActiveMasque();
         EncounterManager.Instance.AttackUsed(EntityType.Enemy,currentMasque.type, currentMasque.attacks[0]);
+        playerData.EndAnimation();
     }
     
     public void AttackMedium()
     {
         EncounterManager.Instance.PlayerAction();
-        playerData.GetActiveMasque().MediumAttack(audioSource);
+        playerData.GetActiveMasque().MediumAttack(audioSource, _bodySpriteRenderer);
         var currentMasque = playerData.GetActiveMasque();
         EncounterManager.Instance.AttackUsed(EntityType.Enemy,currentMasque.type, currentMasque.attacks[1]);
     }
@@ -118,7 +123,7 @@ public class PlayerCombat : MonoBehaviour
     public void AttackStrong()
     {
         EncounterManager.Instance.PlayerAction();
-        playerData.GetActiveMasque().HeavyAttack(audioSource);
+        playerData.GetActiveMasque().HeavyAttack(audioSource, _bodySpriteRenderer);
         var currentMasque = playerData.GetActiveMasque();
         EncounterManager.Instance.AttackUsed(EntityType.Enemy,currentMasque.type, currentMasque.attacks[2]);
     }

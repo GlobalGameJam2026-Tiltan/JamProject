@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class EnemyInstance : MonoBehaviour
@@ -30,7 +31,21 @@ public class EnemyInstance : MonoBehaviour
         var attack = data.attacks[rnd];
         audioSource.PlayOneShot(attack.attackVoiceLine);
 
-        //_enemyAnimator.
+        rnd = Random.Range(0, 2);
+        if (rnd == 0)
+        {
+            for (var i = 0; i < EnemyAnimationLibrary.Instance.GetBody(_bodyType).grabFrames.Length; i++)
+            {
+                _enemyAnimator.PlayGrab(i);
+            }
+        }
+        else
+        {
+            for (var i = 0; i < EnemyAnimationLibrary.Instance.GetBody(_bodyType).punchFrames.Length; i++)
+            {
+                _enemyAnimator.PlayPunch(i);
+            }
+        }
         
         return attack;
     }

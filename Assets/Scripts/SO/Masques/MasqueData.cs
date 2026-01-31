@@ -27,21 +27,30 @@ public class MasqueData : ScriptableObject
         durability = maxDurability;
     }
 
-    public void LightAttack(AudioSource audioSource)
+    public void LightAttack(AudioSource audioSource, SpriteRenderer playerSprite)
     {
         audioSource.PlayOneShot(attacks[0].attackVoiceLine);
-        // TODO: play animation
+        foreach (var frame in lightAttackAnim)
+        {
+            playerSprite.sprite = frame;
+        }
     }
 
-    public void MediumAttack(AudioSource audioSource)
+    public void MediumAttack(AudioSource audioSource, SpriteRenderer playerSprite)
     {
         audioSource.PlayOneShot(attacks[1].attackVoiceLine);
-        // TODO: play animation
+        foreach (var frame in mediumAttackAnim)
+        {
+            playerSprite.sprite = frame;
+        }
     }
 
-    public void HeavyAttack(AudioSource audioSource)
+    public void HeavyAttack(AudioSource audioSource, SpriteRenderer playerSprite)
     {
         audioSource.PlayOneShot(attacks[2].attackVoiceLine);
-        // TODO: play animation
+        foreach (var frame in hardAttackAnim)
+        {
+            playerSprite.sprite = frame;
+        }
     }
 }

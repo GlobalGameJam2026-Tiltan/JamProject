@@ -14,6 +14,7 @@ public class PlayerData : ScriptableObject
         { MasqueType.Charisma, 1 }
     };
     public Sprite backSprite;
+    public Sprite defaultBackSprite;
     public Sprite[] defendAnimation;
     public Sprite[] idleAnimation;
 
@@ -40,6 +41,7 @@ public class PlayerData : ScriptableObject
         _activeMasqueType = MasqueType.Strength;
         _masqueSprite = masques[(int)_activeMasqueType].sprite;
         BossesKilled = 0;
+        backSprite = defaultBackSprite;
     }
 
 
@@ -73,5 +75,10 @@ public class PlayerData : ScriptableObject
     public MasqueData GetMasqueByType(MasqueType type)
     {
         return masques[(int)type];
+    }
+
+    public void EndAnimation()
+    {
+        backSprite = defaultBackSprite;
     }
 }

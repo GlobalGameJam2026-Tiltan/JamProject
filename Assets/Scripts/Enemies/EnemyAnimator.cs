@@ -8,8 +8,8 @@ public class EnemyAnimator : MonoBehaviour
     private BodyAnimationSet _bodySet;
     private MasqueAnimationSet _masqueSet;
     
-    private Sprite[] _bossPunch;
-    private Sprite[] _bossGrab;
+    public Sprite[] BossPunch { get; private set;}
+    public Sprite[] BossGrab { get; private set;}
     
     private bool _hasMasque;
     private bool _isBoss;
@@ -35,8 +35,8 @@ public class EnemyAnimator : MonoBehaviour
         _isBoss = true;
         _hasMasque = false;
 
-        _bossPunch = data.punchAnimation;
-        _bossGrab = data.grabAnimation;
+        BossPunch = data.punchAnimation;
+        BossGrab = data.grabAnimation;
     }
 
     // ---------- PLAY ----------
@@ -44,7 +44,7 @@ public class EnemyAnimator : MonoBehaviour
     {
         if (_isBoss)
         {
-            bodyRenderer.sprite = _bossGrab[frame];
+            bodyRenderer.sprite = BossGrab[frame];
         }
         else
         {
@@ -59,7 +59,7 @@ public class EnemyAnimator : MonoBehaviour
     {
         if (_isBoss)
         {
-            bodyRenderer.sprite = _bossPunch[frame];
+            bodyRenderer.sprite = BossPunch[frame];
         }
         else
         {
