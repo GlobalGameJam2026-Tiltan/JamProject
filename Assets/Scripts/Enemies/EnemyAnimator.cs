@@ -69,4 +69,6 @@ public class EnemyAnimator : MonoBehaviour
                 masqueRenderer.sprite = _masqueSet.punchFrames[frame];
         }
     }
+    
+    public SpriteRenderer GetBodyRenderer() => bodyRenderer;
 }
