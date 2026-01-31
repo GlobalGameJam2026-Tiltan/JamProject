@@ -23,7 +23,7 @@ public class PlayerBar : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        _name.text = EncounterManager.Instance.GetPlayer().name;
+        _name.text = EncounterManager.Instance.GetPlayer().PlayerName;
         var masque = EncounterManager.Instance.GetPlayer().GetActiveMasque();
         _icon.sprite = masque.icon;
         _slider.maxValue = masque.maxDurability;

@@ -16,6 +16,8 @@ public class PlayerCombat : MonoBehaviour
         {
             _masqueSpriteRenderer = renderers.First(x => x.name == "Masque");
             _bodySpriteRenderer = renderers.First(x => x.name == "Body");
+            
+            _masqueSpriteRenderer.sprite = GetActiveMasque().sprite;
         }
     }
     
@@ -25,6 +27,8 @@ public class PlayerCombat : MonoBehaviour
     {
         playerData.PlayerStats[stat] += amount;
     }
+    
+    public string PlayerName => playerData.playerName;
     
     public void ChangeName(string newName)
     {
@@ -68,13 +72,14 @@ public class PlayerCombat : MonoBehaviour
 
     public void ResetPlayer()
     {
-        playerData.playerName = "Player";
+        playerData.playerName = "Esteban Himenez";
         playerData.PlayerStats = new()
         {
             { MasqueType.Strength, 1 },
             { MasqueType.Intelligence, 1 },
             { MasqueType.Charisma, 1 }
         };
+        playerData.SetActiveMasque(MasqueType.Strength);
     }
     
     public int GetPlayerDifficulty()
@@ -96,11 +101,6 @@ public class PlayerCombat : MonoBehaviour
         }
 
         return false;
-    }
-
-    public void UpgradeMasque(MasqueData upgradedMasque)
-    {
-        playerData.SetMasque(upgradedMasque);
     }
 
     public void AttackBasic()
