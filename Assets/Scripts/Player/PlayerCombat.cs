@@ -149,13 +149,14 @@ public class PlayerCombat : MonoBehaviour
     
     private IEnumerator PlayAnimation(Sprite[] frames)
     {
+        var frameDelay = 0.1f;
+
         foreach (var frame in frames)
         {
             _bodySpriteRenderer.sprite = frame;
+            yield return new WaitForSeconds(frameDelay);
         }
-        
-        _bodySpriteRenderer.sprite = playerData.defaultBackSprite;
 
-        yield return new WaitForSeconds(1.0f);
+        _bodySpriteRenderer.sprite = playerData.defaultBackSprite;
     }
 }

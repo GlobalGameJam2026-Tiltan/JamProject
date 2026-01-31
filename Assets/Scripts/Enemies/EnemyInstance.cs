@@ -82,21 +82,16 @@ public class EnemyInstance : MonoBehaviour
     
     private IEnumerator PlayAnimation(Sprite[] frames, bool isGrab)
     {
-        if (isGrab)
+        var frameDelay = 0.1f; // tweak this
+
+        for (var i = 0; i < frames.Length; i++)
         {
-            for (var i = 0; i < frames.Length; i++)
-            {
+            if (isGrab)
                 _enemyAnimator.PlayGrab(i);
-            }
-        }
-        else
-        {
-            for (var i = 0; i < frames.Length; i++)
-            {
+            else
                 _enemyAnimator.PlayPunch(i);
-            }
+
+            yield return new WaitForSeconds(frameDelay);
         }
-        
-        yield return new WaitForSeconds(1.0f);
     }
 }

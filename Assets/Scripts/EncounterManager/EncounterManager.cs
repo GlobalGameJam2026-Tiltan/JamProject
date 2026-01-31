@@ -200,10 +200,6 @@ public class EncounterManager : MonoBehaviour
         //TODO - Handle Result Screen
     }
 
-    public void PlayAnimation(EntityType entityType, Sprite[] sprites)
-    {
-    }
-
     public void SwappedMasque()
     {
         //TODO - Show Masque Swapped Popup
