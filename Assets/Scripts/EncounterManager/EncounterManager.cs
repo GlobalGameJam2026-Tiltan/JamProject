@@ -37,6 +37,16 @@ public class EncounterManager : MonoBehaviour
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
+    public bool IsMiniBossBattle()
+    {
+        return encounterSo.encounterType != EncounterType.Random && encounterSo.encounterType != EncounterType.Boss;
+    }
+
+    public bool IsMidBattle()
+    {
+        return encounterSo.inBattle;
+    }
+
     public void PlayerAction()
     {
         encounterSo.playerTurn = false;
@@ -203,14 +213,14 @@ public class EncounterManager : MonoBehaviour
     private IEnumerator EnemyTurn()
     {
         //first wait 1 second
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(1.5f);
 
         var attack = encounterSo.activeEnemyInstance.Attack();
 
         AttackUsed(EntityType.Player, encounterSo.activeEnemyInstance.GetMasqueType(), attack);
 
         //now wait 1 second before returning to player turn
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(1.5f);
         encounterSo.playerTurn = true;
     }
 }

@@ -26,6 +26,25 @@ public class EnemyInstance : MonoBehaviour
         _enemyAnimator = GetComponent<EnemyAnimator>();
         _enemyAnimator.InitializeEnemy(data,EnemyAnimationLibrary.Instance);
     }
+
+    void Start()
+    {
+        if (EncounterManager.Instance.IsMiniBossBattle() && EncounterManager.Instance.IsMidBattle() && data.idleLines.Length > 0)
+        {
+            StartCoroutine(PlayIdleAudio());
+        }
+    }
+
+    private IEnumerator PlayIdleAudio()
+    {
+        while (EncounterManager.Instance.IsMiniBossBattle() && EncounterManager.Instance.IsMidBattle())
+        {
+            yield return new WaitForSeconds(5f);
+            int randomIndex = Random.Range(0, data.idleLines.Length);
+            audioSource.PlayOneShot(data.idleLines[randomIndex]);
+        }
+        
+    }
     
     public virtual AttackOption Attack()
     {
