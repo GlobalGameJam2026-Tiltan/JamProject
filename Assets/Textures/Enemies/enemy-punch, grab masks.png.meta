@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: b0988aed576677046914f64c40bb16b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1641761554260747420
+    second: enemy-punch, grab masks_0
+  - first:
+      213: -1680999683322376027
+    second: enemy-punch, grab masks_1
+  - first:
+      213: 6762331321352827600
+    second: enemy-punch, grab masks_2
+  - first:
+      213: -7358002111225525577
+    second: enemy-punch, grab masks_3
+  - first:
+      213: 7578810693302786981
+    second: enemy-punch, grab masks_4
+  - first:
+      213: -4372541327138541735
+    second: enemy-punch, grab masks_5
+  - first:
+      213: -4173982856286798241
+    second: enemy-punch, grab masks_6
+  - first:
+      213: -6437768767561897398
+    second: enemy-punch, grab masks_7
+  - first:
+      213: -4189187146769184564
+    second: enemy-punch, grab masks_8
+  - first:
+      213: -8327433719756185544
+    second: enemy-punch, grab masks_9
+  - first:
+      213: 4285505782560717760
+    second: enemy-punch, grab masks_10
+  - first:
+      213: -533493927223854769
+    second: enemy-punch, grab masks_11
+  - first:
+      213: -4877435169443045225
+    second: enemy-punch, grab masks_12
+  - first:
+      213: 8858176721740134864
+    second: enemy-punch, grab masks_13
+  - first:
+      213: 5703901869126681071
+    second: enemy-punch, grab masks_14
+  - first:
+      213: -617247557246381475
+    second: enemy-punch, grab masks_15
+  - first:
+      213: -5212436590303289046
+    second: enemy-punch, grab masks_16
+  - first:
+      213: -6853427513730811981
+    second: enemy-punch, grab masks_17
+  - first:
+      213: -8149880896251332741
+    second: enemy-punch, grab masks_18
+  - first:
+      213: 6951416907359279692
+    second: enemy-punch, grab masks_19
+  - first:
+      213: -5242080395146486736
+    second: enemy-punch, grab masks_20
+  - first:
+      213: 9175404098376439281
+    second: enemy-punch, grab masks_21
+  - first:
+      213: -1432676992977096695
+    second: enemy-punch, grab masks_22
+  - first:
+      213: -3324172377881101160
+    second: enemy-punch, grab masks_23
+  - first:
+      213: -1905817423551843160
+    second: enemy-punch, grab masks_24
+  - first:
+      213: 7808336388640617404
+    second: enemy-punch, grab masks_25
+  - first:
+      213: 6702887945975965237
+    second: enemy-punch, grab masks_26
+  - first:
+      213: 7517356801998856198
+    second: enemy-punch, grab masks_27
+  - first:
+      213: 3978796083989131638
+    second: enemy-punch, grab masks_28
+  - first:
+      213: -8880146542239058082
+    second: enemy-punch, grab masks_29
+  - first:
+      213: 1003084379525784866
+    second: enemy-punch, grab masks_30
+  - first:
+      213: 3261701320196237770
+    second: enemy-punch, grab masks_31
+  - first:
+      213: -4466993905454375657
+    second: enemy-punch, grab masks_32
+  - first:
+      213: 4561615138576208782
+    second: enemy-punch, grab masks_33
+  - first:
+      213: -8466059827077201727
+    second: enemy-punch, grab masks_34
+  - first:
+      213: 5034139813261522469
+    second: enemy-punch, grab masks_35
+  - first:
+      213: 2612110760372529171
+    second: enemy-punch, grab masks_36
+  - first:
+      213: 2227958741164566972
+    second: enemy-punch, grab masks_37
+  - first:
+      213: 8005478207475318628
+    second: enemy-punch, grab masks_38
+  - first:
+      213: -1238461962999192969
+    second: enemy-punch, grab masks_39
+  - first:
+      213: -139540682956750681
+    second: enemy-punch, grab masks_40
+  - first:
+      213: -3024697031515693064
+    second: enemy-punch, grab masks_41
+  - first:
+      213: -8361274221892899064
+    second: enemy-punch, grab masks_42
+  - first:
+      213: -4955049034463086139
+    second: enemy-punch, grab masks_43
+  - first:
+      213: -4024607954873731220
+    second: enemy-punch, grab masks_44
+  - first:
+      213: -3537258879621337130
+    second: enemy-punch, grab masks_45
+  - first:
+      213: -2654396756092735344
+    second: enemy-punch, grab masks_46
+  - first:
+      213: -3291519452779389192
+    second: enemy-punch, grab masks_47
+  - first:
+      213: 8007732280412483005
+    second: enemy-punch, grab masks_48
+  - first:
+      213: -950629616084986082
+    second: enemy-punch, grab masks_49
+  - first:
+      213: 258175921505200483
+    second: enemy-punch, grab masks_50
+  - first:
+      213: 760840121572515329
+    second: enemy-punch, grab masks_51
+  - first:
+      213: 2632474384233945704
+    second: enemy-punch, grab masks_52
+  - first:
+      213: -3648723186673470161
+    second: enemy-punch, grab masks_53
+  - first:
+      213: 7140970680542232309
+    second: enemy-punch, grab masks_54
+  - first:
+      213: 2644344129312258356
+    second: enemy-punch, grab masks_55
+  - first:
+      213: -287913259376665100
+    second: enemy-punch, grab masks_56
+  - first:
+      213: -6896354774332293236
+    second: enemy-punch, grab masks_57
+  - first:
+      213: -1415484144562423809
+    second: enemy-punch, grab masks_58
+  - first:
+      213: 1043659142357105650
+    second: enemy-punch, grab masks_59
+  - first:
+      213: 6405003707875382189
+    second: enemy-punch, grab masks_60
+  - first:
+      213: -949519962353842825
+    second: enemy-punch, grab masks_61
+  - first:
+      213: 4124415779774871277
+    second: enemy-punch, grab masks_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b1568909a4739e0800000000000000
+      internalID: -1641761554260747420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a09600c1b3eba8e0800000000000000
+      internalID: -1680999683322376027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2bbb62280a8dd50800000000000000
+      internalID: 6762331321352827600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba04df601023e990800000000000000
+      internalID: -7358002111225525577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab9e3adb285d2960800000000000000
+      internalID: 7578810693302786981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f213664dc9153c0800000000000000
+      internalID: -4372541327138541735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e7478f4b80316c0800000000000000
+      internalID: -4173982856286798241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a6e572a6378a6a0800000000000000
+      internalID: -6437768767561897398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8c03b3c740dd5c0800000000000000
+      internalID: -4189187146769184564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830a25b07230f6c80800000000000000
+      internalID: -8327433719756185544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbf96cbdcc297b30800000000000000
+      internalID: 4285505782560717760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f497ef98916a898f0800000000000000
+      internalID: -533493927223854769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790a95e1e8edf4cb0800000000000000
+      internalID: -4877435169443045225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d974f8bbc09eea70800000000000000
+      internalID: 8858176721740134864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe18bf68784582f40800000000000000
+      internalID: 5703901869126681071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d521ad3fd981f67f0800000000000000
+      internalID: -617247557246381475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2169bca984b9a7b0800000000000000
+      internalID: -5212436590303289046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7bf2ebcfbb3e0a0800000000000000
+      internalID: -6853427513730811981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b777239318ec5ee80800000000000000
+      internalID: -8149880896251332741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a5bc8d8d4687060800000000000000
+      internalID: 6951416907359279692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-punch, grab masks_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c114387a36047b0800000000000000
+      internalID: -5242080395146486736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0de0e8048743ce8468faf4c4ae94899e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":6.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      enemy-punch, grab masks_0: -1641761554260747420
+      enemy-punch, grab masks_1: -1680999683322376027
+      enemy-punch, grab masks_10: 4285505782560717760
+      enemy-punch, grab masks_11: -533493927223854769
+      enemy-punch, grab masks_12: -4877435169443045225
+      enemy-punch, grab masks_13: 8858176721740134864
+      enemy-punch, grab masks_14: 5703901869126681071
+      enemy-punch, grab masks_15: -617247557246381475
+      enemy-punch, grab masks_16: -5212436590303289046
+      enemy-punch, grab masks_17: -6853427513730811981
+      enemy-punch, grab masks_18: -8149880896251332741
+      enemy-punch, grab masks_19: 6951416907359279692
+      enemy-punch, grab masks_2: 6762331321352827600
+      enemy-punch, grab masks_20: -5242080395146486736
+      enemy-punch, grab masks_3: -7358002111225525577
+      enemy-punch, grab masks_4: 7578810693302786981
+      enemy-punch, grab masks_5: -4372541327138541735
+      enemy-punch, grab masks_6: -4173982856286798241
+      enemy-punch, grab masks_7: -6437768767561897398
+      enemy-punch, grab masks_8: -4189187146769184564
+      enemy-punch, grab masks_9: -8327433719756185544
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

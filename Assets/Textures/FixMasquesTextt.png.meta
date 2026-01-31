@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 550fb76da43faf34bb037725b16f0a00
+guid: 7eae983a52c309f42afc62421aabfa72
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -854600221844570104
-    second: GJJ2026MapBigAssPlanet_0
+      213: 3673537416776439699
+    second: FixMasquesTextt_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +52,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 64
-  spriteBorder: {x: 0, y: 0, z: 200, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GJJ2026MapBigAssPlanet_0
+      name: FixMasquesTextt_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 115
-        width: 50
-        height: 45
+        x: 749
+        y: 729
+        width: 912
+        height: 222
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8000cf740a9d324f0800000000000000
-      internalID: -854600221844570104
+      spriteID: 397d01c31d60bf230800000000000000
+      internalID: 3673537416776439699
       vertices: []
       indices: 
       edges: []
@@ -139,16 +139,18 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":6.0},"gridSpriteSize":{"x":600.0,"y":266.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      GJJ2026MapBigAssPlanet_0: -854600221844570104
+      FixMasquesTextt_0: 3673537416776439699
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
