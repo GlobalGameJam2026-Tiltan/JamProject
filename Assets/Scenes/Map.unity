@@ -143,6 +143,10 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: a33061b03b18a5447baaf5558b9beb8f, type: 2}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: encounterType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -288,6 +292,10 @@ PrefabInstance:
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: isBossPlanet
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: encounterType
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Pivot.x
@@ -615,6 +623,10 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: 3a4ae125196825240a398929431b703c, type: 2}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: encounterType
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -740,6 +752,10 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: e66aa892e40915841a50d6e96bcb8ab2, type: 2}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: encounterType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -864,7 +880,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e5a78e2bdfbd4cecb867fd7720935b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EncounterManager
+  encounterSo: {fileID: 0}
   gruntEnemies: []
+  strength: {fileID: 0}
+  intelligence: {fileID: 0}
+  charisma: {fileID: 0}
+  boss: {fileID: 0}
 --- !u!4 &878264667
 Transform:
   m_ObjectHideFlags: 0
@@ -983,6 +1004,10 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: f45aefd60ab831e448b0633e40237d55, type: 2}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: encounterType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1181,6 +1206,10 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: cc4869249b256344a96bd0a2678d597e, type: 2}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: encounterType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1405,6 +1434,10 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: 7b2a79b1a1e2f3542bd11fb132597951, type: 2}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: encounterType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1519,6 +1552,10 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: e830d87986601504c8ff824beb528fbb, type: 2}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: encounterType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1633,6 +1670,10 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: 4f921ea66d73b4246b391c20276c6bdd, type: 2}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: encounterType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1747,6 +1788,10 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: 80a7efb0cd52b7f4bb90518a36b77f02, type: 2}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: encounterType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1861,6 +1906,10 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: 29f0e4b303b1c2240a1a43b271eb8456, type: 2}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: encounterType
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

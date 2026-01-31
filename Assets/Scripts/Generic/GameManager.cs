@@ -6,7 +6,8 @@ using System.Collections; // Required for IEnumerator
 public class GameManager : MonoBehaviour
 {
     public List<PlanetData> planets;
-    private AudioSource audioSource;
+    private AudioSource _audioSource;
+    private PlanetData _currentPlanet;
 
     
     void Awake()
@@ -17,16 +18,16 @@ public class GameManager : MonoBehaviour
     
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        _audioSource = GetComponent<AudioSource>();
     }
     
-    public void PlanetDefeated(string name)
+    public void PlanetDefeated()
     {
-        // Changing state to defeated
-        GetPlanet(name).ChangeState(PlanetState.Defeated);
+        
+        _currentPlanet.ChangeState(PlanetState.Defeated);
         
         // Unlocking planets who depended on him
-        foreach (var planet in planets.Where(planet => planet.previousPlanet == name))
+        foreach (var planet in planets.Where(planet => planet.previousPlanet == _currentPlanet.name))
         {
             planet.ChangeState(PlanetState.Open);
         }
@@ -38,24 +39,24 @@ public class GameManager : MonoBehaviour
     }
     
     // Public function to load a scene by name
-    public void SwitchToLevel(string sceneName)
+    public void MoveToPlanet(PlanetData newPlanet)
     {
-        SceneFader.instance.LoadSceneWithFade(sceneName);
+        _currentPlanet = newPlanet;
     }
     
     public void PlayMusic()
     {
-        if (!audioSource.isPlaying)
+        if (!_audioSource.isPlaying)
         {
-            audioSource.Play();
+            _audioSource.Play();
         }
     }
   
     public void StopMusic()
     {
-        if (audioSource.isPlaying)
+        if (_audioSource.isPlaying)
         {
-            audioSource.Stop();
+            _audioSource.Stop();
         }
     }
     
