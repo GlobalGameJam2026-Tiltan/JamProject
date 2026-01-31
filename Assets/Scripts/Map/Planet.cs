@@ -1,6 +1,4 @@
 using UnityEngine;
-using System;
-using UnityEditor;
 using UnityEngine.UI; // Make sure you include this
 
 public class Planet : MonoBehaviour

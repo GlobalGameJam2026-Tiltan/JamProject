@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using Enemies;
 using UnityEngine;
 
@@ -151,6 +150,7 @@ public class EncounterManager : MonoBehaviour
                 StartCoroutine(EnemyTurn());
             else
             {
+                var reward = encounterSo.activeEnemyInstance.RewardMasque;
                 if (encounterSo.remainingEnemies > 0)
                 {
                     encounterSo.remainingEnemies--;
@@ -160,7 +160,9 @@ public class EncounterManager : MonoBehaviour
                 {
                     _gameManager.PlanetDefeated();
                     if (encounterSo.encounterType != EncounterType.Random)
-                        player.BossKilled();
+                    {
+                        player.BossKilled(reward);
+                    }
                 }
             }
         }

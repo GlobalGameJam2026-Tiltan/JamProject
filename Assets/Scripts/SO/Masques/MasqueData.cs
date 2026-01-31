@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections;
 
 [CreateAssetMenu(fileName = "MasqueData", menuName = "Scriptable Objects/MasqueData")]
 public class MasqueData : ScriptableObject

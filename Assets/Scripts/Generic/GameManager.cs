@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using System.Collections; // Required for IEnumerator
+
+// Required for IEnumerator
 
 public class GameManager : MonoBehaviour
 {

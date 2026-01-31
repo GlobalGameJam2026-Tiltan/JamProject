@@ -31,10 +31,9 @@ public class PlayerCombat : MonoBehaviour
         playerData.ChangeName(newName);
     }
     
-    public void SwapMasque(MasqueData newActiveMasque)
+    public void SwapMasque(MasqueData newMasque)
     {
-        if (newActiveMasque.type == playerData.GetActiveMasque().type) return;
-        playerData.SetMasque(newActiveMasque);
+        playerData.SetMasque(newMasque);
     }
     
     public void SetActiveMasque(MasqueType type)
@@ -53,9 +52,10 @@ public class PlayerCombat : MonoBehaviour
         return playerData.GetMasqueByType(type);
     }
 
-    public void BossKilled()
+    public void BossKilled(MasqueData reward)
     {
         playerData.BossKilled();
+        SwapMasque(reward);
     }
     
     public void Heal()

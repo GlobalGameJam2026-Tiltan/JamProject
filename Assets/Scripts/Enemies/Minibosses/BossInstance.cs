@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public class BossInstance : EnemyInstance
 {
     public override AttackOption Attack()

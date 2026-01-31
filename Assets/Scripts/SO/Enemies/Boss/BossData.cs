@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "BossData", menuName = "Scriptable Objects/BossData")]
 public class BossData : ScriptableObject

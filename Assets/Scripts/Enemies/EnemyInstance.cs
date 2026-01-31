@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using JetBrains.Annotations;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -8,10 +9,13 @@ public class EnemyInstance : MonoBehaviour
     [SerializeField] private EnemyData data;
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private Sprite[] bodyTypes;
+    [SerializeField] [CanBeNull] private MasqueData rewardMasque;
     private BodyType _bodyType;
     private SpriteRenderer _spriteRenderer;
     private EnemyAnimator _enemyAnimator;
     private Sprite _defaultMasque;
+    
+    public MasqueData RewardMasque => rewardMasque;
 
     public void RandomizeBodyType()
     {
