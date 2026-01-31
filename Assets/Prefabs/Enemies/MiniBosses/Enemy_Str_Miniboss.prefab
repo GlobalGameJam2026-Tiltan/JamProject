@@ -147,6 +147,7 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: 8a3324c824fce674192115e456ba728b, type: 2}
   audioSource: {fileID: 7486016676093762745}
   bodyTypes: []
+  rewardMasque: {fileID: 11400000, guid: 2ae0780bdcce18345ac614f00beb47e6, type: 2}
 --- !u!114 &-1481251892684986597
 MonoBehaviour:
   m_ObjectHideFlags: 0
