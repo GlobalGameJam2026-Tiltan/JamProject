@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9bea8267241184082930458ac6a6d5, type: 3}
   m_Name: InsanitySet
   m_EditorClassIdentifier: Assembly-CSharp::BodyAnimationSet
-  bodyType: 5
+  bodyType: 6
   grabFrames:
   - {fileID: -1502657146, guid: 44e3a5a07b8972b478fbc31bbfc605d1, type: 3}
   - {fileID: -1126085262, guid: 44e3a5a07b8972b478fbc31bbfc605d1, type: 3}
