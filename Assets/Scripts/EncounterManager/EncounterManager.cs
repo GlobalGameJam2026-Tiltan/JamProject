@@ -95,7 +95,7 @@ public class EncounterManager : MonoBehaviour
         
         encounterSo.activeEnemy.transform.localPosition = Vector3.zero;
         encounterSo.activeEnemyInstance = encounterSo.activeEnemy.GetComponent<EnemyInstance>();
-        encounterSo.activeEnemyInstance.GetData().health = encounterSo.activeEnemyInstance.GetData().maxHealth;
+        encounterSo.activeEnemyInstance.GetData().ResetEnemy();
         StartBattle();
     }
 
@@ -107,7 +107,7 @@ public class EncounterManager : MonoBehaviour
         encounterSo.activeEnemy.transform.localPosition = Vector3.zero;
         encounterSo.activeEnemyInstance = encounterSo.activeEnemy.GetComponent<EnemyInstance>();
         encounterSo.activeEnemyInstance.name = EnemyNames.GetRandomName();
-        encounterSo.activeEnemyInstance.GetData().health = encounterSo.activeEnemyInstance.GetData().maxHealth;
+        encounterSo.activeEnemyInstance.GetData().ResetEnemy();
         //encounterSo.activeEnemyInstance.RandomizeSprite();
     }
 
