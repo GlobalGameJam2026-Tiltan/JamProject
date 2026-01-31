@@ -5,5 +5,7 @@ public enum BodyType
     Green,
     Cyan,
     Purple,
-    Miniboss
+    Mayhem,
+    Insanity,
+    Anarchy
 }

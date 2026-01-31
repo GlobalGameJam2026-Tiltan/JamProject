@@ -50,6 +50,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0568844462e92394fa7090d135e9cd53, type: 2}
   - {fileID: 11400000, guid: 42575542bc396764fbd2968683c5ebfc, type: 2}
   - {fileID: 11400000, guid: f68d70bf819f48b4fbdb3bbca61932e4, type: 2}
+  - {fileID: 11400000, guid: 405ff36707d280c4a8f7033ff3d6558b, type: 2}
+  - {fileID: 11400000, guid: a8070e08352a7f5419bbeb2323cc1867, type: 2}
+  - {fileID: 11400000, guid: 5a85f6e2276404b4b84272a049793424, type: 2}
   maskAnimations:
   - {fileID: 11400000, guid: d7b50d121ad55514ca955749acfc2baa, type: 2}
   - {fileID: 11400000, guid: 83ca667785000104780cededb1db7736, type: 2}

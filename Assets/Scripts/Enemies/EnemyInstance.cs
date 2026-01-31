@@ -1,5 +1,7 @@
-using TMPro;
+using System;
+using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class EnemyInstance : MonoBehaviour
 {
@@ -12,7 +14,7 @@ public class EnemyInstance : MonoBehaviour
 
     public void RandomizeBodyType()
     {
-        _bodyType = (BodyType)Random.Range(0, (int)BodyType.Miniboss);
+        _bodyType = (BodyType)Random.Range(0, (int)BodyType.Mayhem);
         data.sprite = bodyTypes[(int)_bodyType];
     }
     
@@ -31,22 +33,12 @@ public class EnemyInstance : MonoBehaviour
         var attack = data.attacks[rnd];
         audioSource.PlayOneShot(attack.attackVoiceLine);
 
-        rnd = Random.Range(0, 2);
-        if (rnd == 0)
-        {
-            for (var i = 0; i < EnemyAnimationLibrary.Instance.GetBody(_bodyType).grabFrames.Length; i++)
-            {
-                _enemyAnimator.PlayGrab(i);
-            }
-        }
-        else
-        {
-            for (var i = 0; i < EnemyAnimationLibrary.Instance.GetBody(_bodyType).punchFrames.Length; i++)
-            {
-                _enemyAnimator.PlayPunch(i);
-            }
-        }
-        
+        var isGrab = Convert.ToBoolean(Random.Range(0, 2));
+
+        StartCoroutine(isGrab
+            ? PlayAnimation(EnemyAnimationLibrary.Instance.GetBody(_bodyType).grabFrames, true)
+            : PlayAnimation(EnemyAnimationLibrary.Instance.GetBody(_bodyType).punchFrames, false));
+
         return attack;
     }
     
@@ -67,5 +59,25 @@ public class EnemyInstance : MonoBehaviour
     public virtual void Die()
     {
         // TODO: add death logic (probably animation)
+    }
+    
+    private IEnumerator PlayAnimation(Sprite[] frames, bool isGrab)
+    {
+        if (isGrab)
+        {
+            for (var i = 0; i < frames.Length; i++)
+            {
+                _enemyAnimator.PlayGrab(i);
+            }
+        }
+        else
+        {
+            for (var i = 0; i < frames.Length; i++)
+            {
+                _enemyAnimator.PlayPunch(i);
+            }
+        }
+        
+        yield return new WaitForSeconds(1.0f);
     }
 }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 [CreateAssetMenu(fileName = "MasqueData", menuName = "Scriptable Objects/MasqueData")]
 public class MasqueData : ScriptableObject
@@ -27,30 +28,18 @@ public class MasqueData : ScriptableObject
         durability = maxDurability;
     }
 
-    public void LightAttack(AudioSource audioSource, SpriteRenderer playerSprite)
+    public void LightAttack(AudioSource audioSource)
     {
         audioSource.PlayOneShot(attacks[0].attackVoiceLine);
-        foreach (var frame in lightAttackAnim)
-        {
-            playerSprite.sprite = frame;
-        }
     }
 
-    public void MediumAttack(AudioSource audioSource, SpriteRenderer playerSprite)
+    public void MediumAttack(AudioSource audioSource)
     {
         audioSource.PlayOneShot(attacks[1].attackVoiceLine);
-        foreach (var frame in mediumAttackAnim)
-        {
-            playerSprite.sprite = frame;
-        }
     }
 
-    public void HeavyAttack(AudioSource audioSource, SpriteRenderer playerSprite)
+    public void HeavyAttack(AudioSource audioSource)
     {
         audioSource.PlayOneShot(attacks[2].attackVoiceLine);
-        foreach (var frame in hardAttackAnim)
-        {
-            playerSprite.sprite = frame;
-        }
     }
 }

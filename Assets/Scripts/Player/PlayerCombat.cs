@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using System.Linq;
 
@@ -106,7 +107,9 @@ public class PlayerCombat : MonoBehaviour
     {
         //Lock Buttons
         EncounterManager.Instance.PlayerAction();
-        playerData.GetActiveMasque().LightAttack(audioSource, _bodySpriteRenderer);
+        
+        playerData.GetActiveMasque().LightAttack(audioSource);
+        StartCoroutine(PlayAnimation(GetActiveMasque().lightAttackAnim));
         var currentMasque = playerData.GetActiveMasque();
         EncounterManager.Instance.AttackUsed(EntityType.Enemy,currentMasque.type, currentMasque.attacks[0]);
         playerData.EndAnimation();
@@ -115,7 +118,9 @@ public class PlayerCombat : MonoBehaviour
     public void AttackMedium()
     {
         EncounterManager.Instance.PlayerAction();
-        playerData.GetActiveMasque().MediumAttack(audioSource, _bodySpriteRenderer);
+        
+        playerData.GetActiveMasque().MediumAttack(audioSource);
+        StartCoroutine(PlayAnimation(GetActiveMasque().mediumAttackAnim));
         var currentMasque = playerData.GetActiveMasque();
         EncounterManager.Instance.AttackUsed(EntityType.Enemy,currentMasque.type, currentMasque.attacks[1]);
     }
@@ -123,7 +128,9 @@ public class PlayerCombat : MonoBehaviour
     public void AttackStrong()
     {
         EncounterManager.Instance.PlayerAction();
-        playerData.GetActiveMasque().HeavyAttack(audioSource, _bodySpriteRenderer);
+        
+        playerData.GetActiveMasque().HeavyAttack(audioSource);
+        StartCoroutine(PlayAnimation(GetActiveMasque().hardAttackAnim));
         var currentMasque = playerData.GetActiveMasque();
         EncounterManager.Instance.AttackUsed(EntityType.Enemy,currentMasque.type, currentMasque.attacks[2]);
     }
@@ -139,4 +146,16 @@ public class PlayerCombat : MonoBehaviour
     }
     
     public int BossesKilled => playerData.BossesKilled;
+    
+    private IEnumerator PlayAnimation(Sprite[] frames)
+    {
+        foreach (var frame in frames)
+        {
+            _bodySpriteRenderer.sprite = frame;
+        }
+        
+        _bodySpriteRenderer.sprite = playerData.defaultBackSprite;
+
+        yield return new WaitForSeconds(1.0f);
+    }
 }
