@@ -8,6 +8,7 @@ public class AttackOption : ScriptableObject
     public int damage;
     public float hitChance;
     public AudioClip attackVoiceLine;
+    public AudioClip bossAttackLine;
     
     public Color GetColorType()
     {
