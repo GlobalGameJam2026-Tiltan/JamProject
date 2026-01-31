@@ -4,7 +4,7 @@ using System.Collections.Generic;
 [CreateAssetMenu(fileName = "PlayerData", menuName = "Scriptable Objects/PlayerData")]
 public class PlayerData : ScriptableObject
 {
-    public string playerName = "Player";
+    public string playerName = "Esteban Himenez";
     public MasqueData[] masques = new MasqueData[3];
     public MasqueData[] baseMasques = new MasqueData[3];
     public Dictionary<MasqueType, int> PlayerStats = new()
@@ -37,9 +37,10 @@ public class PlayerData : ScriptableObject
             { MasqueType.Charisma, 1 }
         };
         
-        playerName = "Player";
+        playerName = "Esteban Himenez";
         _activeMasqueType = MasqueType.Strength;
-        _masqueSprite = masques[(int)_activeMasqueType].sprite;
+        _masqueSprite = baseMasques[0].sprite;
+        masques = baseMasques;
         BossesKilled = 0;
         backSprite = defaultBackSprite;
     }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba182d34730ddd43ad3807eb8d6d964, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: Assembly-CSharp::PlayerData
-  playerName: GameJammer
+  playerName: Esteban Himenez
   masques:
   - {fileID: 11400000, guid: 5f06172ff4e362945bd52b08cc505ef2, type: 2}
   - {fileID: 11400000, guid: 9b81452e8f8374a40bd7cc1650b0c865, type: 2}
