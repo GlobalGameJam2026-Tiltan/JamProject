@@ -86,6 +86,11 @@ public class PlayerCombat : MonoBehaviour
     {
         return playerData.PlayerStats[MasqueType.Strength] + playerData.PlayerStats[MasqueType.Intelligence] + playerData.PlayerStats[MasqueType.Charisma];
     }
+    
+    public int GetPlayerStrength(MasqueType type)
+    {
+        return playerData.PlayerStats[type];
+    }
 
     public bool TakeDamage(float damage)
     {

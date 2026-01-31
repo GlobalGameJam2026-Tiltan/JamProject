@@ -131,7 +131,9 @@ public class EncounterManager : MonoBehaviour
                     player.Unblock();
                     damage /= 2;
                 }
-                player.TakeDamage(damage);
+                var died = player.TakeDamage(damage);
+                if(died)
+                    SceneFader.instance.LoadSceneWithFade("GameOver");
             }
             else
             {
@@ -179,7 +181,7 @@ public class EncounterManager : MonoBehaviour
         }
         else
         {
-            modifier = ( damageModifier + player.GetPlayerDifficulty() ) / damageModifier;
+            modifier = ( damageModifier + player.GetPlayerStrength(player.GetActiveMasque().type) ) / damageModifier;
         }
         
         return attackDamage * modifier * GetMultiplier(target);
