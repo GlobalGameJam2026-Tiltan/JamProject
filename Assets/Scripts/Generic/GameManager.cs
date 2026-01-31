@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
 
     public void ResetGame()
     {
-        foreach (var planet in planets.Where(planet => planet.previousPlanet == _currentPlanet.planetName))
+        foreach (var planet in planets)
         {
             planet.ChangeState(PlanetState.Locked);
         }
@@ -74,7 +74,7 @@ public class GameManager : MonoBehaviour
     
     private PlanetData GetPlanet(string name)
     {
-        foreach (var planet in planets.Where(planet => planet.name == name))
+        foreach (var planet in planets.Where(planet => planet.planetName == name))
         {
             return planet;
         }
