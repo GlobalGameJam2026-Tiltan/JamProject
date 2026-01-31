@@ -6,13 +6,20 @@ using System.Collections; // Required for IEnumerator
 public class GameManager : MonoBehaviour
 {
     public List<PlanetData> planets;
+    private AudioSource audioSource;
+
     
     void Awake()
     {
         // This makes the GameObject this script is attached to persist across scenes
         DontDestroyOnLoad(this.gameObject);
     }
-
+    
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+    
     public void PlanetDefeated(string name)
     {
         // Changing state to defeated
@@ -30,6 +37,28 @@ public class GameManager : MonoBehaviour
         return planets.All(planet => planet.state == PlanetState.Defeated);
     }
     
+    // Public function to load a scene by name
+    public void SwitchToLevel(string sceneName)
+    {
+        SceneFader.instance.LoadSceneWithFade(sceneName);
+    }
+    
+    public void PlayMusic()
+    {
+        if (!audioSource.isPlaying)
+        {
+            audioSource.Play();
+        }
+    }
+  
+    public void StopMusic()
+    {
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
+    }
+    
     private PlanetData GetPlanet(string name)
     {
         foreach (var planet in planets.Where(planet => planet.name == name))
@@ -38,11 +67,5 @@ public class GameManager : MonoBehaviour
         }
 
         return null;
-    }
-    
-    // Public function to load a scene by name
-    public void SwitchToLevel(string sceneName)
-    {
-        SceneFader.instance.LoadSceneWithFade(sceneName);
     }
 }
