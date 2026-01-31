@@ -108,6 +108,7 @@ public class EncounterManager : MonoBehaviour
         encounterSo.activeEnemyInstance.name = EnemyNames.GetRandomName();
         encounterSo.activeEnemyInstance.GetData().ResetEnemy();
         encounterSo.activeEnemyInstance.RandomizeBodyType();
+        encounterSo.playerTurn = true;
     }
 
     private void StartBattle()
