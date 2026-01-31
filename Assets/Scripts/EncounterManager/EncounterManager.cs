@@ -108,7 +108,7 @@ public class EncounterManager : MonoBehaviour
         encounterSo.activeEnemyInstance = encounterSo.activeEnemy.GetComponent<EnemyInstance>();
         encounterSo.activeEnemyInstance.name = EnemyNames.GetRandomName();
         encounterSo.activeEnemyInstance.GetData().ResetEnemy();
-        //encounterSo.activeEnemyInstance.RandomizeSprite();
+        encounterSo.activeEnemyInstance.RandomizeBodyType();
     }
 
     private void StartBattle()

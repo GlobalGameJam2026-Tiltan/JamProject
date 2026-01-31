@@ -26,9 +26,9 @@ public class MasqueButton : MonoBehaviour
     {
         var activeMasque = EncounterManager.Instance.GetPlayer().GetActiveMasque();
         var isActive = activeMasque?.type == masqueType;
-        var isBroken = activeMasque?.durability > 0;
-        _button.enabled = !isActive && EncounterManager.Instance.PlayerTurn;
-
+        var isBroken = activeMasque?.durability <= 0;
+        _button.enabled = !isActive && EncounterManager.Instance.PlayerTurn && !isBroken;
+        
         _icon.sprite = EncounterManager.Instance.GetPlayer().GetMasqueByType(masqueType)?.swapIcon;
     }
 }

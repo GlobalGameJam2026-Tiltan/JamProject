@@ -11,11 +11,15 @@ public class EnemyInstance : MonoBehaviour
     private BodyType _bodyType;
     private SpriteRenderer _spriteRenderer;
     private EnemyAnimator _enemyAnimator;
+    private Sprite _defaultMasque;
 
     public void RandomizeBodyType()
     {
         _bodyType = (BodyType)Random.Range(0, (int)BodyType.Mayhem);
         data.sprite = bodyTypes[(int)_bodyType];
+        data.defaultSprite = data.sprite;
+        _defaultMasque = _enemyAnimator.GetMasqueRenderer().sprite;
+        _spriteRenderer.sprite = data.sprite;
     }
     
     public bool IsAlive => data.health > 0;
@@ -57,6 +61,8 @@ public class EnemyInstance : MonoBehaviour
         StartCoroutine(isGrab
             ? PlayAnimation(EnemyAnimationLibrary.Instance.GetBody(_bodyType).grabFrames, true)
             : PlayAnimation(EnemyAnimationLibrary.Instance.GetBody(_bodyType).punchFrames, false));
+        
+        
 
         return attack;
     }
@@ -77,12 +83,12 @@ public class EnemyInstance : MonoBehaviour
 
     public virtual void Die()
     {
-        // TODO: add death logic (probably animation)
+        audioSource.PlayOneShot(data.deathLine);
     }
     
     private IEnumerator PlayAnimation(Sprite[] frames, bool isGrab)
     {
-        var frameDelay = 0.1f; // tweak this
+        var frameDelay = 0.05f; // tweak this
 
         for (var i = 0; i < frames.Length; i++)
         {
@@ -93,5 +99,8 @@ public class EnemyInstance : MonoBehaviour
 
             yield return new WaitForSeconds(frameDelay);
         }
+        
+        _enemyAnimator.GetBodyRenderer().sprite = data.defaultSprite;
+        _enemyAnimator.GetMasqueRenderer().sprite = _defaultMasque;
     }
 }

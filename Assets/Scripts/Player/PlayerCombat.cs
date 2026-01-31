@@ -149,7 +149,7 @@ public class PlayerCombat : MonoBehaviour
     
     private IEnumerator PlayAnimation(Sprite[] frames)
     {
-        var frameDelay = 0.1f;
+        var frameDelay = 0.05f;
 
         foreach (var frame in frames)
         {
