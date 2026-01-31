@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Jaw Breaker
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 0
-  sprite: {fileID: 1202984965197363600, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: Jaw Breaker
   damage: 5
   hitChance: 1
+  attackVoiceLine: {fileID: 8300000, guid: aa9906bffdffb2142b16873e0ff5090c, type: 3}
+  bossAttackLine: {fileID: 0}

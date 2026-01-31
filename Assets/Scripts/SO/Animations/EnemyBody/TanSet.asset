@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9bea8267241184082930458ac6a6d5, type: 3}
+  m_Name: TanSet
+  m_EditorClassIdentifier: Assembly-CSharp::BodyAnimationSet
+  bodyType: 0
+  grabFrames:
+  - {fileID: -7046808015881730682, guid: 33d977f1f5fce094eb366099a89d1897, type: 3}
+  - {fileID: -4792456487182000077, guid: 33d977f1f5fce094eb366099a89d1897, type: 3}
+  - {fileID: -105830087962854801, guid: 33d977f1f5fce094eb366099a89d1897, type: 3}
+  - {fileID: 3746780767198310412, guid: 33d977f1f5fce094eb366099a89d1897, type: 3}
+  punchFrames:
+  - {fileID: -8483442546125212571, guid: 33d977f1f5fce094eb366099a89d1897, type: 3}
+  - {fileID: 3757541003938941095, guid: 33d977f1f5fce094eb366099a89d1897, type: 3}
+  - {fileID: -3283701129353547100, guid: 33d977f1f5fce094eb366099a89d1897, type: 3}

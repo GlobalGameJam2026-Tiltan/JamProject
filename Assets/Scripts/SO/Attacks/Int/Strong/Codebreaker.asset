@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Codebreaker
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 1
-  sprite: {fileID: -8179040606652740800, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: Codebreaker
   damage: 5
   hitChance: 1
+  attackVoiceLine: {fileID: 8300000, guid: d975d3091f31fec43ac3b1ee10f95e4b, type: 3}
+  bossAttackLine: {fileID: 0}

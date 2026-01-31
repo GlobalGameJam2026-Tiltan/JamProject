@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec4c5eb60f38b84d8363bfab5fced3a, type: 3}
+  m_Name: IntSet
+  m_EditorClassIdentifier: Assembly-CSharp::MasqueAnimationSet
+  masqueType: 1
+  grabFrames:
+  - {fileID: 8858176721740134864, guid: b0988aed576677046914f64c40bb16b5, type: 3}
+  - {fileID: 5703901869126681071, guid: b0988aed576677046914f64c40bb16b5, type: 3}
+  - {fileID: -617247557246381475, guid: b0988aed576677046914f64c40bb16b5, type: 3}
+  - {fileID: -5212436590303289046, guid: b0988aed576677046914f64c40bb16b5, type: 3}
+  punchFrames:
+  - {fileID: -7358002111225525577, guid: b0988aed576677046914f64c40bb16b5, type: 3}
+  - {fileID: 7578810693302786981, guid: b0988aed576677046914f64c40bb16b5, type: 3}
+  - {fileID: -4372541327138541735, guid: b0988aed576677046914f64c40bb16b5, type: 3}

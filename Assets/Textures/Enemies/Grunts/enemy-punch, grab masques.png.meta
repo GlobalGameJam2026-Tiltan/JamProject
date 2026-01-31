@@ -299,7 +299,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy-punch, grab masks_0
+      name: str_punch0
       rect:
         serializedVersion: 2
         x: 0
@@ -321,7 +321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_1
+      name: str_punch1
       rect:
         serializedVersion: 2
         x: 64
@@ -343,7 +343,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_2
+      name: str_punch2
       rect:
         serializedVersion: 2
         x: 128
@@ -365,7 +365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_3
+      name: int_punch0
       rect:
         serializedVersion: 2
         x: 0
@@ -387,7 +387,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_4
+      name: int_punch1
       rect:
         serializedVersion: 2
         x: 64
@@ -409,7 +409,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_5
+      name: int_punch2
       rect:
         serializedVersion: 2
         x: 128
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_6
+      name: cha_punch0
       rect:
         serializedVersion: 2
         x: 0
@@ -453,7 +453,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_7
+      name: cha_punch1
       rect:
         serializedVersion: 2
         x: 64
@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_8
+      name: cha_punch2
       rect:
         serializedVersion: 2
         x: 128
@@ -497,7 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_9
+      name: str_grab0
       rect:
         serializedVersion: 2
         x: 0
@@ -519,7 +519,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_10
+      name: str_grab1
       rect:
         serializedVersion: 2
         x: 64
@@ -541,7 +541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_11
+      name: str_grab2
       rect:
         serializedVersion: 2
         x: 128
@@ -563,7 +563,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_12
+      name: str_grab3
       rect:
         serializedVersion: 2
         x: 192
@@ -585,7 +585,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_13
+      name: int_grab0
       rect:
         serializedVersion: 2
         x: 0
@@ -607,7 +607,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_14
+      name: int_grab1
       rect:
         serializedVersion: 2
         x: 64
@@ -629,7 +629,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_15
+      name: int_grab2
       rect:
         serializedVersion: 2
         x: 128
@@ -651,7 +651,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_16
+      name: int_grab3
       rect:
         serializedVersion: 2
         x: 192
@@ -673,7 +673,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_17
+      name: cha_grab0
       rect:
         serializedVersion: 2
         x: 0
@@ -695,7 +695,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_18
+      name: cha_grab1
       rect:
         serializedVersion: 2
         x: 64
@@ -717,7 +717,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_19
+      name: cha_grab2
       rect:
         serializedVersion: 2
         x: 128
@@ -739,7 +739,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy-punch, grab masks_20
+      name: cha_grab3
       rect:
         serializedVersion: 2
         x: 192
@@ -776,27 +776,27 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":6.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      enemy-punch, grab masks_0: -1641761554260747420
-      enemy-punch, grab masks_1: -1680999683322376027
-      enemy-punch, grab masks_10: 4285505782560717760
-      enemy-punch, grab masks_11: -533493927223854769
-      enemy-punch, grab masks_12: -4877435169443045225
-      enemy-punch, grab masks_13: 8858176721740134864
-      enemy-punch, grab masks_14: 5703901869126681071
-      enemy-punch, grab masks_15: -617247557246381475
-      enemy-punch, grab masks_16: -5212436590303289046
-      enemy-punch, grab masks_17: -6853427513730811981
-      enemy-punch, grab masks_18: -8149880896251332741
-      enemy-punch, grab masks_19: 6951416907359279692
-      enemy-punch, grab masks_2: 6762331321352827600
-      enemy-punch, grab masks_20: -5242080395146486736
-      enemy-punch, grab masks_3: -7358002111225525577
-      enemy-punch, grab masks_4: 7578810693302786981
-      enemy-punch, grab masks_5: -4372541327138541735
-      enemy-punch, grab masks_6: -4173982856286798241
-      enemy-punch, grab masks_7: -6437768767561897398
-      enemy-punch, grab masks_8: -4189187146769184564
-      enemy-punch, grab masks_9: -8327433719756185544
+      cha_grab0: -6853427513730811981
+      cha_grab1: -8149880896251332741
+      cha_grab2: 6951416907359279692
+      cha_grab3: -5242080395146486736
+      cha_punch0: -4173982856286798241
+      cha_punch1: -6437768767561897398
+      cha_punch2: -4189187146769184564
+      int_grab0: 8858176721740134864
+      int_grab1: 5703901869126681071
+      int_grab2: -617247557246381475
+      int_grab3: -5212436590303289046
+      int_punch0: -7358002111225525577
+      int_punch1: 7578810693302786981
+      int_punch2: -4372541327138541735
+      str_grab0: -8327433719756185544
+      str_grab1: 4285505782560717760
+      str_grab2: -533493927223854769
+      str_grab3: -4877435169443045225
+      str_punch0: -1641761554260747420
+      str_punch1: -1680999683322376027
+      str_punch2: 6762331321352827600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

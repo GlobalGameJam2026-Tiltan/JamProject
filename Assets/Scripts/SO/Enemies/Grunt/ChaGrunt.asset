@@ -21,3 +21,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 58fb8701d3ae6ce4587aee14179668bd, type: 2}
   - {fileID: 11400000, guid: cf1c2fe7d86ae4b4d9958a7849acad0a, type: 2}
   - {fileID: 11400000, guid: e90e8b05b126e6e4780bbdd15e8c4abf, type: 2}
+  bodyType: 0
+  idleLines: []
+  deathLine: {fileID: 8300000, guid: 1de05bada317c334ebff7621572c498d, type: 3}

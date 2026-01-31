@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Darkness Buster
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 2
-  sprite: {fileID: 5681967267464321869, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: Darkness Buster
   damage: 4
   hitChance: 1
+  attackVoiceLine: {fileID: 8300000, guid: 2f3dfb2add947a74089e24f39e121472, type: 3}
+  bossAttackLine: {fileID: 0}

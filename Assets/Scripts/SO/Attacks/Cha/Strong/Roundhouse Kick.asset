@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Roundhouse Kick
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 2
-  sprite: {fileID: 9151725625850188775, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: Roundhouse Kick
   damage: 35
   hitChance: 0.25
+  attackVoiceLine: {fileID: 8300000, guid: 6ccccad47efd21b4083e27669a726638, type: 3}
+  bossAttackLine: {fileID: 0}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 873382384532341382}
   - component: {fileID: 8638777973025583964}
   - component: {fileID: 3226937842950419378}
+  - component: {fileID: -8799156405535798242}
   m_Layer: 0
   m_Name: Enemy_Str_Grunt
   m_TagString: Enemy
@@ -146,6 +147,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyInstance
   data: {fileID: 11400000, guid: 7f101d4746a3f1946b34b58a981bd4f4, type: 2}
   audioSource: {fileID: 8638777973025583964}
+  bodyTypes:
+  - {fileID: 6419001305283621282, guid: 7ab1f5ccdb9a936488e933e956e54d7b, type: 3}
+  - {fileID: -4972701422127622719, guid: 7ab1f5ccdb9a936488e933e956e54d7b, type: 3}
+  - {fileID: 7758400759328590145, guid: 7ab1f5ccdb9a936488e933e956e54d7b, type: 3}
+  - {fileID: 6440987454338136359, guid: 7ab1f5ccdb9a936488e933e956e54d7b, type: 3}
+  - {fileID: -7996725979224044056, guid: 7ab1f5ccdb9a936488e933e956e54d7b, type: 3}
+--- !u!114 &-8799156405535798242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4178846704546247719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef3008a3e15a2944a066b212e3d6871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimator
+  bodyRenderer: {fileID: 3441850490673545790}
+  maskRenderer: {fileID: 5866098008737384281}
 --- !u!1 &5353032185259461177
 GameObject:
   m_ObjectHideFlags: 0

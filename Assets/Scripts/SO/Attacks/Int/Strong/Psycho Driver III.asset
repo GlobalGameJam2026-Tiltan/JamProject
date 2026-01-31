@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Psycho Driver III
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 1
-  sprite: {fileID: 3434086634727231013, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: Psycho Driver III
   damage: 25
   hitChance: 0.35
+  attackVoiceLine: {fileID: 8300000, guid: ba0ada78eec678e41be7a8e950b2a633, type: 3}
+  bossAttackLine: {fileID: 0}

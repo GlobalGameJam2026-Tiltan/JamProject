@@ -54,3 +54,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2b840ebd8ae721d4c9634f142aa8e56a, type: 2}
   - {fileID: 11400000, guid: 209c9c0ed67f5b649bc5d25e23265796, type: 2}
   - {fileID: 11400000, guid: 81a904d9d1d0bb644a0663670a15756a, type: 2}
+  punchAnimation:
+  - {fileID: 8186474203685604598, guid: 34edf434f7547db47aebe64be89d3489, type: 3}
+  - {fileID: 8955827285123265383, guid: 34edf434f7547db47aebe64be89d3489, type: 3}
+  - {fileID: -943922136503306186, guid: 34edf434f7547db47aebe64be89d3489, type: 3}
+  - {fileID: -1909087210789531665, guid: 34edf434f7547db47aebe64be89d3489, type: 3}
+  grabAnimation:
+  - {fileID: -3428205557139965601, guid: 34edf434f7547db47aebe64be89d3489, type: 3}
+  - {fileID: 6117302968261047196, guid: 34edf434f7547db47aebe64be89d3489, type: 3}
+  - {fileID: -5300095670432509247, guid: 34edf434f7547db47aebe64be89d3489, type: 3}
+  - {fileID: -1506301238336181147, guid: 34edf434f7547db47aebe64be89d3489, type: 3}
+  idleLines: []
+  deathLine: {fileID: 8300000, guid: 1de05bada317c334ebff7621572c498d, type: 3}
