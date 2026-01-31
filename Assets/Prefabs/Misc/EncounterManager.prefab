@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8732083800063074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7643027688236100426}
+  - component: {fileID: 7278059432581661328}
+  m_Layer: 0
+  m_Name: EncounterManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7643027688236100426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8732083800063074}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.1028, y: -10.34234, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7278059432581661328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8732083800063074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e5a78e2bdfbd4cecb867fd7720935b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EncounterManager
+  encounterSo: {fileID: 11400000, guid: 441b2d8dfd8144b5b8df2f078ce69822, type: 2}
+  gruntEnemies:
+  - {fileID: 7490395153097973516, guid: db3df4b53e7169d43bd5744e1555662d, type: 3}
+  - {fileID: 4044934817022211930, guid: 0a0d6647002298246b5e9dfd470b8bdb, type: 3}
+  - {fileID: 4178846704546247719, guid: 3eebec043f80adf4aa65343b8ede7af2, type: 3}
+  strength: {fileID: 2850994839371112781, guid: 1efb20772c1398d4dadfa4b6aa8d321c, type: 3}
+  intelligence: {fileID: 3543724783388566253, guid: 9ee27bcc96d48fd4c88044c5a9412406, type: 3}
+  charisma: {fileID: 4339239241876310302, guid: 9308aeb8c02f9da479f070a59307afec, type: 3}
+  boss: {fileID: 4870273256491586609, guid: b0441c96b8bbf914d87aa7f8f14e5b2b, type: 3}
+  damageModifier: 10
+  strengthMultiplier: 1.5
+  weaknessMultiplier: 0.5

@@ -34,6 +34,16 @@ public class GameManager : MonoBehaviour
         SceneFader.instance.LoadSceneWithFade("Map");
     }
 
+    public void ResetGame()
+    {
+        foreach (var planet in planets.Where(planet => planet.previousPlanet == _currentPlanet.planetName))
+        {
+            planet.ChangeState(PlanetState.Locked);
+        }
+        GetPlanet("StartPlanet").ChangeState(PlanetState.Open);
+        GetPlanet("El Gigolo De Goma").ChangeState(PlanetState.Open);
+    }
+
     public bool IsAllPlanetsDefeated()
     {
         return planets.All(planet => planet.state == PlanetState.Defeated);

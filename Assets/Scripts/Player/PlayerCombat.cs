@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections.Generic;
 using System.Linq;
 
 public class PlayerCombat : MonoBehaviour
@@ -11,7 +10,8 @@ public class PlayerCombat : MonoBehaviour
     private void Awake()
     {
         var renderers = GetComponentsInChildren<SpriteRenderer>();
-        _masqueSpriteRenderer = renderers.First(x => x.name == "Masque");
+        if(renderers.Length > 1)
+            _masqueSpriteRenderer = renderers.First(x => x.name == "Masque");
     }
     
     public bool IsBlocking { get; private set; }
