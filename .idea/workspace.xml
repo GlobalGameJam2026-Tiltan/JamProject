@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ebc3c161-cf0b-4723-8af9-8b42237efe0d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Misc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Misc/EnemyAnimationLibrary.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Misc/EnemyAnimationLibrary.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAnimationLibrary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAnimationLibrary.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Minibosses/BossInstance.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Minibosses/BossInstance.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/BodyType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/BodyType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/AnarchySet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/AnarchySet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/BodyAnimationSet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/BodyAnimationSet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/CyanSet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/CyanSet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/GreenSet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/GreenSet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/InsanitySet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/InsanitySet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/MayhemSet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/MayhemSet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/PurpleSet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/PurpleSet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/RedSet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/RedSet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/TanSet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyBody/TanSet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyMasque.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyMasque/ChaSet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyMasque/ChaSet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyMasque/IntSet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyMasque/IntSet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyMasque/MasqueAnimationSet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyMasque/MasqueAnimationSet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyMasque/StrSet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Animations/EnemyMasque/StrSet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Soundeffects/Clapping sounds.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Soundeffects/Clapping sounds.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Soundeffects/Player_Hurt.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Soundeffects/Player_Hurt.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Boss.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Boss/Attacks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Boss/Idle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/AceCrucher.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/AceCrucher.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/BrainBuster.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/BrainBuster.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/DragonSleeper.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/DragonSleeper.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/Hurracarrana.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/Hurracarrana.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/LaGuillotina.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/LaGuillotina.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/Lariat.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/Lariat.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/OneWingedAngel.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/OneWingedAngel.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/PsychoDriver.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/PsychoDriver.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/SunsetFlip.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Attacks/SunsetFlip.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/Grunts/Idle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/Codebreaker.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/Codebreaker.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/DarknessBuster.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/DarknessBuster.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/DragonSuplex.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/DragonSuplex.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/JawBreaker.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/JawBreaker.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/LaDinosauria.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/LaDinosauria.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/PhantomLariat.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/PhantomLariat.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/PsychoDriver3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/PsychoDriver3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/RoundhouseKick.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/RoundhouseKick.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/SunsetFlipPowerBomb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Attacks/SunsetFlipPowerBomb.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/AnarchyIdle1_Yahti.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/AnarchyIdle1_Yahti.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/AnarchyIdle2_Pachpachul.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/AnarchyIdle2_Pachpachul.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/AnarchyIdle3_Zayan.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/AnarchyIdle3_Zayan.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/InsanityIdle1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/InsanityIdle1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/InsanityIdle2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/InsanityIdle2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/InsanityIdle3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/InsanityIdle3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/MayhemIdle1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/MayhemIdle1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/MayhemIdle2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/MayhemIdle2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/MayhemIdle3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/MInibosses/Idle/MayhemIdle3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/WilhelmScream.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/VoiceLines/WilhelmScream.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Boss/final boss idle animation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Boss/final boss idle animation.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Grunts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/AnarchyAnimations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/AnarchyAnimations.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/AnarchyBase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/AnarchyBase.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/InsanityAnimations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/InsanityAnimations.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/InsanityBase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/InsanityBase.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/MayhemAnimations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/MayhemAnimations.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/MayhemBase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/MayhemBase.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/Mini Boss idle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/Mini Boss idle/mini boss blue headache.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/Mini Boss idle/mini boss blue headache.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/Mini Boss idle/mini boss purple twerking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/Mini Boss idle/mini boss red rage-Sheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Player/GoldenChicksSheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Player/GoldenChicksSheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Boss/Enemy_Boss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Boss/Enemy_Boss.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Grunts/Enemy_Cha_Grunt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Grunts/Enemy_Cha_Grunt.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Grunts/Enemy_Int_Grunt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Grunts/Enemy_Int_Grunt.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Grunts/Enemy_Str_Grunt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Grunts/Enemy_Str_Grunt.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/MiniBosses/Enemy_Cha_Miniboss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/MiniBosses/Enemy_Cha_Miniboss.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/MiniBosses/Enemy_Int_Miniboss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/MiniBosses/Enemy_Int_Miniboss.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/MiniBosses/Enemy_Str_Miniboss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/MiniBosses/Enemy_Str_Miniboss.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EncounterTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EncounterTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyInstance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyInstance.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/AttackOption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/AttackOption.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Cha/Basic/Huracarrana.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Cha/Basic/Huracarrana.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Cha/Basic/One Winged Angel.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Cha/Basic/One Winged Angel.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Cha/Basic/Sunset Flip.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Cha/Basic/Sunset Flip.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Cha/Strong/Darkness Buster.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Cha/Strong/Darkness Buster.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Cha/Strong/Roundhouse Kick.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Cha/Strong/Roundhouse Kick.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Cha/Strong/Sunset Flip Power Bomb.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Cha/Strong/Sunset Flip Power Bomb.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Int/Basic/Brain Blaster.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Int/Basic/Brain Blaster.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Int/Basic/Dragon Sleeper.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Int/Basic/Dragon Sleeper.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Int/Basic/Psycho Driver.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Int/Basic/Psycho Driver.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Int/Strong/Codebreaker.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Int/Strong/Codebreaker.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Int/Strong/Dragon Suplex.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Int/Strong/Dragon Suplex.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Int/Strong/Psycho Driver III.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Int/Strong/Psycho Driver III.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Str/Basic/Ace Crusher.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Str/Basic/Ace Crusher.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Str/Basic/La Guillotina.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Str/Basic/La Guillotina.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Str/Basic/Lariat.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Str/Basic/Lariat.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Str/Strong/Jaw Breaker.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Str/Strong/Jaw Breaker.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Str/Strong/La Dinosauria.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Str/Strong/La Dinosauria.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Str/Strong/Phantom Lariat.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Attacks/Str/Strong/Phantom Lariat.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Boss/BossData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Boss/BossData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Boss/BossData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Boss/BossData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/EnemyData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/EnemyData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Grunt/ChaGrunt.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Grunt/ChaGrunt.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Grunt/IntGrunt.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Grunt/IntGrunt.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Grunt/StrGrunt.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Grunt/StrGrunt.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Miniboss/ChaMiniboss.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Miniboss/ChaMiniboss.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Miniboss/IntMiniboss.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Miniboss/IntMiniboss.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Miniboss/StrMiniboss.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Enemies/Miniboss/StrMiniboss.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/Player/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/Player/PlayerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/Boss/boss punch, grab.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Boss/boss punch, grab.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/mini boss body punch, grab sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/mini boss body punch, grab sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/Mini Boss idle/mini boss purple twerking.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/mini boss masks punch, grab sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/mini boss masks punch, grab sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/mini boss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/mini boss.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Minibosses/Mini Boss idle/mini boss red rage-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/enemy-punch, grab masks.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Grunts/enemy-punch, grab masques.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/enemy-punch, grab masks.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Grunts/enemy-punch, grab masques.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/enemy-punch, grab.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Grunts/enemy-punch, grab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/enemy-punch, grab.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Grunts/enemy-punch, grab.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/enemy-sheet-base-masque.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Grunts/enemy-sheet-base-masque.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/enemy-sheet-base-masque.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Grunts/enemy-sheet-base-masque.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/enemy-sheet-base.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Grunts/enemy-sheet-base.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemies/enemy-sheet-base.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemies/Grunts/enemy-sheet-base.png.meta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="391Sf3d5ZakZeO4V3IQqPlxWw4K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "Merging Encounter__System",
+    "junie.onboarding.icon.badge.shown": "true",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-3944b0c99280-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebc3c161-cf0b-4723-8af9-8b42237efe0d" name="Changes" comment="" />
+      <created>1769862186730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769862186730</updated>
+    </task>
+    <servers />
+  </component>
+</project>
