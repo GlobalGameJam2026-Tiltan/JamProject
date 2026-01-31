@@ -71,4 +71,5 @@ public class EnemyAnimator : MonoBehaviour
     }
     
     public SpriteRenderer GetBodyRenderer() => bodyRenderer;
+    public SpriteRenderer GetMasqueRenderer() => masqueRenderer;
 }

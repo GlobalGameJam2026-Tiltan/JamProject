@@ -11,12 +11,15 @@ public class EnemyInstance : MonoBehaviour
     private BodyType _bodyType;
     private SpriteRenderer _spriteRenderer;
     private EnemyAnimator _enemyAnimator;
+    private Sprite _defaultMasque;
 
     public void RandomizeBodyType()
     {
         _bodyType = (BodyType)Random.Range(0, (int)BodyType.Mayhem);
         data.sprite = bodyTypes[(int)_bodyType];
         data.defaultSprite = data.sprite;
+        _defaultMasque = _enemyAnimator.GetMasqueRenderer().sprite;
+        _spriteRenderer.sprite = data.sprite;
     }
     
     public bool IsAlive => data.health > 0;
@@ -98,5 +101,6 @@ public class EnemyInstance : MonoBehaviour
         }
         
         _enemyAnimator.GetBodyRenderer().sprite = data.defaultSprite;
+        _enemyAnimator.GetMasqueRenderer().sprite = _defaultMasque;
     }
 }
