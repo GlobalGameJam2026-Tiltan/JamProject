@@ -136,6 +136,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 102900000, guid: edfa713e7f0da4174b11a3b1b9eb6dc5, type: 3}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: a33061b03b18a5447baaf5558b9beb8f, type: 2}
@@ -273,6 +277,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: GoToLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 102900000, guid: edfa713e7f0da4174b11a3b1b9eb6dc5, type: 3}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
@@ -600,6 +608,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 102900000, guid: edfa713e7f0da4174b11a3b1b9eb6dc5, type: 3}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: 3a4ae125196825240a398929431b703c, type: 2}
@@ -721,6 +733,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 102900000, guid: edfa713e7f0da4174b11a3b1b9eb6dc5, type: 3}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: e66aa892e40915841a50d6e96bcb8ab2, type: 2}
@@ -819,6 +835,51 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5141956342652849260, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
   m_PrefabInstance: {fileID: 6214515185453906736}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &878264665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 878264667}
+  - component: {fileID: 878264666}
+  m_Layer: 0
+  m_Name: EncounterManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &878264666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878264665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e5a78e2bdfbd4cecb867fd7720935b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EncounterManager
+  gruntEnemies: []
+--- !u!4 &878264667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878264665}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.01886, y: 5.99983, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &919270154
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,6 +975,10 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 102900000, guid: edfa713e7f0da4174b11a3b1b9eb6dc5, type: 3}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
@@ -1108,6 +1173,10 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 102900000, guid: edfa713e7f0da4174b11a3b1b9eb6dc5, type: 3}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
@@ -1329,6 +1398,10 @@ PrefabInstance:
       value: El Gigolo De Goma
       objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 102900000, guid: edfa713e7f0da4174b11a3b1b9eb6dc5, type: 3}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: 7b2a79b1a1e2f3542bd11fb132597951, type: 2}
@@ -1438,6 +1511,10 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 102900000, guid: edfa713e7f0da4174b11a3b1b9eb6dc5, type: 3}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
@@ -1549,6 +1626,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 102900000, guid: edfa713e7f0da4174b11a3b1b9eb6dc5, type: 3}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: 4f921ea66d73b4246b391c20276c6bdd, type: 2}
@@ -1659,6 +1740,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 102900000, guid: edfa713e7f0da4174b11a3b1b9eb6dc5, type: 3}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: 80a7efb0cd52b7f4bb90518a36b77f02, type: 2}
@@ -1768,6 +1853,10 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 102900000, guid: edfa713e7f0da4174b11a3b1b9eb6dc5, type: 3}
     - target: {fileID: 4555197937358764194, guid: 8967f26d844cd4649ae7c8057e23e793, type: 3}
       propertyPath: planet
       value: 
@@ -1971,3 +2060,4 @@ SceneRoots:
   - {fileID: 1047679276}
   - {fileID: 1446837362}
   - {fileID: 919270157}
+  - {fileID: 878264667}

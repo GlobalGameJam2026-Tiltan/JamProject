@@ -46,7 +46,9 @@ public class Planet : MonoBehaviour
     {
         if (this.planet.state == PlanetState.Open)
         {
-            this.gameManager.SwitchToLevel(this.level.name.ToString());
+            //this.gameManager.SwitchToLevel(this.level.name.ToString());
+            if(!isBossPlanet)
+                EncounterManager.Instance.StartRandomEncounter();
         }
     }
 }

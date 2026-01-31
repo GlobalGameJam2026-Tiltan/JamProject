@@ -6,37 +6,27 @@ public class EncounterManager : MonoBehaviour
 {
     public static EncounterManager Instance;
 
-    private EnemyInstance _activeEnemy;
-    private GameObject _activeEnemyGameObject;
-    private PlayerCombat player;
+    [SerializeField] private EncounterSo encounterSo;
     [SerializeField] private GameObject[] gruntEnemies;
-    private bool _isBossEncounter;
-    private bool _inBattle;
-    public bool PlayerTurn { get; private set; }
-    private int _enemiesLeft;
+    [SerializeField] private GameObject strength;
+    [SerializeField] private GameObject intelligence;
+    [SerializeField] private GameObject charisma;
+    [SerializeField] private GameObject boss;
+    private PlayerCombat player;
+    public bool PlayerTurn => encounterSo.playerTurn;
     private GameObject _enemySpawn;
+    private GameManager _gameManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected void Awake()
     {
         Instance = this;
-        
-        //TODO - For Testing
-        FindPlayer();
-        StartRandomEncounter();
-    }
-
-    protected void Update()
-    {
-        if (_inBattle)
-        {
-            //now check if an animation is in progress
-        }
+        _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     public void PlayerAction()
     {
-        PlayerTurn = false;
+        encounterSo.playerTurn = false;
     }
 
     public void FindPlayer()
@@ -45,14 +35,14 @@ public class EncounterManager : MonoBehaviour
     }
 
     public PlayerCombat GetPlayer() => player;
-    public EnemyInstance GetEnemy() => _activeEnemy;
+    public EnemyInstance GetEnemy() => encounterSo.activeEnemyInstance;
 
     public void StartRandomEncounter()
     {
-         _enemySpawn = GameObject.FindGameObjectWithTag("Enemy");
-        _isBossEncounter = false;
+        _enemySpawn = GameObject.FindGameObjectWithTag("Enemy");
+        encounterSo.encounterType = EncounterType.Random;
         //Roll a random enemy
-        _enemiesLeft = player.BossesKilled;
+        encounterSo.remainingEnemies = player.BossesKilled;
         SpawnRandomEnemy();
 
         StartBattle();
@@ -62,28 +52,36 @@ public class EncounterManager : MonoBehaviour
     {
         var grunt = gruntEnemies[Random.Range(0, gruntEnemies.Length)];
 
-        _activeEnemyGameObject = Instantiate(grunt, _enemySpawn.transform);
-        _activeEnemyGameObject.transform.localPosition = Vector3.zero;
-        _activeEnemy = _activeEnemyGameObject.GetComponent<EnemyInstance>();
-        _activeEnemy.name = EnemyNames.GetRandomName();
-        _activeEnemy.GetData().health = _activeEnemy.GetData().maxHealth;
-        _activeEnemy.RandomizeSprite();
+        encounterSo.activeEnemy = Instantiate(grunt, _enemySpawn.transform);
+        encounterSo.activeEnemy.transform.localPosition = Vector3.zero;
+        encounterSo.activeEnemyInstance = encounterSo.activeEnemy.GetComponent<EnemyInstance>();
+        encounterSo.activeEnemyInstance.name = EnemyNames.GetRandomName();
+        encounterSo.activeEnemyInstance.GetData().health = encounterSo.activeEnemyInstance.GetData().maxHealth;
+        encounterSo.activeEnemyInstance.RandomizeSprite();
     }
 
-    public void StartMiniBossEncounter(EnemyInstance enemy)
+    public void StartMiniBossEncounter(EncounterType encounterType)
     {
         _enemySpawn = GameObject.FindGameObjectWithTag("Enemy");
-        _isBossEncounter = false;
-        _activeEnemy = enemy;
-        _enemiesLeft = 0;
+        encounterSo.encounterType = encounterType;
+        encounterSo.activeEnemy = encounterSo.encounterType switch
+        {
+            EncounterType.Strength => Instantiate(strength, _enemySpawn.transform),
+            EncounterType.Intelligence => Instantiate(intelligence, _enemySpawn.transform),
+            EncounterType.Charisma => Instantiate(charisma, _enemySpawn.transform)
+        };
+        encounterSo.activeEnemy.transform.localPosition = Vector3.zero;
+        encounterSo.activeEnemyInstance = encounterSo.activeEnemy.GetComponent<EnemyInstance>();
+        encounterSo.activeEnemyInstance.GetData().health = encounterSo.activeEnemyInstance.GetData().maxHealth;
+        encounterSo.remainingEnemies = 0;
         StartBattle();
     }
 
     private void StartBattle()
     {
-        _inBattle = true;
-        PlayerTurn = true;
-        //TODO - ???
+        encounterSo.inBattle = true;
+        encounterSo.playerTurn = true;
+        SceneFader.instance.LoadSceneWithFade("Encounter");
     }
 
     public void AttackUsed(EntityType target, MasqueType attackType, AttackOption attack)
@@ -99,26 +97,28 @@ public class EncounterManager : MonoBehaviour
             }
             else
             {
-                _activeEnemy.TakeDamage(damage);
+                encounterSo.activeEnemyInstance.TakeDamage(damage);
             }
         }
 
-        var attackerName = target == EntityType.Enemy ? player.name : _activeEnemy.name;
-        var targetName =
-            _isBossEncounter ? "" :
-            target == EntityType.Player ? player.name : _activeEnemy.name;
+        var attackerName = target == EntityType.Enemy ? player.name : encounterSo.activeEnemyInstance.name;
+        var targetName = target == EntityType.Player ? player.name : encounterSo.activeEnemyInstance.name;
         ShowResultScreen(hit, attack.attackName, attackerName, targetName);
 
         if (target == EntityType.Enemy)
         {
-            if(_activeEnemy.IsAlive)
+            if (encounterSo.activeEnemyInstance.IsAlive)
                 StartCoroutine(EnemyTurn());
             else
             {
-                if (_enemiesLeft > 0)
+                if (encounterSo.remainingEnemies > 0)
                 {
-                    _enemiesLeft--;
+                    encounterSo.remainingEnemies--;
                     SpawnRandomEnemy();
+                }
+                else
+                {
+                    //_gameManager.PlanetDefeated();
                 }
             }
         }
@@ -126,7 +126,12 @@ public class EncounterManager : MonoBehaviour
 
     private float CalculateDamage(EntityType target, int attackDamage)
     {
-        //TODO - Calculate Damage
+        //each point adds 10% damage
+        if (target == EntityType.Player)
+        {
+            //player.
+        }
+        
         return attackDamage;
     }
 
@@ -149,13 +154,13 @@ public class EncounterManager : MonoBehaviour
     {
         //first wait 1 second
         yield return new WaitForSeconds(1.0f);
-        
-        var attack = _activeEnemy.Attack();
-        
-        AttackUsed(EntityType.Player,_activeEnemy.GetMasqueType(),attack);
-        
+
+        //var attack = _activeEnemy.Attack();
+
+        //AttackUsed(EntityType.Player, _activeEnemy.GetMasqueType(), attack);
+
         //now wait 1 second before returning to player turn
         yield return new WaitForSeconds(1.0f);
-        PlayerTurn = true;
+        //PlayerTurn = true;
     }
 }
