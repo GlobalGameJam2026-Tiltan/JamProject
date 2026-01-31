@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9bea8267241184082930458ac6a6d5, type: 3}
   m_Name: AnarchySet
   m_EditorClassIdentifier: Assembly-CSharp::BodyAnimationSet
-  bodyType: 5
+  bodyType: 7
   grabFrames:
   - {fileID: 1331111255, guid: e527bb4674d92da43b24c19e245123d4, type: 3}
   - {fileID: -992021432, guid: e527bb4674d92da43b24c19e245123d4, type: 3}

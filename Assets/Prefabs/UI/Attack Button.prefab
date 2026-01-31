@@ -481,7 +481,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3371904187804088099, guid: 9b8598d9b379a304e90d9a01de76cd5e, type: 3}
+  m_Sprite: {fileID: 563541263269412377, guid: 010329d7442256641a29e7b78c172ee3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -573,11 +573,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1855ab44525b74469a2f487815126685, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AttackButton
-  player: {fileID: 0}
   attackType: 0
-  strengthSprite: {fileID: -3371904187804088099, guid: 9b8598d9b379a304e90d9a01de76cd5e, type: 3}
-  intelligenceSprite: {fileID: 2476641748784813041, guid: 9b8598d9b379a304e90d9a01de76cd5e, type: 3}
-  charismaSprite: {fileID: 4485315465847528440, guid: 9b8598d9b379a304e90d9a01de76cd5e, type: 3}
+  strengthSprite: {fileID: 563541263269412377, guid: 010329d7442256641a29e7b78c172ee3, type: 3}
+  intelligenceSprite: {fileID: -2644630101217935453, guid: 010329d7442256641a29e7b78c172ee3, type: 3}
+  charismaSprite: {fileID: 7484572415536353711, guid: 010329d7442256641a29e7b78c172ee3, type: 3}
 --- !u!1 &7399232045363102907
 GameObject:
   m_ObjectHideFlags: 0
