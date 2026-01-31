@@ -1,4 +1,6 @@
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using Enemies;
 using UnityEngine;
 
@@ -12,10 +14,20 @@ public class EncounterManager : MonoBehaviour
     [SerializeField] private GameObject intelligence;
     [SerializeField] private GameObject charisma;
     [SerializeField] private GameObject boss;
+    [SerializeField] private float damageModifier = 10.0f;
+    [SerializeField] private float strengthMultiplier = 1.5f;
+    [SerializeField] private float weaknessMultiplier = 0.5f;
     private PlayerCombat player;
     public bool PlayerTurn => encounterSo.playerTurn;
     private GameObject _enemySpawn;
     private GameManager _gameManager;
+
+    private Dictionary<MasqueType,MasqueType> winners = new()
+    {
+        {MasqueType.Strength, MasqueType.Intelligence},
+        {MasqueType.Intelligence, MasqueType.Charisma},
+        {MasqueType.Charisma, MasqueType.Strength},
+    };
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected void Awake()
@@ -126,13 +138,31 @@ public class EncounterManager : MonoBehaviour
 
     private float CalculateDamage(EntityType target, int attackDamage)
     {
+        float modifier;
         //each point adds 10% damage
         if (target == EntityType.Player)
         {
-            //player.
+            modifier = ( damageModifier + player.GetPlayerDifficulty() ) / damageModifier;
+        }
+        else
+        {
+            modifier = ( damageModifier + player.GetPlayerDifficulty() ) / damageModifier;
         }
         
-        return attackDamage;
+        return attackDamage * modifier * GetMultiplier(target);
+    }
+
+    private float GetMultiplier(EntityType target)
+    {
+        var playerType = player.GetActiveMasque().type;
+        var enemyType = encounterSo.activeEnemyInstance.GetData().type;
+        
+        if(playerType == enemyType)
+            return 1.0f;
+
+        return target == EntityType.Enemy ? 
+            winners[playerType] == enemyType ? strengthMultiplier : weaknessMultiplier :
+            winners[enemyType] == playerType ? strengthMultiplier : weaknessMultiplier;
     }
 
     private void ShowResultScreen(bool hit, string attackName, string attackerName, string targetName)
@@ -155,12 +185,12 @@ public class EncounterManager : MonoBehaviour
         //first wait 1 second
         yield return new WaitForSeconds(1.0f);
 
-        //var attack = _activeEnemy.Attack();
+        var attack = encounterSo.activeEnemyInstance.Attack();
 
-        //AttackUsed(EntityType.Player, _activeEnemy.GetMasqueType(), attack);
+        AttackUsed(EntityType.Player, encounterSo.activeEnemyInstance.GetMasqueType(), attack);
 
         //now wait 1 second before returning to player turn
         yield return new WaitForSeconds(1.0f);
-        //PlayerTurn = true;
+        encounterSo.playerTurn = true;
     }
 }

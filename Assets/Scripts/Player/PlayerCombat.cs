@@ -66,6 +66,11 @@ public class PlayerCombat : MonoBehaviour
             { "Charisma", 1 }
         };
     }
+    
+    public int GetPlayerDifficulty()
+    {
+        return playerData.PlayerStats["Strength"] + playerData.PlayerStats["Intelligence"] + playerData.PlayerStats["Charisma"];
+    }
 
     public void TakeDamage(float damage)
     {
