@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Phantom Lariat
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 0
-  sprite: {fileID: -1863859237976802683, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: Phantom Lariat
   damage: 20
   hitChance: 0.4
+  attackVoiceLine: {fileID: 8300000, guid: a4216d273c5b4574c85b1503d8be0412, type: 3}
+  bossAttackLine: {fileID: 0}

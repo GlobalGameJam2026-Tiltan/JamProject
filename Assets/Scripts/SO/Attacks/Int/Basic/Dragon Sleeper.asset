@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Dragon Sleeper
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 1
-  sprite: {fileID: 7374845061861626600, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: Dragon Sleeper
   damage: 6
   hitChance: 0.7
+  attackVoiceLine: {fileID: 8300000, guid: 338b076a212c3d843a10f04dbced75d1, type: 3}
+  bossAttackLine: {fileID: 0}

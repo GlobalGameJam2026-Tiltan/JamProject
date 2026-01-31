@@ -161,7 +161,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss punch, grab_0
+      name: punch0
       rect:
         serializedVersion: 2
         x: 0
@@ -183,7 +183,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss punch, grab_1
+      name: punch1
       rect:
         serializedVersion: 2
         x: 96
@@ -205,7 +205,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss punch, grab_2
+      name: punch2
       rect:
         serializedVersion: 2
         x: 192
@@ -227,7 +227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss punch, grab_3
+      name: punch3
       rect:
         serializedVersion: 2
         x: 288
@@ -249,7 +249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss punch, grab_4
+      name: grab0
       rect:
         serializedVersion: 2
         x: 0
@@ -271,7 +271,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss punch, grab_5
+      name: grab1
       rect:
         serializedVersion: 2
         x: 96
@@ -293,7 +293,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss punch, grab_6
+      name: grab2
       rect:
         serializedVersion: 2
         x: 192
@@ -315,7 +315,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss punch, grab_7
+      name: grab3
       rect:
         serializedVersion: 2
         x: 288
@@ -352,14 +352,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      boss punch, grab_0: 8186474203685604598
-      boss punch, grab_1: 8955827285123265383
-      boss punch, grab_2: -943922136503306186
-      boss punch, grab_3: -1909087210789531665
-      boss punch, grab_4: -3428205557139965601
-      boss punch, grab_5: 6117302968261047196
-      boss punch, grab_6: -5300095670432509247
-      boss punch, grab_7: -1506301238336181147
+      grab0: -3428205557139965601
+      grab1: 6117302968261047196
+      grab2: -5300095670432509247
+      grab3: -1506301238336181147
+      punch0: 8186474203685604598
+      punch1: 8955827285123265383
+      punch2: -943922136503306186
+      punch3: -1909087210789531665
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

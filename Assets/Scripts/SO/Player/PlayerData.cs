@@ -15,6 +15,7 @@ public class PlayerData : ScriptableObject
     };
     public Sprite backSprite;
     public Sprite[] defendAnimation;
+    public Sprite[] idleAnimation;
 
     private MasqueType _activeMasqueType;
     private Sprite _masqueSprite;

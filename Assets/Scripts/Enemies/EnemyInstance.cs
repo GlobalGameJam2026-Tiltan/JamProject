@@ -4,9 +4,17 @@ public class EnemyInstance : MonoBehaviour
 {
     [SerializeField] private EnemyData data;
     [SerializeField] private AudioSource audioSource;
-    [SerializeField] private Sprite[] alternateSprites;
+    [SerializeField] private Sprite[] bodyTypes;
+    private BodyType _bodyType;
     private SpriteRenderer _spriteRenderer;
+
+    public void RandomizeBodyType()
+    {
+        _bodyType = (BodyType)Random.Range(0, (int)BodyType.Miniboss);
+        data.sprite = bodyTypes[(int)_bodyType];
+    }
     
+    public virtual AttackOption Attack()
     public bool IsAlive => data.health > 0;
 
     private void Awake()
@@ -22,22 +30,17 @@ public class EnemyInstance : MonoBehaviour
         // TODO: play animation data.AttackAnimations[rnd]
         return attack;
     }
-
-    public void RandomizeSprite()
-    {
-        //_spriteRenderer.sprite = alternateSprites[Random.Range(0, alternateSprites.Length)];
-    }
     
     public MasqueType GetMasqueType() => data.type;
     public EnemyData GetData() => data;
 
-    public void TakeDamage(float damage)
+    public virtual void TakeDamage(float damage)
     {
         data.health -= damage;
         if (data.health <= 0) Die();
     }
 
-    private void Die()
+    public virtual void Die()
     {
         // TODO: add death logic (probably animation)
     }

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &442721711653288482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4305079123354566088}
+  - component: {fileID: 7283390282202487093}
+  m_Layer: 0
+  m_Name: EnemyAnimationLibrary
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4305079123354566088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442721711653288482}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7283390282202487093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442721711653288482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5ce10a46e555b4c86c8d780cc04ab9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimationLibrary
+  bodyAnimations:
+  - {fileID: 11400000, guid: af5eb26490f131c4e9ce94c5832ae8a1, type: 2}
+  - {fileID: 11400000, guid: 9a9876532758bc04e91af81bf3601664, type: 2}
+  - {fileID: 11400000, guid: 0568844462e92394fa7090d135e9cd53, type: 2}
+  - {fileID: 11400000, guid: 42575542bc396764fbd2968683c5ebfc, type: 2}
+  - {fileID: 11400000, guid: f68d70bf819f48b4fbdb3bbca61932e4, type: 2}
+  maskAnimations:
+  - {fileID: 11400000, guid: d7b50d121ad55514ca955749acfc2baa, type: 2}
+  - {fileID: 11400000, guid: 83ca667785000104780cededb1db7736, type: 2}
+  - {fileID: 11400000, guid: 0fd737085c8beb0499e4ff40dcaf6c50, type: 2}

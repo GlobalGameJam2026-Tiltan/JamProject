@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: La Dinosauria
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 0
-  sprite: {fileID: 5543941588292853863, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: La Dinosauria
   damage: 10
   hitChance: 0.85
+  attackVoiceLine: {fileID: 8300000, guid: 78e52a999b76c7249a852c116b82aaa3, type: 3}
+  bossAttackLine: {fileID: 0}

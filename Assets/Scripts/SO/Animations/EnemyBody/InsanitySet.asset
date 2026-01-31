@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9bea8267241184082930458ac6a6d5, type: 3}
+  m_Name: InsanitySet
+  m_EditorClassIdentifier: Assembly-CSharp::BodyAnimationSet
+  bodyType: 5
+  grabFrames:
+  - {fileID: -1502657146, guid: 44e3a5a07b8972b478fbc31bbfc605d1, type: 3}
+  - {fileID: -1126085262, guid: 44e3a5a07b8972b478fbc31bbfc605d1, type: 3}
+  - {fileID: -1540135889, guid: 44e3a5a07b8972b478fbc31bbfc605d1, type: 3}
+  - {fileID: -1770621392, guid: 44e3a5a07b8972b478fbc31bbfc605d1, type: 3}
+  punchFrames:
+  - {fileID: 1701229020, guid: 44e3a5a07b8972b478fbc31bbfc605d1, type: 3}
+  - {fileID: -442575406, guid: 44e3a5a07b8972b478fbc31bbfc605d1, type: 3}
+  - {fileID: -4509590, guid: 44e3a5a07b8972b478fbc31bbfc605d1, type: 3}
+  - {fileID: 1340502793, guid: 44e3a5a07b8972b478fbc31bbfc605d1, type: 3}

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Sunset Flip Power Bomb
   m_EditorClassIdentifier: Assembly-CSharp::AttackOption
   type: 2
-  sprite: {fileID: -2319476694228375547, guid: d0c4e0888ec765348905d56d3254790e, type: 3}
   attackName: Sunset Flip Power Bomb
   damage: 13
   hitChance: 0.75
+  attackVoiceLine: {fileID: 8300000, guid: 838dc00a9c2f5e54886d3e018c760ec6, type: 3}
+  bossAttackLine: {fileID: 0}

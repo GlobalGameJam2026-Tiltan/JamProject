@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "BossData", menuName = "Scriptable Objects/BossData")]
 public class BossData : ScriptableObject
@@ -12,7 +13,10 @@ public class BossData : ScriptableObject
     public AttackOption[] phase1Attacks = new AttackOption[9];
     public AttackOption[] phase2Attacks = new AttackOption[9];
     public AttackOption[] phase3Attacks = new AttackOption[9];
-    public Sprite[][] AttackAnimations = new Sprite[3][];
+    public Sprite[] punchAnimation;
+    public Sprite[] grabAnimation;
+    public AudioClip[] idleLines;
+    public AudioClip deathLine;
 
     public void ResetBoss()
     {
