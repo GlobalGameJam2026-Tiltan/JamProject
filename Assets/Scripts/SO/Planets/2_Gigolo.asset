@@ -15,7 +15,8 @@ MonoBehaviour:
   planetName: El Gigolo De Goma
   previousPlanet: StartPlanet
   state: 0
-  currentSprite: {fileID: 8278803501836919373, guid: ca8f59a3e26a6b149883ff53e98259ad, type: 3}
+  currentSprite: {fileID: -1866230133, guid: ca8f59a3e26a6b149883ff53e98259ad, type: 3}
   baseSprite: {fileID: 8278803501836919373, guid: ca8f59a3e26a6b149883ff53e98259ad, type: 3}
   lockedSprite: {fileID: -7833296872841218761, guid: ca8f59a3e26a6b149883ff53e98259ad, type: 3}
   defeatedSprite: {fileID: -1866230133, guid: ca8f59a3e26a6b149883ff53e98259ad, type: 3}
+  isStart: 0

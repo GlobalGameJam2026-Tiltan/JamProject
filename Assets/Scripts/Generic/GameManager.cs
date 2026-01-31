@@ -23,14 +23,15 @@ public class GameManager : MonoBehaviour
     
     public void PlanetDefeated()
     {
-        
         _currentPlanet.ChangeState(PlanetState.Defeated);
         
         // Unlocking planets who depended on him
-        foreach (var planet in planets.Where(planet => planet.previousPlanet == _currentPlanet.name))
+        foreach (var planet in planets.Where(planet => planet.previousPlanet == _currentPlanet.planetName))
         {
             planet.ChangeState(PlanetState.Open);
         }
+        
+        SceneFader.instance.LoadSceneWithFade("Map");
     }
 
     public bool IsAllPlanetsDefeated()
@@ -39,9 +40,10 @@ public class GameManager : MonoBehaviour
     }
     
     // Public function to load a scene by name
-    public void MoveToPlanet(PlanetData newPlanet)
+    public void MoveToPlanet(Planet newPlanet)
     {
-        _currentPlanet = newPlanet;
+        _currentPlanet = newPlanet.planet;
+        EncounterManager.Instance.SetEncounter(newPlanet.encounterType);
     }
     
     public void PlayMusic()

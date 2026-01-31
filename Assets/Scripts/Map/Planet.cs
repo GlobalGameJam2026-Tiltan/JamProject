@@ -44,7 +44,7 @@ public class Planet : MonoBehaviour
     {
         if (this.planet.state == PlanetState.Open)
         {
-            this._gameManager.MoveToPlanet(this.planet);
+            this._gameManager.MoveToPlanet(this);
         }
     }
 }

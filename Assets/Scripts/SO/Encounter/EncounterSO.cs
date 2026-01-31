@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Serialization;
 
+[CreateAssetMenu(fileName = "Encounter", menuName = "Scriptable Objects/Encounter")]
 public class EncounterSo : ScriptableObject
 {
     [SerializeField] public EncounterType encounterType;

@@ -25,7 +25,7 @@ public class EnemyInstance : MonoBehaviour
 
     public void RandomizeSprite()
     {
-        _spriteRenderer.sprite = alternateSprites[Random.Range(0, alternateSprites.Length)];
+        //_spriteRenderer.sprite = alternateSprites[Random.Range(0, alternateSprites.Length)];
     }
     
     public MasqueType GetMasqueType() => data.type;

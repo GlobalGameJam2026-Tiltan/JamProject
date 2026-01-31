@@ -315,7 +315,6 @@ GameObject:
   m_Component:
   - component: {fileID: 192425540}
   - component: {fileID: 192425541}
-  - component: {fileID: 192425542}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -395,18 +394,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &192425542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192425539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8f72841ba27544ec80f9c05952be4bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!1 &276281132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1270,7 +1257,6 @@ GameObject:
   m_Component:
   - component: {fileID: 675481157}
   - component: {fileID: 675481159}
-  - component: {fileID: 675481158}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -1299,18 +1285,6 @@ RectTransform:
   m_AnchoredPosition: {x: -6.5, y: -2}
   m_SizeDelta: {x: 30, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &675481158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 675481156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8f72841ba27544ec80f9c05952be4bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!114 &675481159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1786,54 +1760,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd7a5c1acede7234a8de3e1c3fa2e475, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
---- !u!1 &1299082040
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1299082042}
-  - component: {fileID: 1299082041}
-  m_Layer: 0
-  m_Name: EncounterManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1299082041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1299082040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e5a78e2bdfbd4cecb867fd7720935b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EncounterManager
-  gruntEnemies:
-  - {fileID: 4178846704546247719, guid: 3eebec043f80adf4aa65343b8ede7af2, type: 3}
-  - {fileID: 4044934817022211930, guid: 0a0d6647002298246b5e9dfd470b8bdb, type: 3}
-  - {fileID: 7490395153097973516, guid: db3df4b53e7169d43bd5744e1555662d, type: 3}
---- !u!4 &1299082042
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1299082040}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.67942, y: 0.12897, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1321908016
 GameObject:
   m_ObjectHideFlags: 0
@@ -2174,7 +2100,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1257627549}
         m_TargetAssemblyTypeName: PlayerCombat, Assembly-CSharp
-        m_MethodName: AttackBasic
+        m_MethodName: Block
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2486,6 +2412,50 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 273436528558837219, guid: f3189dec9990545a58de25da20a3cdb7, type: 3}
   m_PrefabInstance: {fileID: 1900980036}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1634094206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1634094208}
+  - component: {fileID: 1634094207}
+  m_Layer: 0
+  m_Name: EncounterStarter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1634094207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634094206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8237ee4b130c4539bb40c79b554df75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!4 &1634094208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634094206}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1635614342
 GameObject:
   m_ObjectHideFlags: 0
@@ -3681,7 +3651,6 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1299082042}
   - {fileID: 1489609277}
   - {fileID: 1635614344}
   - {fileID: 1994780559}
@@ -3689,3 +3658,4 @@ SceneRoots:
   - {fileID: 1020163763}
   - {fileID: 1534059047}
   - {fileID: 6212151632960379154}
+  - {fileID: 1634094208}

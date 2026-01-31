@@ -32,6 +32,7 @@ public class EncounterManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected void Awake()
     {
+        DontDestroyOnLoad(gameObject);
         Instance = this;
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
@@ -49,14 +50,42 @@ public class EncounterManager : MonoBehaviour
     public PlayerCombat GetPlayer() => player;
     public EnemyInstance GetEnemy() => encounterSo.activeEnemyInstance;
 
-    public void StartRandomEncounter()
+    public void SetEncounter(EncounterType encounterType)
+    {
+        encounterSo.encounterType = encounterType;
+        SceneFader.instance.LoadSceneWithFade("Encounter");
+    }
+    public void StartEncounter()
     {
         _enemySpawn = GameObject.FindGameObjectWithTag("Enemy");
-        encounterSo.encounterType = EncounterType.Random;
-        //Roll a random enemy
-        encounterSo.remainingEnemies = player.BossesKilled;
-        SpawnRandomEnemy();
-
+        switch(encounterSo.encounterType)
+        {
+            case EncounterType.Random:
+                //Roll a random enemy
+                SpawnRandomEnemy();
+                encounterSo.remainingEnemies = player.BossesKilled;
+                break;
+            case EncounterType.Strength:
+                encounterSo.activeEnemy = Instantiate(strength, _enemySpawn.transform);
+                encounterSo.remainingEnemies = 0;
+            break;
+            case EncounterType.Intelligence:
+                encounterSo.activeEnemy = Instantiate(intelligence, _enemySpawn.transform);
+                encounterSo.remainingEnemies = 0;
+                break;
+            case EncounterType.Charisma:
+                encounterSo.activeEnemy = Instantiate(charisma, _enemySpawn.transform);
+                encounterSo.remainingEnemies = 0;
+                break;
+            case EncounterType.Boss:
+                encounterSo.activeEnemy = Instantiate(boss, _enemySpawn.transform);
+                encounterSo.remainingEnemies = 0;
+                break;
+        }
+        
+        encounterSo.activeEnemy.transform.localPosition = Vector3.zero;
+        encounterSo.activeEnemyInstance = encounterSo.activeEnemy.GetComponent<EnemyInstance>();
+        encounterSo.activeEnemyInstance.GetData().health = encounterSo.activeEnemyInstance.GetData().maxHealth;
         StartBattle();
     }
 
@@ -72,28 +101,10 @@ public class EncounterManager : MonoBehaviour
         encounterSo.activeEnemyInstance.RandomizeSprite();
     }
 
-    public void StartMiniBossEncounter(EncounterType encounterType)
-    {
-        _enemySpawn = GameObject.FindGameObjectWithTag("Enemy");
-        encounterSo.encounterType = encounterType;
-        encounterSo.activeEnemy = encounterSo.encounterType switch
-        {
-            EncounterType.Strength => Instantiate(strength, _enemySpawn.transform),
-            EncounterType.Intelligence => Instantiate(intelligence, _enemySpawn.transform),
-            EncounterType.Charisma => Instantiate(charisma, _enemySpawn.transform)
-        };
-        encounterSo.activeEnemy.transform.localPosition = Vector3.zero;
-        encounterSo.activeEnemyInstance = encounterSo.activeEnemy.GetComponent<EnemyInstance>();
-        encounterSo.activeEnemyInstance.GetData().health = encounterSo.activeEnemyInstance.GetData().maxHealth;
-        encounterSo.remainingEnemies = 0;
-        StartBattle();
-    }
-
     private void StartBattle()
     {
         encounterSo.inBattle = true;
         encounterSo.playerTurn = true;
-        SceneFader.instance.LoadSceneWithFade("Encounter");
     }
 
     public void AttackUsed(EntityType target, MasqueType attackType, AttackOption attack)
@@ -105,6 +116,11 @@ public class EncounterManager : MonoBehaviour
             var damage = CalculateDamage(target, attack.damage);
             if (target == EntityType.Player)
             {
+                if (player.IsBlocking)
+                {
+                    player.Unblock();
+                    damage /= 2;
+                }
                 player.TakeDamage(damage);
             }
             else
@@ -130,7 +146,7 @@ public class EncounterManager : MonoBehaviour
                 }
                 else
                 {
-                    //_gameManager.PlanetDefeated();
+                    _gameManager.PlanetDefeated();
                 }
             }
         }
