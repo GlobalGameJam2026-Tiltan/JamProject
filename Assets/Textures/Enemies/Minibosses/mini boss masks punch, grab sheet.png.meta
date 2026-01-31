@@ -1,0 +1,900 @@
+fileFormatVersion: 2
+guid: d8648c0056b45af40bffda2ae3b82e90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8608881826621166246
+    second: mini boss masks punch, grab sheet_0
+  - first:
+      213: -1761293223326715493
+    second: mini boss masks punch, grab sheet_1
+  - first:
+      213: 4250980331270506733
+    second: mini boss masks punch, grab sheet_2
+  - first:
+      213: -9074552380583192381
+    second: mini boss masks punch, grab sheet_3
+  - first:
+      213: -358243214772879871
+    second: mini boss masks punch, grab sheet_4
+  - first:
+      213: 6326144687577942288
+    second: mini boss masks punch, grab sheet_5
+  - first:
+      213: 8268034939301706694
+    second: mini boss masks punch, grab sheet_6
+  - first:
+      213: -5268752424226341261
+    second: mini boss masks punch, grab sheet_7
+  - first:
+      213: 616469883689279036
+    second: mini boss masks punch, grab sheet_8
+  - first:
+      213: 6044369746646994634
+    second: mini boss masks punch, grab sheet_9
+  - first:
+      213: 4175369887201256078
+    second: mini boss masks punch, grab sheet_10
+  - first:
+      213: -8551511671981057192
+    second: mini boss masks punch, grab sheet_11
+  - first:
+      213: 3440779644345252205
+    second: mini boss masks punch, grab sheet_12
+  - first:
+      213: 438241938661910759
+    second: mini boss masks punch, grab sheet_13
+  - first:
+      213: -8380293956043216292
+    second: mini boss masks punch, grab sheet_14
+  - first:
+      213: 4108562461500590245
+    second: mini boss masks punch, grab sheet_15
+  - first:
+      213: 2318581314499904048
+    second: mini boss masks punch, grab sheet_16
+  - first:
+      213: -9120803752064530262
+    second: mini boss masks punch, grab sheet_17
+  - first:
+      213: -1040176778780217441
+    second: mini boss masks punch, grab sheet_18
+  - first:
+      213: -8589340098236604096
+    second: mini boss masks punch, grab sheet_19
+  - first:
+      213: 5034127955677183953
+    second: mini boss masks punch, grab sheet_20
+  - first:
+      213: -296247018571598342
+    second: mini boss masks punch, grab sheet_21
+  - first:
+      213: -7767631758766097094
+    second: mini boss masks punch, grab sheet_22
+  - first:
+      213: -8096338671843656082
+    second: mini boss masks punch, grab sheet_23
+  - first:
+      213: 4649258296164054068
+    second: mini boss masks punch, grab sheet_24
+  - first:
+      213: 4704307580951857329
+    second: mini boss masks punch, grab sheet_25
+  - first:
+      213: 6450045246476514777
+    second: mini boss masks punch, grab sheet_26
+  - first:
+      213: -3357641604376459515
+    second: mini boss masks punch, grab sheet_27
+  - first:
+      213: -8102352305278577992
+    second: mini boss masks punch, grab sheet_28
+  - first:
+      213: -7739859448363526371
+    second: mini boss masks punch, grab sheet_29
+  - first:
+      213: -7495323754157563286
+    second: mini boss masks punch, grab sheet_30
+  - first:
+      213: -6408825652513582953
+    second: mini boss masks punch, grab sheet_31
+  - first:
+      213: -1158631771934689229
+    second: mini boss masks punch, grab sheet_32
+  - first:
+      213: -65199349538250974
+    second: mini boss masks punch, grab sheet_33
+  - first:
+      213: 1358017706859856965
+    second: mini boss masks punch, grab sheet_34
+  - first:
+      213: -8527639213592230272
+    second: mini boss masks punch, grab sheet_35
+  - first:
+      213: -519692618349750004
+    second: mini boss masks punch, grab sheet_36
+  - first:
+      213: 2104709750604508663
+    second: mini boss masks punch, grab sheet_37
+  - first:
+      213: -7181633870922218975
+    second: mini boss masks punch, grab sheet_38
+  - first:
+      213: -3668865826557158852
+    second: mini boss masks punch, grab sheet_39
+  - first:
+      213: -6568043069697440884
+    second: mini boss masks punch, grab sheet_40
+  - first:
+      213: 258052461389755766
+    second: mini boss masks punch, grab sheet_41
+  - first:
+      213: -7940443066921558233
+    second: mini boss masks punch, grab sheet_42
+  - first:
+      213: 5494434976633078490
+    second: mini boss masks punch, grab sheet_43
+  - first:
+      213: 2201173386591495769
+    second: mini boss masks punch, grab sheet_44
+  - first:
+      213: 8976575915368590639
+    second: mini boss masks punch, grab sheet_45
+  - first:
+      213: 7400528907112043117
+    second: mini boss masks punch, grab sheet_46
+  - first:
+      213: -1067558951078868852
+    second: mini boss masks punch, grab sheet_47
+  - first:
+      213: -8929592774666204719
+    second: mini boss masks punch, grab sheet_48
+  - first:
+      213: 9043257054401761328
+    second: mini boss masks punch, grab sheet_49
+  - first:
+      213: 4276439492399515502
+    second: mini boss masks punch, grab sheet_50
+  - first:
+      213: -824249430008232512
+    second: mini boss masks punch, grab sheet_51
+  - first:
+      213: 4180383036319830788
+    second: mini boss masks punch, grab sheet_52
+  - first:
+      213: -341399399690393368
+    second: mini boss masks punch, grab sheet_53
+  - first:
+      213: 1286915525275648749
+    second: mini boss masks punch, grab sheet_54
+  - first:
+      213: -8875264241841039219
+    second: mini boss masks punch, grab sheet_55
+  - first:
+      213: 1469343792437346073
+    second: mini boss masks punch, grab sheet_56
+  - first:
+      213: 4969146570228660518
+    second: mini boss masks punch, grab sheet_57
+  - first:
+      213: 4744582506756586194
+    second: mini boss masks punch, grab sheet_58
+  - first:
+      213: -2279415439912995523
+    second: mini boss masks punch, grab sheet_59
+  - first:
+      213: -9117629128261882741
+    second: mini boss masks punch, grab sheet_60
+  - first:
+      213: -7295695321724151135
+    second: mini boss masks punch, grab sheet_61
+  - first:
+      213: -8070902677602586352
+    second: mini boss masks punch, grab sheet_62
+  - first:
+      213: 6697605921240137304
+    second: mini boss masks punch, grab sheet_63
+  - first:
+      213: 4919752585703883237
+    second: mini boss masks punch, grab sheet_64
+  - first:
+      213: -3217623070908621183
+    second: mini boss masks punch, grab sheet_65
+  - first:
+      213: 1235915731460562556
+    second: mini boss masks punch, grab sheet_66
+  - first:
+      213: 8275314591200236517
+    second: mini boss masks punch, grab sheet_67
+  - first:
+      213: 7212253095277994132
+    second: mini boss masks punch, grab sheet_68
+  - first:
+      213: -8081329734807703002
+    second: mini boss masks punch, grab sheet_69
+  - first:
+      213: -6511771948236261669
+    second: mini boss masks punch, grab sheet_70
+  - first:
+      213: -214870514430719953
+    second: mini boss masks punch, grab sheet_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5dedea279b178880800000000000000
+      internalID: -8608881826621166246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91fe462521ae87e0800000000000000
+      internalID: -1761293223326715493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de80d80b6148efa30800000000000000
+      internalID: 4250980331270506733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8d9ab50b6b01280800000000000000
+      internalID: -9074552380583192381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10eb448b1b3470bf0800000000000000
+      internalID: -358243214772879871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019cec4731bfac750800000000000000
+      internalID: 6326144687577942288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbb89ba8f5fdb270800000000000000
+      internalID: 8268034939301706694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37eb280d591a1e6b0800000000000000
+      internalID: -5268752424226341261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e9600d7142e8800800000000000000
+      internalID: 616469883689279036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace0308924ae1e350800000000000000
+      internalID: 6044369746646994634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e826e745ac4e1f930800000000000000
+      internalID: 4175369887201256078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b56f2317de25980800000000000000
+      internalID: -8551511671981057192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69f7934bda10cf20800000000000000
+      internalID: 3440779644345252205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e82f97a8b2f41600800000000000000
+      internalID: 438241938661910759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ae0b43c0733bb80800000000000000
+      internalID: -8380293956043216292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a84f376acb840930800000000000000
+      internalID: 4108562461500590245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03200a1db614d2020800000000000000
+      internalID: 2318581314499904048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8c424cf456c6180800000000000000
+      internalID: -9120803752064530262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fe1351bbc8091f0800000000000000
+      internalID: -1040176778780217441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041a69d50b88cc880800000000000000
+      internalID: -8589340098236604096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df700824b0dcd540800000000000000
+      internalID: 5034127955677183953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5754cf7e483ebf0800000000000000
+      internalID: -296247018571598342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d34b0f114d33490800000000000000
+      internalID: -7767631758766097094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini boss masks punch, grab sheet_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e308bcfd604af80800000000000000
+      internalID: -8096338671843656082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 806c50f5888ecf04597ee4d676c96773
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":6.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      mini boss masks punch, grab sheet_0: -8608881826621166246
+      mini boss masks punch, grab sheet_1: -1761293223326715493
+      mini boss masks punch, grab sheet_10: 4175369887201256078
+      mini boss masks punch, grab sheet_11: -8551511671981057192
+      mini boss masks punch, grab sheet_12: 3440779644345252205
+      mini boss masks punch, grab sheet_13: 438241938661910759
+      mini boss masks punch, grab sheet_14: -8380293956043216292
+      mini boss masks punch, grab sheet_15: 4108562461500590245
+      mini boss masks punch, grab sheet_16: 2318581314499904048
+      mini boss masks punch, grab sheet_17: -9120803752064530262
+      mini boss masks punch, grab sheet_18: -1040176778780217441
+      mini boss masks punch, grab sheet_19: -8589340098236604096
+      mini boss masks punch, grab sheet_2: 4250980331270506733
+      mini boss masks punch, grab sheet_20: 5034127955677183953
+      mini boss masks punch, grab sheet_21: -296247018571598342
+      mini boss masks punch, grab sheet_22: -7767631758766097094
+      mini boss masks punch, grab sheet_23: -8096338671843656082
+      mini boss masks punch, grab sheet_3: -9074552380583192381
+      mini boss masks punch, grab sheet_4: -358243214772879871
+      mini boss masks punch, grab sheet_5: 6326144687577942288
+      mini boss masks punch, grab sheet_6: 8268034939301706694
+      mini boss masks punch, grab sheet_7: -5268752424226341261
+      mini boss masks punch, grab sheet_8: 616469883689279036
+      mini boss masks punch, grab sheet_9: 6044369746646994634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
