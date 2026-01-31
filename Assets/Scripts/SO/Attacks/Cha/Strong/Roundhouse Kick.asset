@@ -17,4 +17,4 @@ MonoBehaviour:
   damage: 35
   hitChance: 0.25
   attackVoiceLine: {fileID: 8300000, guid: 6ccccad47efd21b4083e27669a726638, type: 3}
-  bossAttackLine: {fileID: 0}
+  bossAttackLine: {fileID: 8300000, guid: 5204a212c297b3e41a9149cc1ac90604, type: 3}
