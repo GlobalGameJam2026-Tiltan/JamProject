@@ -6,21 +6,19 @@ using UnityEngine.UI; // Make sure you include this
 public class Planet : MonoBehaviour
 {
     public PlanetData planet;
-    
-    public SceneAsset level;
 
-    private GameManager gameManager;
+    private GameManager _gameManager;
     
     public bool isBossPlanet = false;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         
         if (isBossPlanet)
         {
-            if (gameManager.IsAllPlanetsDefeated()) this.planet.state = PlanetState.Open;
+            if (_gameManager.IsAllPlanetsDefeated()) this.planet.state = PlanetState.Open;
             else this.planet.state = PlanetState.Locked;
             
             if (this.planet.state == PlanetState.Open) gameObject.GetComponent<Image>().enabled = true;
@@ -46,7 +44,7 @@ public class Planet : MonoBehaviour
     {
         if (this.planet.state == PlanetState.Open)
         {
-            this.gameManager.SwitchToLevel(this.level.name.ToString());
+            this._gameManager.MoveToPlanet(this.planet);
         }
     }
 }
