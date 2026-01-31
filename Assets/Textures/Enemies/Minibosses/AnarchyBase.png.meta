@@ -1,37 +1,10 @@
 fileFormatVersion: 2
-guid: ba1d1bffa7ac076479ddc700d928bfee
+guid: 73db42cabbc3ee74c8752d580fbd121b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7257861338215607760
-    second: mini boss_0
-  - first:
-      213: -5393994011907535008
-    second: mini boss_1
-  - first:
-      213: 1447329402426773721
-    second: mini boss_2
-  - first:
-      213: -1659986464121587690
-    second: mini boss_3
-  - first:
-      213: -999419515437979679
-    second: mini boss_4
-  - first:
-      213: 5945510151199450460
-    second: mini boss_5
-  - first:
-      213: 8031814856146645072
-    second: mini boss_6
-  - first:
-      213: 5268854836680211151
-    second: mini boss_7
-  - first:
-      213: -1832271922116042084
-    second: mini boss_8
-  - first:
-      213: -5732552944289164229
-    second: mini boss_9
+      213: -5792394120931680814
+    second: mini boss perpulet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -140,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mini boss_0
+      name: anarchy_base
       rect:
         serializedVersion: 2
         x: 0
@@ -155,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0dde16dee6a19b460800000000000000
-      internalID: 7257861338215607760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mini boss_1
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06fcaa7560fa425b0800000000000000
-      internalID: -5393994011907535008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mini boss_2
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d050a85c62f51410800000000000000
-      internalID: 1447329402426773721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mini boss_3
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 618731a1b1b86f8e0800000000000000
-      internalID: -1659986464121587690
+      spriteID: 2dd5ec68c384d9fa0800000000000000
+      internalID: -5792394120931680814
       vertices: []
       indices: 
       edges: []
@@ -231,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1da8d126d08e38c4593f37164747b259
+    spriteID: 060eaab6a8d346f4abb3848459236496
     internalID: 0
     vertices: []
     indices: 
@@ -241,12 +148,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      mini boss_0: 7257861338215607760
-      mini boss_1: -5393994011907535008
-      mini boss_2: 1447329402426773721
-      mini boss_3: -1659986464121587690
+      anarchy_base: -5792394120931680814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

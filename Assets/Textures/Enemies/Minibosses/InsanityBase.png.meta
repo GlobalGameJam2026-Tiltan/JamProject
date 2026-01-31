@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 73db42cabbc3ee74c8752d580fbd121b
+guid: 8ab67462eca1d5943bf4d14773b1caa4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5792394120931680814
-    second: mini boss perpulet_0
+      213: 8529658035006925184
+    second: mini boss bulet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mini boss perpulet_0
+      name: insanity_base
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2dd5ec68c384d9fa0800000000000000
-      internalID: -5792394120931680814
+      spriteID: 089e4207ace6f5670800000000000000
+      internalID: 8529658035006925184
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 060eaab6a8d346f4abb3848459236496
+    spriteID: b831798e9f3d0be479d393f743c86ae1
     internalID: 0
     vertices: []
     indices: 
@@ -150,7 +150,7 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      mini boss perpulet_0: -5792394120931680814
+      insanity_base: 8529658035006925184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

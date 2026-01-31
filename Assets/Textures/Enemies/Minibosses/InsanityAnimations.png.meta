@@ -1,61 +1,61 @@
 fileFormatVersion: 2
-guid: c910f918200f94348966f56f0d50cc59
+guid: 44e3a5a07b8972b478fbc31bbfc605d1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8725256133175703130
-    second: mini boss red t_0
+      213: 3521300116094355639
+    second: mini boss blue _0
   - first:
-      213: 8410670806049637197
-    second: mini boss red t_1
+      213: -9184981041744831944
+    second: mini boss blue _1
   - first:
-      213: 4897121879365556549
-    second: mini boss red t_2
+      213: 2207796340150524711
+    second: mini boss blue _2
   - first:
-      213: 3389610575121048055
-    second: mini boss red t_3
+      213: -1456537567807516404
+    second: mini boss blue _3
   - first:
-      213: -3888240982457282300
-    second: mini boss red t_4
+      213: -1329413082192115595
+    second: mini boss blue _4
   - first:
-      213: -7212514057160468556
-    second: mini boss red t_5
+      213: 4579547317357032435
+    second: mini boss blue _5
   - first:
-      213: -4986221400250926056
-    second: mini boss red t_6
+      213: 8558742902172114604
+    second: mini boss blue _6
   - first:
-      213: 8509008350549089023
-    second: mini boss red t_7
+      213: 5158183860904933388
+    second: mini boss blue _7
   - first:
-      213: -4862190993995148897
-    second: mini boss red t_8
+      213: -9107632099771446230
+    second: mini boss blue _8
   - first:
-      213: -4766524925807446737
-    second: mini boss red t_9
+      213: -2792860705321160608
+    second: mini boss blue _9
   - first:
-      213: -6554355633645061715
-    second: mini boss red t_10
+      213: 2748192639257506618
+    second: mini boss blue _10
   - first:
-      213: 4363387167247321436
-    second: mini boss red t_11
+      213: 6820827522179627875
+    second: mini boss blue _11
   - first:
-      213: 5376282838875532244
-    second: mini boss red t_12
+      213: -122925374393571646
+    second: mini boss blue _12
   - first:
-      213: -6276651854252533781
-    second: mini boss red t_13
+      213: -1657288935738841823
+    second: mini boss blue _13
   - first:
-      213: -1393916537764589405
-    second: mini boss red t_14
+      213: 5943698630739034826
+    second: mini boss blue _14
   - first:
-      213: 3081853082819403944
-    second: mini boss red t_15
+      213: 6760727189803379085
+    second: mini boss blue _15
   - first:
-      213: -3004286618539047520
-    second: mini boss red t_16
+      213: 1984968486782413644
+    second: mini boss blue _16
   - first:
-      213: 6758920011573285953
-    second: mini boss red t_17
+      213: 1327871727359362846
+    second: mini boss blue _17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -164,7 +164,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mini boss red t_0
+      name: InsanityAnimations_0
       rect:
         serializedVersion: 2
         x: 0
@@ -177,16 +177,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6a983c776c9a9e680800000000000000
-      internalID: -8725256133175703130
+      spriteID: 8a6fd56f7720f604b9155983e4cb230c
+      internalID: -1502657146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss red t_1
+      name: InsanityAnimations_1
       rect:
         serializedVersion: 2
         x: 96
@@ -199,16 +199,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d4346555984b8b470800000000000000
-      internalID: 8410670806049637197
+      spriteID: aca9b321a2f024d41823b4517cf3af72
+      internalID: -1126085262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss red t_2
+      name: InsanityAnimations_2
       rect:
         serializedVersion: 2
         x: 192
@@ -221,16 +221,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5499069376216f340800000000000000
-      internalID: 4897121879365556549
+      spriteID: 99d210a20c437254282e25c68445016e
+      internalID: -1540135889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss red t_3
+      name: InsanityAnimations_3
       rect:
         serializedVersion: 2
         x: 288
@@ -243,16 +243,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7f16ff0fbd05a0f20800000000000000
-      internalID: 3389610575121048055
+      spriteID: 224f330d4373c8a46b214f690b9f9e08
+      internalID: -1770621392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss red t_4
+      name: InsanityAnimations_4
       rect:
         serializedVersion: 2
         x: 0
@@ -265,16 +265,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 401948f5d613a0ac0800000000000000
-      internalID: -3888240982457282300
+      spriteID: 7c32ee78de9dcb24187c0d70f2eb8f5b
+      internalID: 1701229020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss red t_5
+      name: InsanityAnimations_5
       rect:
         serializedVersion: 2
         x: 96
@@ -287,16 +287,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4b75075bda008eb90800000000000000
-      internalID: -7212514057160468556
+      spriteID: 76bcf0328c1f6c045926ded980279e25
+      internalID: -442575406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss red t_6
+      name: InsanityAnimations_6
       rect:
         serializedVersion: 2
         x: 192
@@ -309,16 +309,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 81cb79afd026dcab0800000000000000
-      internalID: -4986221400250926056
+      spriteID: dda7ff7289791b046ba4bd0553cb9bcd
+      internalID: -4509590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss red t_7
+      name: InsanityAnimations_7
       rect:
         serializedVersion: 2
         x: 288
@@ -331,10 +331,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ffa9f4d1302161670800000000000000
-      internalID: 8509008350549089023
+      spriteID: 69a83dbe39251024d810d6a3d5478802
+      internalID: 1340502793
       vertices: []
       indices: 
       edges: []
@@ -343,7 +343,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 66ee54478bd6787419c56c5d6a2097a5
+    spriteID: 3e6962f96cef07549a6e54c64e1b2bf5
     internalID: 0
     vertices: []
     indices: 
@@ -353,16 +353,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      mini boss red t_0: -8725256133175703130
-      mini boss red t_1: 8410670806049637197
-      mini boss red t_2: 4897121879365556549
-      mini boss red t_3: 3389610575121048055
-      mini boss red t_4: -3888240982457282300
-      mini boss red t_5: -7212514057160468556
-      mini boss red t_6: -4986221400250926056
-      mini boss red t_7: 8509008350549089023
+      InsanityAnimations_0: -1502657146
+      InsanityAnimations_1: -1126085262
+      InsanityAnimations_2: -1540135889
+      InsanityAnimations_3: -1770621392
+      InsanityAnimations_4: 1701229020
+      InsanityAnimations_5: -442575406
+      InsanityAnimations_6: -4509590
+      InsanityAnimations_7: 1340502793
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

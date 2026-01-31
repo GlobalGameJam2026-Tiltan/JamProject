@@ -1,61 +1,61 @@
 fileFormatVersion: 2
-guid: 12191ae859091c04db4c8dc0538c4793
+guid: c910f918200f94348966f56f0d50cc59
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1996287371481726559
-    second: mini boss body punch, grab sheet_0
+      213: -8725256133175703130
+    second: mini boss red t_0
   - first:
-      213: 3553072518908670153
-    second: mini boss body punch, grab sheet_1
+      213: 8410670806049637197
+    second: mini boss red t_1
   - first:
-      213: -240195011101251902
-    second: mini boss body punch, grab sheet_2
+      213: 4897121879365556549
+    second: mini boss red t_2
   - first:
-      213: 6930174332920653500
-    second: mini boss body punch, grab sheet_3
+      213: 3389610575121048055
+    second: mini boss red t_3
   - first:
-      213: 6792804272927368926
-    second: mini boss body punch, grab sheet_4
+      213: -3888240982457282300
+    second: mini boss red t_4
   - first:
-      213: -8704480465519052824
-    second: mini boss body punch, grab sheet_5
+      213: -7212514057160468556
+    second: mini boss red t_5
   - first:
-      213: -560061298343391645
-    second: mini boss body punch, grab sheet_6
+      213: -4986221400250926056
+    second: mini boss red t_6
   - first:
-      213: -3705861048735946548
-    second: mini boss body punch, grab sheet_7
+      213: 8509008350549089023
+    second: mini boss red t_7
   - first:
-      213: -6660553191752811509
-    second: mini boss body punch, grab sheet_8
+      213: -4862190993995148897
+    second: mini boss red t_8
   - first:
-      213: -7470839604098988658
-    second: mini boss body punch, grab sheet_9
+      213: -4766524925807446737
+    second: mini boss red t_9
   - first:
-      213: -1487280509680150290
-    second: mini boss body punch, grab sheet_10
+      213: -6554355633645061715
+    second: mini boss red t_10
   - first:
-      213: -2746939363351852060
-    second: mini boss body punch, grab sheet_11
+      213: 4363387167247321436
+    second: mini boss red t_11
   - first:
-      213: -2701333473672863190
-    second: mini boss body punch, grab sheet_12
+      213: 5376282838875532244
+    second: mini boss red t_12
   - first:
-      213: -7139773382604185694
-    second: mini boss body punch, grab sheet_13
+      213: -6276651854252533781
+    second: mini boss red t_13
   - first:
-      213: -8369839009394628268
-    second: mini boss body punch, grab sheet_14
+      213: -1393916537764589405
+    second: mini boss red t_14
   - first:
-      213: -2484705501191336865
-    second: mini boss body punch, grab sheet_15
+      213: 3081853082819403944
+    second: mini boss red t_15
   - first:
-      213: -7059995022048148449
-    second: mini boss body punch, grab sheet_16
+      213: -3004286618539047520
+    second: mini boss red t_16
   - first:
-      213: -6613360391434754025
-    second: mini boss body punch, grab sheet_17
+      213: 6758920011573285953
+    second: mini boss red t_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -164,7 +164,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mini boss body punch, grab sheet_0
+      name: MayhemAnimations_0
       rect:
         serializedVersion: 2
         x: 0
@@ -177,16 +177,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1a1cb316633cb44e0800000000000000
-      internalID: -1996287371481726559
+      spriteID: e14e31afe3b0fdf47937d1507a210aae
+      internalID: 34667684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss body punch, grab sheet_1
+      name: MayhemAnimations_1
       rect:
         serializedVersion: 2
         x: 96
@@ -199,16 +199,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9c0f0c681ac0f4130800000000000000
-      internalID: 3553072518908670153
+      spriteID: 7a69c79d71bc75e44855f428033a8531
+      internalID: 410782760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss body punch, grab sheet_2
+      name: MayhemAnimations_2
       rect:
         serializedVersion: 2
         x: 192
@@ -221,16 +221,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c62d76f8e7aaacf0800000000000000
-      internalID: -240195011101251902
+      spriteID: 7789904fdae95444792aae9d4219602e
+      internalID: -1134717823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss body punch, grab sheet_3
+      name: MayhemAnimations_3
       rect:
         serializedVersion: 2
         x: 288
@@ -243,16 +243,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cb6e34196dcec2060800000000000000
-      internalID: 6930174332920653500
+      spriteID: dccdc45210b25ec4889be22e152816b6
+      internalID: -169346799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss body punch, grab sheet_4
+      name: MayhemAnimations_4
       rect:
         serializedVersion: 2
         x: 0
@@ -265,16 +265,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ed667941f73e44e50800000000000000
-      internalID: 6792804272927368926
+      spriteID: c22dc5fcf7549b041a97623193007707
+      internalID: -1863774281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss body punch, grab sheet_5
+      name: MayhemAnimations_5
       rect:
         serializedVersion: 2
         x: 96
@@ -287,16 +287,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8e7f86a8229733780800000000000000
-      internalID: -8704480465519052824
+      spriteID: 7e60a7b721b16684394b6b3499eea422
+      internalID: 1485294039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss body punch, grab sheet_6
+      name: MayhemAnimations_6
       rect:
         serializedVersion: 2
         x: 192
@@ -309,16 +309,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 36e4ccb67334a38f0800000000000000
-      internalID: -560061298343391645
+      spriteID: 5b3343e6f3a82234ca5873933b6f0ea4
+      internalID: 659304545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss body punch, grab sheet_7
+      name: MayhemAnimations_7
       rect:
         serializedVersion: 2
         x: 288
@@ -331,10 +331,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cc8232bb203229cc0800000000000000
-      internalID: -3705861048735946548
+      spriteID: 32a50bd62f666b74db4829884df1f382
+      internalID: 947546952
       vertices: []
       indices: 
       edges: []
@@ -343,7 +343,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 965de9d323b3ad04aa518bd996972194
+    spriteID: 66ee54478bd6787419c56c5d6a2097a5
     internalID: 0
     vertices: []
     indices: 
@@ -353,16 +353,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      mini boss body punch, grab sheet_0: -1996287371481726559
-      mini boss body punch, grab sheet_1: 3553072518908670153
-      mini boss body punch, grab sheet_2: -240195011101251902
-      mini boss body punch, grab sheet_3: 6930174332920653500
-      mini boss body punch, grab sheet_4: 6792804272927368926
-      mini boss body punch, grab sheet_5: -8704480465519052824
-      mini boss body punch, grab sheet_6: -560061298343391645
-      mini boss body punch, grab sheet_7: -3705861048735946548
+      MayhemAnimations_0: 34667684
+      MayhemAnimations_1: 410782760
+      MayhemAnimations_2: -1134717823
+      MayhemAnimations_3: -169346799
+      MayhemAnimations_4: -1863774281
+      MayhemAnimations_5: 1485294039
+      MayhemAnimations_6: 659304545
+      MayhemAnimations_7: 947546952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

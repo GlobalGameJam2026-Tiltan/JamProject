@@ -1,61 +1,61 @@
 fileFormatVersion: 2
-guid: 44e3a5a07b8972b478fbc31bbfc605d1
+guid: e527bb4674d92da43b24c19e245123d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3521300116094355639
-    second: mini boss blue _0
+      213: 7078256691720564458
+    second: mini boss purple t_0
   - first:
-      213: -9184981041744831944
-    second: mini boss blue _1
+      213: 3437353320560522705
+    second: mini boss purple t_1
   - first:
-      213: 2207796340150524711
-    second: mini boss blue _2
+      213: -5397512275470488528
+    second: mini boss purple t_2
   - first:
-      213: -1456537567807516404
-    second: mini boss blue _3
+      213: 1760713693631207919
+    second: mini boss purple t_3
   - first:
-      213: -1329413082192115595
-    second: mini boss blue _4
+      213: 7030502960308396174
+    second: mini boss purple t_4
   - first:
-      213: 4579547317357032435
-    second: mini boss blue _5
+      213: 9172781494177763494
+    second: mini boss purple t_5
   - first:
-      213: 8558742902172114604
-    second: mini boss blue _6
+      213: -7951007373316998694
+    second: mini boss purple t_6
   - first:
-      213: 5158183860904933388
-    second: mini boss blue _7
+      213: -8234790296603677930
+    second: mini boss purple t_7
   - first:
-      213: -9107632099771446230
-    second: mini boss blue _8
+      213: 5838498420688712788
+    second: mini boss purple t_8
   - first:
-      213: -2792860705321160608
-    second: mini boss blue _9
+      213: 154962468524201523
+    second: mini boss purple t_9
   - first:
-      213: 2748192639257506618
-    second: mini boss blue _10
+      213: 5329576996264094975
+    second: mini boss purple t_10
   - first:
-      213: 6820827522179627875
-    second: mini boss blue _11
+      213: -2384161130217792818
+    second: mini boss purple t_11
   - first:
-      213: -122925374393571646
-    second: mini boss blue _12
+      213: -17459933991631420
+    second: mini boss purple t_12
   - first:
-      213: -1657288935738841823
-    second: mini boss blue _13
+      213: -7384948023123476041
+    second: mini boss purple t_13
   - first:
-      213: 5943698630739034826
-    second: mini boss blue _14
+      213: 5341326883675005688
+    second: mini boss purple t_14
   - first:
-      213: 6760727189803379085
-    second: mini boss blue _15
+      213: -569167117516284801
+    second: mini boss purple t_15
   - first:
-      213: 1984968486782413644
-    second: mini boss blue _16
+      213: -6068323884159587941
+    second: mini boss purple t_16
   - first:
-      213: 1327871727359362846
-    second: mini boss blue _17
+      213: 4811646932826245856
+    second: mini boss purple t_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -164,7 +164,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mini boss blue _0
+      name: AnarchyAnimations_0
       rect:
         serializedVersion: 2
         x: 0
@@ -177,16 +177,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7b888578ccb2ed030800000000000000
-      internalID: 3521300116094355639
+      spriteID: d6b8e601817b2a545b365f91f9823d02
+      internalID: 1331111255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss blue _1
+      name: AnarchyAnimations_1
       rect:
         serializedVersion: 2
         x: 96
@@ -199,16 +199,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 83a1a1a1864688080800000000000000
-      internalID: -9184981041744831944
+      spriteID: d262f5472ea5bd5428fc87d4189c53e3
+      internalID: -992021432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss blue _2
+      name: AnarchyAnimations_2
       rect:
         serializedVersion: 2
         x: 192
@@ -221,16 +221,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 72b541fe21ba3ae10800000000000000
-      internalID: 2207796340150524711
+      spriteID: a60113308dc6dc940b9be2a1394e6f1e
+      internalID: -1589904055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss blue _3
+      name: AnarchyAnimations_3
       rect:
         serializedVersion: 2
         x: 288
@@ -243,16 +243,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c0152d49cc659cbe0800000000000000
-      internalID: -1456537567807516404
+      spriteID: 8a3031467636b8e468fac8fca210142e
+      internalID: 696871755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss blue _4
+      name: AnarchyAnimations_4
       rect:
         serializedVersion: 2
         x: 0
@@ -265,16 +265,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5788e2468d9fc8de0800000000000000
-      internalID: -1329413082192115595
+      spriteID: fa53f8e8462cfa042834a307c695a20c
+      internalID: -1648321431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss blue _5
+      name: AnarchyAnimations_5
       rect:
         serializedVersion: 2
         x: 96
@@ -287,16 +287,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3f3b82b8502dd8f30800000000000000
-      internalID: 4579547317357032435
+      spriteID: 80afda6ca9bc8ec419d93dfe58aae563
+      internalID: -790270438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss blue _6
+      name: AnarchyAnimations_6
       rect:
         serializedVersion: 2
         x: 192
@@ -309,16 +309,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cae5dd7c253c6c670800000000000000
-      internalID: 8558742902172114604
+      spriteID: 6e06c92eb8666a04b9bb04381c06d63e
+      internalID: -1737208973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mini boss blue _7
+      name: AnarchyAnimations_7
       rect:
         serializedVersion: 2
         x: 288
@@ -331,10 +331,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c08346b64ec859740800000000000000
-      internalID: 5158183860904933388
+      spriteID: f0f62407aa81da54c957e2dc2834563d
+      internalID: -1984899529
       vertices: []
       indices: 
       edges: []
@@ -343,7 +343,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3e6962f96cef07549a6e54c64e1b2bf5
+    spriteID: 5a3ca2f10485efa45a12aa91bf80ff69
     internalID: 0
     vertices: []
     indices: 
@@ -353,16 +353,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      mini boss blue _0: 3521300116094355639
-      mini boss blue _1: -9184981041744831944
-      mini boss blue _2: 2207796340150524711
-      mini boss blue _3: -1456537567807516404
-      mini boss blue _4: -1329413082192115595
-      mini boss blue _5: 4579547317357032435
-      mini boss blue _6: 8558742902172114604
-      mini boss blue _7: 5158183860904933388
+      AnarchyAnimations_0: 1331111255
+      AnarchyAnimations_1: -992021432
+      AnarchyAnimations_2: -1589904055
+      AnarchyAnimations_3: 696871755
+      AnarchyAnimations_4: -1648321431
+      AnarchyAnimations_5: -790270438
+      AnarchyAnimations_6: -1737208973
+      AnarchyAnimations_7: -1984899529
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimator
   bodyRenderer: {fileID: 3441850490673545790}
-  maskRenderer: {fileID: 5866098008737384281}
+  masqueRenderer: {fileID: 5866098008737384281}
 --- !u!1 &5353032185259461177
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3972302606404858279}
   - component: {fileID: 6125785111441070615}
+  - component: {fileID: 1142868323385828535}
   m_Layer: 0
   m_Name: Enemy_Boss
   m_TagString: Enemy
@@ -130,6 +131,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1142868323385828535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4870273256491586609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef3008a3e15a2944a066b212e3d6871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimator
+  bodyRenderer: {fileID: 6287178967454303457}
+  masqueRenderer: {fileID: 0}
 --- !u!1 &6154101910847804311
 GameObject:
   m_ObjectHideFlags: 0

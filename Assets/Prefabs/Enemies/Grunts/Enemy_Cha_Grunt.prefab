@@ -348,4 +348,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimator
   bodyRenderer: {fileID: 8814342354855209630}
-  maskRenderer: {fileID: 6196347817969879204}
+  masqueRenderer: {fileID: 6196347817969879204}
