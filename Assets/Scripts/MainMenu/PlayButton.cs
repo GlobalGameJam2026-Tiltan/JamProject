@@ -6,7 +6,7 @@ public class PlayButton : MonoBehaviour
     
     private GameManager _gameManager;
 
-    void Start()
+    private void Start()
     {
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
@@ -14,6 +14,6 @@ public class PlayButton : MonoBehaviour
     public void OnPlay()
     {
         _gameManager.ResetGame();
-        SceneFader.instance.LoadSceneWithFade(this.mapSceneName);
+        SceneFader.Instance.LoadSceneWithFade(mapSceneName);
     }
 }

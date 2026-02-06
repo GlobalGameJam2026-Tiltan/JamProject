@@ -2,84 +2,74 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-// Required for IEnumerator
-
 public class GameManager : MonoBehaviour
 {
-    public List<PlanetData> planets;
-    private AudioSource _audioSource;
-    private PlanetData _currentPlanet;
+    private List<RandomPlanetData> planets = new();
+    private PlanetLocation _currentLocation;
 
-    
-    void Awake()
+    [SerializeField] private int width = 10;
+    [SerializeField] private int height = 6;
+    [SerializeField] private Sprite[] planetSprites;
+    [SerializeField] private Sprite[] overlaySprites;
+    [SerializeField] public Sprite playerHoverSprite;
+
+    public List<RandomPlanetData> Planets => planets;
+
+    private void Awake()
     {
         // This makes the GameObject this script is attached to persist across scenes
-        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(gameObject);
     }
-    
-    void Start()
+
+    private void CreatePlanet(PlanetLocation location, Sprite[] sprites, Sprite[] overlays)
     {
-        _audioSource = GetComponent<AudioSource>();
+        var planet = ScriptableObject.CreateInstance<RandomPlanetData>();
+        planet.InitializePlanetData(location);
+        planet.sprite = sprites[Random.Range(0, sprites.Length)];
+        if(Random.value > .5f)
+            planet.overlaySprite = overlays[Random.Range(0, overlays.Length)];
+        planet.encounterType = EncounterType.Random;
+        planets.Add(planet);
     }
-    
+
+    public RandomPlanetData GetPlanet(PlanetLocation location)
+    {
+        return planets.Find(planet => planet.location == location);
+    }
+
+    public void SetCurrentLocation(PlanetLocation location)
+    {
+        _currentLocation = location;
+        planets.Where(x => x.hoverSprite is not null).ToList().ForEach(x => x.hoverSprite = null);
+        planets.Find(x => x.location == _currentLocation).hoverSprite = playerHoverSprite;
+    }
+
     public void PlanetDefeated()
     {
-        _currentPlanet.ChangeState(PlanetState.Defeated);
-        
-        // Unlocking planets who depended on him
-        foreach (var planet in planets.Where(planet => planet.previousPlanet == _currentPlanet.planetName))
-        {
-            planet.ChangeState(PlanetState.Open);
-        }
-        
-        SceneFader.instance.LoadSceneWithFade("Map");
+        //TODO Move to new planet
+        SceneFader.Instance.LoadSceneWithFade("Map");
     }
 
     public void ResetGame()
     {
+        //First destroy all existing planets if any
         foreach (var planet in planets)
         {
-            planet.ChangeState(PlanetState.Locked);
-        }
-        GetPlanet("StartPlanet").ChangeState(PlanetState.Open);
-        GetPlanet("El Gigolo De Goma").ChangeState(PlanetState.Open);
-    }
-
-    public bool IsAllPlanetsDefeated()
-    {
-        return planets.All(planet => planet.state == PlanetState.Defeated);
-    }
-    
-    // Public function to load a scene by name
-    public void MoveToPlanet(Planet newPlanet)
-    {
-        _currentPlanet = newPlanet.planet;
-        EncounterManager.Instance.SetEncounter(newPlanet.encounterType);
-    }
-    
-    public void PlayMusic()
-    {
-        if (!_audioSource.isPlaying)
-        {
-            _audioSource.Play();
-        }
-    }
-  
-    public void StopMusic()
-    {
-        if (_audioSource.isPlaying)
-        {
-            _audioSource.Stop();
-        }
-    }
-    
-    private PlanetData GetPlanet(string name)
-    {
-        foreach (var planet in planets.Where(planet => planet.planetName == name))
-        {
-            return planet;
+            Destroy(planet);
         }
 
-        return null;
+        planets.Clear();
+
+        //now generate new planets
+        for (var i = 0; i < width; i++)
+        {
+            for (var j = 0; j < height; j++)
+            {
+                CreatePlanet(new PlanetLocation(i, j), planetSprites, overlaySprites);
+            }
+        }
+        
+        //set the player at a random planet
+        planets[Random.Range(0,planets.Count)].hoverSprite = playerHoverSprite;
     }
 }

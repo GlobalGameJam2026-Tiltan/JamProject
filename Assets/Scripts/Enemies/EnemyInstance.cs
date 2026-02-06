@@ -35,7 +35,7 @@ public class EnemyInstance : MonoBehaviour
         _enemyAnimator.InitializeEnemy(data,EnemyAnimationLibrary.Instance);
     }
 
-    void Start()
+    private void Start()
     {
         if (EncounterManager.Instance.IsMiniBossBattle() && EncounterManager.Instance.IsMidBattle() && data.idleLines.Length > 0)
         {

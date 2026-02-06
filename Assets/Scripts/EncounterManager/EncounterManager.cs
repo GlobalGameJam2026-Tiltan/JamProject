@@ -62,7 +62,7 @@ public class EncounterManager : MonoBehaviour
     public void SetEncounter(EncounterType encounterType)
     {
         encounterSo.encounterType = encounterType;
-        SceneFader.instance.LoadSceneWithFade("Encounter");
+        SceneFader.Instance.LoadSceneWithFade("Encounter");
     }
     public void StartEncounter()
     {
@@ -133,7 +133,7 @@ public class EncounterManager : MonoBehaviour
                 }
                 var died = player.TakeDamage(damage);
                 if(died)
-                    SceneFader.instance.LoadSceneWithFade("GameOver");
+                    SceneFader.Instance.LoadSceneWithFade("GameOver");
             }
             else
             {

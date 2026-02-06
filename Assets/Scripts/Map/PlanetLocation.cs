@@ -1,0 +1,1 @@
+public record PlanetLocation(int X,int Y);

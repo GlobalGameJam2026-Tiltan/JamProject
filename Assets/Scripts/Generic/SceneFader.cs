@@ -4,19 +4,19 @@ using System.Collections;
 
 public class SceneFader : MonoBehaviour
 {
-    public static SceneFader instance;
+    public static SceneFader Instance;
     public SpriteRenderer fadeImage;
     public float fadeDuration = 1.0f;
 
     private void Awake()
     {
-        if (instance != null && instance != this)
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject); // Ensures only one instance exists
         }
         else
         {
-            instance = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject); // Persist across scenes
         }
     }
